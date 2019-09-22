@@ -1,5 +1,6 @@
 #!/bin/bash
 mkdir data/intermediate/msa
+rm data/intermediate/msa/*
 
 find data/intermediate/clean_fasta/*fa | while read file
 do

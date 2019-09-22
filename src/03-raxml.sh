@@ -1,4 +1,5 @@
 mkdir data/intermediate/raxml
+rm data/intermediate/raxml/*
 
 p=$(pwd)
 for i in data/intermediate/msa/*phy
