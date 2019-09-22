@@ -20,6 +20,7 @@ output=$(echo $file | sed 's/raw\/fasta\/\(.*\).txt/intermediate\/clean_fasta\/\
 cat "$file" | sed -e 's/\r$//;s/^?\+//g;s/?\+$//g' | \
    awk 'NF > 0 {blank=0} NF == 0 {blank++} blank < 1'| \
    sed ':a;N;$!ba;s/\n>\n/\n/g' | \
+   sed 's/>.*_/>/' | \
    sed -e 's/IL34-0008358/>IL34-0008358/;s/Irf5-0018961/>Irf5-0018961/;s/Klc2-0046729/>Klc2-0046729/' |\
    gawk -f src/functions/wrap-fasta-sequence.awk - > $output
 done
