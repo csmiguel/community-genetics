@@ -8,7 +8,7 @@ mkdir data/intermediate/clean_fasta
 # STEPS:
 # 1. remove  WINDOW's line break
 # 2. remove trailing and leading ?'s
-# 3. remove line breaks
+# 3. seqkit removes the list of sequences, extra line breaks wraps lines to 60 characters
 # 4. remove lines with empty ">"
 # (4.1 fix fasta header of IL34-0008358 , Irf5-0018961, Klc2-0046729)
 # (4.2 fix taxa names)
@@ -18,12 +18,13 @@ mkdir data/intermediate/clean_fasta
 find data/raw/fasta -name *txt | while read file
 do
 output=$(echo $file | sed 's/raw\/fasta\/\(.*\).txt/intermediate\/clean_fasta\/\1.fa/')
-cat "$file" | sed -e 's/\r$//;s/^?\+//g;s/?\+$//g' | \
-   awk 'NF > 0 {blank=0} NF == 0 {blank++} blank < 1'| \
+cat "$file" | \
+  sed -e 's/\r$//;s/^?\+//g;s/?\+$//g' | \
    sed ':a;N;$!ba;s/\n>\n/\n/g' | \
    sed -e 's/IL34-0008358/>IL34-0008358/;s/Irf5-0018961/>Irf5-0018961/' | \
    sed -e 's/Klc2-0046729/>Klc2-0046729/' | \
    sed 's/>.*_/>/' | \
+   seqkit grep -n -v -f data/raw/alleles_to_remove.txt | \
     sed 's/SJentinki/Sundasciurus_jentinki/g' | \
     sed 's/Sjentinki/Sundasciurus_jentinki/g' | \
     sed 's/Ill-Rrattus/Rattus_rattus/g' | \
@@ -61,7 +62,7 @@ cat "$file" | sed -e 's/\r$//;s/^?\+//g;s/?\+$//g' | \
     sed 's/Tmontana/Tupaia_montana/g' | \
     sed 's/Ocuniculus/Oryctolagus_cuniculus/g' | \
     sed 's/Equercinus/Elyomys_quercinus/g' | \
-    sed 's/Svulgaris/Sundasciurus_vulgaris/g' | \
+    sed 's/Svulgaris/Sciurus_vulgaris/g' | \
     sed 's/Cprevostii/Callosciurus_prevostii/g' | \
     sed 's/SunIowii/Sundasciurus_lowii/g' | \
     sed 's/SIowii/Sundasciurus_lowii/g' | \
@@ -70,6 +71,5 @@ cat "$file" | sed -e 's/\r$//;s/^?\+//g;s/?\+$//g' | \
     sed 's/Cnivalis/Chionomys_nivalis/g' | \
     sed 's/Mcabrerae/Microtus_cabrerae/g' | \
     sed 's/Asapidus/Arvicola_sapidus/g' | \
-    sed 's/Mrcabrerae/Microtus_cabrerae/g' | \
-   gawk -f src/functions/wrap-fasta-sequence.awk - > $output
+    sed 's/Mrcabrerae/Microtus_cabrerae/g' > $output
 done
