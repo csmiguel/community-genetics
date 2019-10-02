@@ -1,7 +1,4 @@
 #!/bin/bash
-#the data/raw/fasta.zip file is a renamed file from Giovanni's email on sept 20th 2019
-unzip data/raw/fasta.zip -d data/raw/
-
 #make directories for intermediate files
 mkdir data/intermediate/clean_fasta
 

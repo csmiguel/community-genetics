@@ -1,4 +1,9 @@
 #!/bin/bash
+#the data/raw/fasta.zip file is a renamed file from Giovanni's email on sept 20th 2019
+rm -rf data/raw/fasta/*
+unzip data/raw/fasta.zip -d data/raw/
+
+#dir for elefant
 mkdir data/intermediate/merge_loxodonta
 #merge sequences in Loxodonta.txt to all other alleles.
 #change all fasta headers to uppercase
