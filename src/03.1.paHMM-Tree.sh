@@ -12,3 +12,6 @@ output=$(echo $fasta | sed 's/clean_fasta/paHMM-Tree/')
 cat "$fasta" | sed 's/\?/N/g' > $output
 paHMM-tree --in "$output" --GTR
 done
+
+#tree
+Rscript src/functions/plot-tree.R data/intermediate/astral-paHMMtree/output paHMMtree.pdf

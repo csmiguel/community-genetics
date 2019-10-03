@@ -22,6 +22,7 @@ cat "$file" | \
    sed -e 's/Klc2-0046729/>Klc2-0046729/' | \
    seqkit grep -n -v -f data/raw/alleles_to_remove.txt | \
    sed 's/>.*_/>/' | \
+   sed 's/\?/N/g' | \
     sed 's/SJentinki/Sundasciurus_jentinki/g' | \
     sed 's/Sjentinki/Sundasciurus_jentinki/g' | \
     sed 's/Ill-Rrattus/Rattus_rattus/g' | \

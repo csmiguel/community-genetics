@@ -8,3 +8,5 @@ cat data/intermediate/raxml/*best* > data/intermediate/astral/input.tre
 java -jar src/Astral/astral.5.6.3.jar \
 -i data/intermediate/astral/input.tre \
 -o data/intermediate/astral/output
+
+Rscript src/functions/plot-tree.R data/intermediate/astral/output astral.pdf
