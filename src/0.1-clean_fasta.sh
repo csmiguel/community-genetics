@@ -12,15 +12,16 @@ mkdir data/intermediate/clean_fasta
 # 5. wrap lines to 80 characters
 # 6. saves output to data/intermediate/clean_fasta
 
-find data/intermediate/merge_loxodonta -name lox* | while read file
+find data/raw/fasta -name *txt | while read file
 do
-output=$(echo $file | sed 's/merge_loxodonta\/lox\(.*\)/clean_fasta\/\1.fa/')
+output=$(echo $file | sed 's/raw\/fasta\/\(.*\).txt/intermediate\/clean_fasta\/\1.fa/')
 cat "$file" | \
   sed -e 's/\r$//;s/^?\+//g;s/?\+$//g' | \
    sed ':a;N;$!ba;s/\n>\n/\n/g' | \
    sed -e 's/IL34-0008358/>IL34-0008358/;s/Irf5-0018961/>Irf5-0018961/' | \
    sed -e 's/Klc2-0046729/>Klc2-0046729/' | \
    seqkit grep -n -v -f data/raw/alleles_to_remove.txt | \
+   seqkit rmdup | \
    sed 's/>.*_/>/' | \
    sed 's/\?/N/g' | \
     sed 's/SJentinki/Sundasciurus_jentinki/g' | \
@@ -70,5 +71,6 @@ cat "$file" | \
     sed 's/Mcabrerae/Microtus_cabrerae/g' | \
     sed 's/Asapidus/Arvicola_sapidus/g' | \
     sed 's/LAFRICANA/Loxodonta_africana/g' | \
-    sed 's/Mrcabrerae/Microtus_cabrerae/g' > $output
+    sed 's/Mrcabrerae/Microtus_cabrerae/g' | \
+    seqkit grep -n -f data/raw/species_to_keep.txt > $output
 done
