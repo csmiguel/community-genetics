@@ -3,9 +3,9 @@
 #issue: how do thresholds affect output. Does it work well on non-coding DNA?
 mkdir data/intermediate/prequal
 rm -rf data/intermediate/prequal/*
-cp data/intermediate/clean_fasta/* data/intermediate/prequal
+cp data/intermediate/clean_fasta/*fasta data/intermediate/prequal
 
-for fasta in data/intermediate/prequal/*fa
+for fasta in data/intermediate/prequal/*fasta
 do
 prequal "$fasta"
 done

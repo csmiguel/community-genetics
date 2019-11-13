@@ -21,7 +21,6 @@ cat "$file" | \
    sed -e 's/IL34-0008358/>IL34-0008358/;s/Irf5-0018961/>Irf5-0018961/' | \
    sed -e 's/Klc2-0046729/>Klc2-0046729/' | \
    seqkit grep -n -v -f data/raw/alleles_to_remove.txt | \
-   seqkit rmdup | \
    sed 's/>.*_/>/' | \
    sed 's/\?/N/g' | \
     sed 's/SJentinki/Sundasciurus_jentinki/g' | \
@@ -72,5 +71,14 @@ cat "$file" | \
     sed 's/Asapidus/Arvicola_sapidus/g' | \
     sed 's/LAFRICANA/Loxodonta_africana/g' | \
     sed 's/Mrcabrerae/Microtus_cabrerae/g' | \
-    seqkit grep -n -f data/raw/species_to_keep.txt > $output
+    seqkit grep -n -f data/raw/species_to_keep.txt | \
+    seqkit rmdup > $output
 done
+
+#remove exon marker
+rm data/intermediate/clean_fasta/IRBPI.fa
+#remove NADSYN1 because it has very fragmentary data and very difficult to find
+# homology between alleles.
+rm data/intermediate/clean_fasta/NADSYN1.fa
+#fix name of LVD
+mv data/intermediate/clean_fasta/IVD.fa data/intermediate/clean_fasta/LVD.fa

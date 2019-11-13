@@ -8,6 +8,6 @@ sapply(trees, function(x) {
                 paste0("raxml_", locusname, ".pdf")
                 ))
   ape::plot.phylo(h, "u", show.node.label = T, cex = 0.8,
-                  main = paste0("raxml", locusname))
+                  main = paste0("raxml_", locusname))
   dev.off()
 })
