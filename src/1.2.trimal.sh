@@ -24,5 +24,3 @@ do
 no=$(cat $phy  | head -n1 | cut -d' ' -f3)
 if [ "$no" -lt 150 ]; then rm $phy; fi
 done
-
-divvier -partial -mincol 3 -divvygap data/intermediate/trimal/abcb9.fasta.filtered
