@@ -12,7 +12,7 @@ mkdir data/intermediate/clean_fasta
 # 5. wrap lines to 80 characters
 # 6. saves output to data/intermediate/clean_fasta
 
-find data/raw/fasta -name *txt | while read file
+find data/raw/fasta -name "*txt" | while read file
 do
 output=$(echo $file | sed 's/raw\/fasta\/\(.*\).txt/intermediate\/clean_fasta\/\1.fa/')
 cat "$file" | \

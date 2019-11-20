@@ -18,15 +18,28 @@ prop <- {
   })
 names(prop) <-
   stringr::str_replace(loci, "data/intermediate/temp/(.*).fasta", "\\1")
-plot_data <-
+plot_d <-
   reshape::melt(prop) %>%
   setNames(c("Prop", "Species", "Locus")) %>%
   as_tibble() %>%
-  dplyr::mutate(Species = stringr::str_replace(Species, "_", " ")) %>%
-    dplyr::mutate(Species = as.factor(Species)) %>%
-    dplyr::mutate(Locus = as.factor(Locus)) %>%
+  dplyr::mutate(Species = stringr::str_replace(Species, "_", " "))
+
+#expand grid
+h <-
+  expand.grid(Species = unique(plot_d$Species), Locus = unique(plot_d$Locus)) %>%
+  as_tibble()
+
+#to match it needs characters, not factors
+plot_data <-
+  h %>%
+  dplyr::mutate_if(sapply(h, is.factor), as.character) %>%
+  left_join(plot_d, by = c("Species" = "Species", "Locus" = "Locus")) %>%
+  mutate(Prop = tidyr::replace_na(Prop, 0)) %>%
+  dplyr::mutate(Species = as.factor(Species)) %>%
+  dplyr::mutate(Locus = as.factor(Locus)) %>%
   dplyr::mutate(Species = factor(
-    Species, levels(Species)[c(5, 4, 3, 1, 2, 6, 10, 7, 9, 8)]))
+  Species, levels(Species)[c(5, 4, 3, 1, 2, 6, 10, 7, 9, 8)]))
+rm(h)
 
 ggplot(plot_data) +
   geom_point(aes(x = Locus, y = Species, color = Prop), size = 5, shape = 15) +
@@ -36,6 +49,6 @@ ggplot(plot_data) +
     axis.text.y = element_text(face = "italic")
     ) +
   scale_color_gradient(low = "white", high = "black")
-ggsave("output/missing_plot.pdf", height = 3, width = 7)
+ggsave("output/missing_plot.pdf", height = 3, width = 12)
 
 system("rm -rf data/intermediate/temp")

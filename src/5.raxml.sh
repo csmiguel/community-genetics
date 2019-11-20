@@ -1,6 +1,7 @@
 mkdir data/intermediate/raxml
 rm data/intermediate/raxml/*
-
+#rapid Bootstrap analysis and search for best scoring ML tree in one program
+run
 p=$(pwd)
 for i in data/intermediate/trimal/*phy
 do

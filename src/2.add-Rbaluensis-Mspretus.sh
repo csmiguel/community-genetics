@@ -29,19 +29,19 @@ sed 's/^>.*/>Rattus_baluensis/' >> data/intermediate/clean_fasta/TMEM87A.fa
 
 #add sequences from Mus_spretus
 #I blasted the first 70nt of each of the sequences for the missing loci (see script src/locus-sp-matrix.R for info on how to the the list of missing loci for mus spretus).
-#I used the tool blastn in https://www.ensembl.org against Mus spretus SPRET_EiJ_v
+#I used the tool blastn in https://www.ensembl.org against Mus spretus SPRET_EiJ_v1
 # as a reference genome. After confirming the sequence blasted against the expected
 # annotated gene, I exported +- 500nt flanking nt from the target region.
 # In Geneious I used the default msa algorithm to assemble the exported seq. plus
 # other 2 additional sequences from us. From the alignment, I exported the target region.
 # I blasted against Must spretus for all markers except for sfrs5; which was annotated
-# in the M. spretus genome. I used the sequence from M. musculus GRCm38 instead.
+# in the M. spretus genome. I used the sequence from M. musculus GRCm38.p6 instead.
 
 for mus in data/raw/mus/*fasta
 do
   #marker name in uppercase
   b=$(echo $mus | sed 's/^.*\/\(.*\)_mus_.*$/\1/' | tr '[:lower:]' '[:upper:]')
-  #cat mus
+  #replace fasta header for mus spretus and append to locus file
   cat $mus | sed 's/^>.*$/>Mus_spretus/' >> data/intermediate/clean_fasta/$b*
 done
 
