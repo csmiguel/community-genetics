@@ -1,0 +1,72 @@
+ 9 389
+Sundamys_muelleri          ttgcccaccctgttcatccatggagcagaagcctgcctgatgtctctcatcattggcttc
+Rattus_rattus              ttgcccaccctgttcatccatggagcagaagcctgcctgatgtctctcatcattggcttc
+Rattus_norvegicus          ttgcccaccctgttcatccatggagcagaagcctgcctgatgtctctcatcattggcttc
+Rattus_baluensis           ttgcccaccctgttcatccatggagcagaagcctgcctgatgtctctcatcattggcttc
+Maxomys_whiteheadi         ttgcccaccctgctcatccatggagcagaagcctgcctgatgtccctcatcattgggttc
+Maxomys_ochraceiventer     ttgcccaccctgttcatccatggatcggaagcctgcctgatgtccctcatcatcgggttc
+Niviventer_cremoriventer   ttgcccaccctgctcatccatggggcggaagcctgcctgatgtctctcatcattggcttc
+Leopoldamys_sabanus        ttgcccaccctgctcatccatggggcggaagcctgcctgatgtctctcatcattggcttc
+Mus_spretus                ctgcccacgctgctcattcatgggtcggaagcctgcctgatgtccctcatcatcggcttt
+
+ctttactacggccacgcagccaagcagctctccttcatggacatgtcagccctcctgttc
+ctttactacggccacgcagacaagctgctctccttcgtggacatggcagccctcctgttc
+ctttactacggccacgcagacaagccgctctccttcatggacatggcagccctcctgttc
+ctttactacggccacgcagacaagccgctctccttcgtggacatggcagccctcctgttc
+ctttactacggccatgaggccaagccgctctccttcatggacatggcagccctcctgttc
+ctttactatggccacgaggccaagcaactctccttcatggacatggcagccctcctgttc
+ctttactatggccacggggccaagcagctctccttcaaggacatgtcagccctgctgttc
+ctttactatggccacgaggccaagcagctctccttcatggacatgtcagcgctcctgttc
+ctttactacggccatggggccaagcagctctccttcatggacacggcagccctcctcttc
+
+atgataggagcgctcattccttttaatgtcattctggatgtcgtctccaaatgtgagtgt
+atgataggagcgctcattccttttaatgtcattctggatgtcgtctccaaatgtgagtgt
+atgataggagcactcattccttttaatgtcattctggatgtcgtctccaaatgtgagtgt
+atgataggagcgctcattccttttaatgtcattctggatgtcgtctccaaatgtgagtgt
+atgataggggcgctcattccttttaatgtcgttctggatgtcgtctccaaatgtgagtat
+atgataggagcgctcattccttttaatgtcattctggatgtcgtctccaaatgtgagtgt
+atgataggagcactcatccctttcaatgtcattctggatgttgtctccaaatgtgagtgt
+atgataggagctctcattccttttaatgtcattctggatgtcgtctccaaatgtgagtgt
+atgataggggcactcattcctttcaatgtcatcctggatgtcgtctccaaatgtgagtgt
+
+cacctgccctcctcaccagacattgggacagtgggacagccttcctgggcactgcactga
+cacccgccctcctcaccagacatcgggacagtgggacagcctccctgggcactgcactga
+cacccgccctcctcaccagacttcgggacagtgggacagcctccctgggcactgcactga
+cacccgccctcctcaccagacatcgggacagtgggacagcctccctgggcactgcactga
+cacctgccctcctcaccagatgacggggcagtgggacagcctccctgtgcactgcactga
+cacctgccctccccaccagatggcgaggcagtgggacagcctccctgtgcactgcactg-
+cacctgccctcctcaccagacagaggggcagtgggacaacctccctatgcgctgcactga
+cacctgccctcctcaccagacagcggggcagtgggacaacctccctgtgcgctgcgctga
+cacctgccctcctcaccagactgcggggcagtgggacggcctcgctg-----agccctga
+
+ggtcgacctctgtgctcccactggcaccccggcattacaagagatgcaacctcagtaaca
+ggccaagctctgtgcttccgctggcaccccggcattacaagagatgcgacctcagtcaca
+ggccaacctc----cttccgctggcaccccggcattacaagagatgcgacctcagtaaca
+ggccaagctctgtgcttccgctggtaccccggcattacaagagatgcgacctcagtaaca
+ggcggacccctgtgcttccgctagctccccgacattacaagagatgcgacatcagtaaca
+-gtggacctctgtgcttctgctagctccccgacattacaagagatgcaccatcggtaaca
+ggccgacctctgtgcttccgctggcaccc---cgttacaagagatgcaacatcagtaact
+ggccgacctctgtgcttccgctggcaccc---cattacaagagacgcaacctcagtaaca
+g-----------------------------------------------------------
+
+ctcttcacccattcacttccctcttccccatctccaggtcactcggagcggtcgctgctg
+ctctttactcattcacctccctctcccccatctccaggtcactcggagcgctcgctgctg
+ctcttcgctcattcacctccctctcccccatctccaggtcactcggagcggtcgctgctg
+ctcttcgctcattcacctccctctcccccatctccaggtcactcggagcgctcgctgctg
+ctcttcactcattcatttccttctcctccacctccaggtcactcggagaggtcgctgctg
+c-cttcactcattcatttccttctcctccatctccaggtcactcggagaggtcgctgctg
+ctcttcactcattcacttccctctcccccatctccaggttactcggagaggtcgctgctg
+ctcctcactcattcacttccctctcccccatctccaggtcactcggagaggtcgctgctg
+------------------------------------------------------------
+
+tactatgaactggaggacggactgtacac
+tactatgaactggaggacggactgtacac
+tactatgaactggaggacggactgtacac
+tactatgaactggaggacggactgtacac
+tactatgaactagaggacgggctgtacac
+tactatgaactagaggacgggctgtacac
+tactatgaactagaggacggactgtacac
+tactatgaactggaggatggactgtacac
+-----------------------gtacag
+
+
