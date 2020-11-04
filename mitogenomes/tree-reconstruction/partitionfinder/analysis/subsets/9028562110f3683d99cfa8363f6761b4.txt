@@ -1,0 +1,8 @@
+Model selection results for subset: 9028562110f3683d99cfa8363f6761b4
+Subset alignment stored here: ./analysis/phylofiles/9028562110f3683d99cfa8363f6761b4.phy
+This subset contains the following data_blocks: p26_ND3_pos2, p60_ugu, p5_ATP8_pos2
+Number of columns in subset: 246
+Models are organised according to their AICc scores
+
+Model           | Parameters      | lnL             | AICc             | AIC             | BIC            
+GTR+G           | 9               | -752.5255       | 1523.8137        | 1523.051        | 1554.599       

@@ -1,0 +1,75 @@
+INFO     | 2020-05-04 20:10:03,908 | config     | Loading configuration at './partition_finder.cfg'
+INFO     | 2020-05-04 20:10:03,915 | config     | Setting 'alignment' to 'concatenated.out'
+INFO     | 2020-05-04 20:10:03,915 | config     | Setting 'branchlengths' to 'unlinked'
+INFO     | 2020-05-04 20:10:03,916 | parser     | You set 'models' to: GTR+G
+INFO     | 2020-05-04 20:10:03,970 | model_load | This analysis will use the following 1 models of molecular evolution
+INFO     | 2020-05-04 20:10:03,971 | model_load | GTR+G
+INFO     | 2020-05-04 20:10:03,971 | config     | Setting 'model_selection' to 'aicc'
+INFO     | 2020-05-04 20:10:04,012 | config     | Setting 'search' to 'greedy'
+INFO     | 2020-05-04 20:10:04,012 | config     | ------------------------ BEGINNING NEW RUN -------------------------------
+INFO     | 2020-05-04 20:10:04,012 | config     | Looking for alignment file './concatenated.out'...
+ERROR    | 2020-05-04 20:10:04,012 | util       | Failed to find file: './concatenated.out'. Please check and try again.
+ERROR    | 2020-05-04 20:10:04,013 | main       | Failed to run. See previous errors.
+INFO     | 2020-05-04 20:10:53,513 | config     | Loading configuration at './partition_finder.cfg'
+INFO     | 2020-05-04 20:10:53,519 | config     | Setting 'alignment' to 'concatenated.out'
+INFO     | 2020-05-04 20:10:53,519 | config     | Setting 'branchlengths' to 'unlinked'
+INFO     | 2020-05-04 20:10:53,519 | parser     | You set 'models' to: GTR+G
+INFO     | 2020-05-04 20:10:53,534 | model_load | This analysis will use the following 1 models of molecular evolution
+INFO     | 2020-05-04 20:10:53,534 | model_load | GTR+G
+INFO     | 2020-05-04 20:10:53,534 | config     | Setting 'model_selection' to 'aicc'
+INFO     | 2020-05-04 20:10:53,537 | config     | Setting 'search' to 'greedy'
+INFO     | 2020-05-04 20:10:53,537 | config     | ------------------------ BEGINNING NEW RUN -------------------------------
+INFO     | 2020-05-04 20:10:53,537 | config     | Looking for alignment file './concatenated.out'...
+ERROR    | 2020-05-04 20:10:53,538 | util       | Failed to find file: './concatenated.out'. Please check and try again.
+ERROR    | 2020-05-04 20:10:53,538 | main       | Failed to run. See previous errors.
+INFO     | 2020-05-04 20:12:17,460 | config     | Loading configuration at './partition_finder.cfg'
+INFO     | 2020-05-04 20:12:17,467 | config     | Setting 'alignment' to 'concatenated.out'
+INFO     | 2020-05-04 20:12:17,467 | config     | Setting 'branchlengths' to 'unlinked'
+INFO     | 2020-05-04 20:12:17,468 | parser     | You set 'models' to: GTR+G
+INFO     | 2020-05-04 20:12:17,504 | model_load | This analysis will use the following 1 models of molecular evolution
+INFO     | 2020-05-04 20:12:17,504 | model_load | GTR+G
+INFO     | 2020-05-04 20:12:17,504 | config     | Setting 'model_selection' to 'aicc'
+INFO     | 2020-05-04 20:12:17,509 | config     | Setting 'search' to 'greedy'
+INFO     | 2020-05-04 20:12:17,509 | config     | ------------------------ BEGINNING NEW RUN -------------------------------
+INFO     | 2020-05-04 20:12:17,510 | config     | Looking for alignment file './concatenated.out'...
+INFO     | 2020-05-04 20:12:17,516 | threadpool | Using 4 cpus
+INFO     | 2020-05-04 20:12:17,516 | analysis   | Beginning Analysis
+INFO     | 2020-05-04 20:12:17,569 | alignment  | Reading alignment file './concatenated.out'
+INFO     | 2020-05-04 20:12:17,573 | analysis   | Starting tree will be estimated from the data.
+INFO     | 2020-05-04 20:12:17,574 | raxml      | Estimating Maximum Likelihood tree with RAxML fast experimental tree search for ./analysis/start_tree/filtered_source.phy
+INFO     | 2020-05-04 20:12:17,574 | raxml      | Using a separate GTR+G model for each data block
+INFO     | 2020-05-04 20:12:18,065 | raxml      | Estimating GTR+G branch lengths on ML tree using all partitions
+INFO     | 2020-05-04 20:12:18,317 | raxml      | ML topology estimation finished
+INFO     | 2020-05-04 20:12:18,318 | analysis_m | Performing Greedy Analysis
+INFO     | 2020-05-04 20:12:18,318 | analysis_m |    *** Analysing starting scheme ***
+INFO     | 2020-05-04 20:12:18,546 | progress   |       Finished subset 1/3, 33.33 percent done
+INFO     | 2020-05-04 20:12:18,622 | progress   |       Finished subset 2/3, 66.67 percent done
+INFO     | 2020-05-04 20:12:18,687 | progress   |       Finished subset 3/3, 100.00 percent done
+INFO     | 2020-05-04 20:12:18,689 | analysis_m |    ***Greedy algorithm step 1***
+INFO     | 2020-05-04 20:12:18,693 | analysis_m |       Analysing 3 new subset pairs
+INFO     | 2020-05-04 20:12:18,927 | progress   |       Finished subset 1/3, 33.33 percent done
+INFO     | 2020-05-04 20:12:19,011 | progress   |       Finished subset 2/3, 66.67 percent done
+INFO     | 2020-05-04 20:12:19,110 | progress   |       Finished subset 3/3, 100.00 percent done
+INFO     | 2020-05-04 20:12:19,111 | analysis_m |       Finding the best partitioning scheme
+INFO     | 2020-05-04 20:12:19,112 | analysis_m |       Found no schemes that improve the score, stopping
+INFO     | 2020-05-04 20:12:19,112 | analysis_m |    Greedy algorithm finished after 1 steps
+INFO     | 2020-05-04 20:12:19,112 | analysis_m |    Best scoring scheme is scheme start_scheme, with aicc score of 9023.799
+INFO     | 2020-05-04 20:12:19,113 | model_util |    Information on best scheme is here: ./analysis/best_scheme.txt
+INFO     | 2020-05-04 20:12:19,114 | model_util |    
+INFO     | 2020-05-04 20:12:19,114 | model_util |    
+INFO     | 2020-05-04 20:12:19,114 | model_util |    *Citations for this analysis*
+INFO     | 2020-05-04 20:12:19,114 | model_util |    -----------------------------
+INFO     | 2020-05-04 20:12:19,114 | model_util |    
+INFO     | 2020-05-04 20:12:19,115 | model_util |    If you use this analysis in your published work, please cite the following papers on which your analysis relied.
+INFO     | 2020-05-04 20:12:19,115 | model_util |    
+INFO     | 2020-05-04 20:12:19,115 | model_util |    For the version of PartitionFinder you used, please cite:
+INFO     | 2020-05-04 20:12:19,115 | model_util |    Lanfear, R., Frandsen, P. B., Wright, A. M., Senfeld, T., Calcott, B. (2016) PartitionFinder 2: new methods for selecting partitioned models of evolution formolecular and morphological phylogenetic analyses. Molecular biology and evolution. DOI: dx.doi.org/10.1093/molbev/msw260
+INFO     | 2020-05-04 20:12:19,115 | model_util |    
+INFO     | 2020-05-04 20:12:19,115 | model_util |    For the greedy algorithm you used, please cite:
+INFO     | 2020-05-04 20:12:19,116 | model_util |    Lanfear, R., Calcott, B., Ho, S. Y., & Guindon, S. (2012). PartitionFinder: combined selection of partitioning schemes and substitution models for phylogenetic analyses. Molecular biology and evolution, 29(6), 1695-1701.
+INFO     | 2020-05-04 20:12:19,116 | model_util |    
+INFO     | 2020-05-04 20:12:19,116 | model_util |    Your analysis also used RAxML, so please cite:
+INFO     | 2020-05-04 20:12:19,116 | model_util |    Stamatakis, A. (2014). RAxML version 8: a tool for phylogenetic analysis and post-analysis of large phylogenies. Bioinformatics, 30(9), 1312-1313.
+INFO     | 2020-05-04 20:12:19,116 | model_util |    
+INFO     | 2020-05-04 20:12:19,119 | main       | Total processing time: 0:00:02 (h:m:s)
+INFO     | 2020-05-04 20:12:19,119 | main       | Processing complete.

@@ -1,0 +1,8 @@
+Model selection results for subset: 48d1d49a163873b3f77b890f9ec0a847
+Subset alignment stored here: ./analysis/phylofiles/48d1d49a163873b3f77b890f9ec0a847.phy
+This subset contains the following data_blocks: p50_s-rRNA, p55_ucc, p47_gug
+Number of columns in subset: 1075
+Models are organised according to their AICc scores
+
+Model           | Parameters      | lnL             | AICc             | AIC             | BIC            
+GTR+G           | 9               | -3112.7053      | 6243.5796        | 6243.4106       | 6288.2314      

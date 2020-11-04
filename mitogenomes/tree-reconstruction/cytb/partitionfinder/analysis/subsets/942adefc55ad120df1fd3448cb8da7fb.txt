@@ -1,0 +1,8 @@
+Model selection results for subset: 942adefc55ad120df1fd3448cb8da7fb
+Subset alignment stored here: ./analysis/phylofiles/942adefc55ad120df1fd3448cb8da7fb.phy
+This subset contains the following data_blocks: p1_CYTB_mafft_pos1-out
+Number of columns in subset: 379
+Models are organised according to their AICc scores
+
+Model           | Parameters      | lnL             | AICc             | AIC             | BIC            
+GTR+G           | 9               | -1185.2172      | 2388.922         | 2388.4343       | 2423.872       

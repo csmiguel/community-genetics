@@ -1,0 +1,168 @@
+>Feature BOR567
+2736	3692	gene
+			gene	ND1
+2736	3692	CDS
+			product	NADH dehydrogenase subunit 1
+			transl_table	2
+3900	4937	gene
+			gene	ND2
+3900	4937	CDS
+			product	NADH dehydrogenase subunit 2
+			transl_table	2
+5315	6859	gene
+			gene	COX1
+5315	6859	CDS
+			product	cytochrome c oxidase subunit I
+			transl_table	2
+6997	7680	gene
+			gene	COX2
+6997	7680	CDS
+			product	cytochrome c oxidase subunit II
+			transl_table	2
+7749	7952	gene
+			gene	ATP8
+7749	7952	CDS
+			product	ATP synthase F0 subunit 8
+			transl_table	2
+7910	8590	gene
+			gene	ATP6
+7910	8590	CDS
+			product	ATP synthase F0 subunit 6
+			transl_table	2
+8590	9374	gene
+			gene	COX3
+8590	9374	CDS
+			product	cytochrome c oxidase subunit III
+			transl_table	2
+			note	TAA stop codon is completed by the addition of 3' Aresidues to the mRNA
+9443	9790	gene
+			gene	ND3
+9443	9790	CDS
+			product	NADH dehydrogenase subunit 3
+			transl_table	2
+9862	10158	gene
+			gene	ND4L
+9862	10158	CDS
+			product	NADH dehydrogenase subunit 4L
+			transl_table	2
+10152	11529	gene
+			gene	ND4
+10152	11529	CDS
+			product	NADH dehydrogenase subunit 4
+			transl_table	2
+			note	TAA stop codon is completed by the addition of 3' Aresidues to the mRNA
+11727	13556	gene
+			gene	ND5
+11727	13556	CDS
+			product	NADH dehydrogenase subunit 5
+			transl_table	2
+14052	13534	gene
+			gene	ND6
+14052	13534	CDS
+			product	NADH dehydrogenase subunit 6
+			transl_table	2
+14127	15287	gene
+			gene	CYTB
+14127	15287	CDS
+			product	cytochrome b
+			transl_table	2
+1	69	gene
+			gene	trnF(gaa)
+1	69	tRNA
+			product	tRNA-Phe
+1025	1093	gene
+			gene	trnV(uac)
+1025	1093	tRNA
+			product	tRNA-Val
+2661	2735	gene
+			gene	trnL(uaa)
+2661	2735	tRNA
+			product	tRNA-Leu
+3691	3759	gene
+			gene	trnI(gau)
+3691	3759	tRNA
+			product	tRNA-Ile
+3827	3757	gene
+			gene	trnQ(uug)
+3827	3757	tRNA
+			product	tRNA-Gln
+3831	3899	gene
+			gene	trnM(cau)
+3831	3899	tRNA
+			product	tRNA-Met
+4936	5001	gene
+			gene	trnW(uca)
+4936	5001	tRNA
+			product	tRNA-Trp
+5071	5003	gene
+			gene	trnA(ugc)
+5071	5003	tRNA
+			product	tRNA-Ala
+5144	5074	gene
+			gene	trnN(guu)
+5144	5074	tRNA
+			product	tRNA-Asn
+5243	5177	gene
+			gene	trnC(gca)
+5243	5177	tRNA
+			product	tRNA-Cys
+5313	5247	gene
+			gene	trnY(gua)
+5313	5247	tRNA
+			product	tRNA-Tyr
+6925	6857	gene
+			gene	trnS(uga)
+6925	6857	tRNA
+			product	tRNA-Ser
+6929	6995	gene
+			gene	trnD(guc)
+6929	6995	tRNA
+			product	tRNA-Asp
+7684	7747	gene
+			gene	trnK(uuu)
+7684	7747	tRNA
+			product	tRNA-Lys
+9374	9442	gene
+			gene	trnG(ucc)
+9374	9442	tRNA
+			product	tRNA-Gly
+9792	9859	gene
+			gene	trnR(ucg)
+9792	9859	tRNA
+			product	tRNA-Arg
+11530	11597	gene
+			gene	trnH(gug)
+11530	11597	tRNA
+			product	tRNA-His
+11598	11656	gene
+			gene	trnS(gcu)
+11598	11656	tRNA
+			product	tRNA-Ser
+11656	11726	gene
+			gene	trnL(uag)
+11656	11726	tRNA
+			product	tRNA-Leu
+14121	14053	gene
+			gene	trnE(uuc)
+14121	14053	tRNA
+			product	tRNA-Glu
+15271	15338	gene
+			gene	trnT(ugu)
+15271	15338	tRNA
+			product	tRNA-Thr
+15408	15341	gene
+			gene	trnP(ugg)
+15408	15341	tRNA
+			product	tRNA-Pro
+70	1025	gene
+			gene	s-rRNA
+70	1025	rRNA
+			product	12S ribosomal RNA
+1092	2662	gene
+			gene	l-rRNA
+1092	2662	rRNA
+			product	16S ribosomal RNA
+>Feature BOR567
+3828	3830	misc_feature
+15409	16300
+			note	putative control region

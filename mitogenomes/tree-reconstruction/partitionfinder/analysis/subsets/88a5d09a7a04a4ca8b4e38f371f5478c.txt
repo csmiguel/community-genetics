@@ -1,0 +1,8 @@
+Model selection results for subset: 88a5d09a7a04a4ca8b4e38f371f5478c
+Subset alignment stored here: ./analysis/phylofiles/88a5d09a7a04a4ca8b4e38f371f5478c.phy
+This subset contains the following data_blocks: p2_ATP6_pos2, p11_COX2_pos2, p8_COX1_pos2
+Number of columns in subset: 970
+Models are organised according to their AICc scores
+
+Model           | Parameters      | lnL             | AICc             | AIC             | BIC            
+GTR+G           | 9               | -1379.242       | 2776.6714        | 2776.484        | 2820.3796      

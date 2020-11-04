@@ -1,0 +1,1905 @@
+Seq-submit ::= {
+  sub {
+    contact {
+      contact {
+        name
+          name {
+            last "MENG" ,
+            first "Guanliang" ,
+            middle "" ,
+            initials "" ,
+            suffix "" ,
+            title "" } ,
+        affil
+          std {
+            affil "BGI-Shenzhen" ,
+            div "China National GeneBank" ,
+            city "Shenzhen" ,
+            sub "Guangdong" ,
+            country "China" ,
+            street "Beishan Industrial Zone, Beishan Road, Yantian District" ,
+            email "mengguanliang@genomics.cn" ,
+            postal-code "518083" } } } ,
+    cit {
+      authors {
+        names
+          std {
+            {
+              name
+                name {
+                  last "MENG" ,
+                  first "Guanliang" ,
+                  middle "" ,
+                  initials "" ,
+                  suffix "" ,
+                  title "" } } } ,
+        affil
+          std {
+            affil "BGI-Shenzhen" ,
+            div "China National GeneBank" ,
+            city "Shenzhen" ,
+            sub "Guangdong" ,
+            country "China" ,
+            street "Beishan Industrial Zone, Beishan Road, Yantian District" ,
+            postal-code "518083" } } ,
+      date
+        std {
+          year 2020 ,
+          month 4 ,
+          day 8 } } ,
+    subtype new ,
+    tool "tbl2asn 25.6 - LINUX UNIX" } ,
+  data
+    entrys {
+      set {
+        class genbank ,
+        seq-set {
+          set {
+            class nuc-prot ,
+            descr {
+              source {
+                genome mitochondrion ,
+                org {
+                  taxname "Maxomys ochraceiventer" ,
+                  orgname {
+                    mod {
+                      {
+                        subtype specimen-voucher ,
+                        subname "BOR042" } } ,
+                    mgcode 2 } } ,
+                subtype {
+                  {
+                    subtype country ,
+                    name "Malaysia: Sabah" } } } ,
+              pub {
+                pub {
+                  gen {
+                    cit "Unpublished" ,
+                    authors {
+                      names
+                        std {
+                          {
+                            name
+                              name {
+                                last "MENG" ,
+                                first "Guanliang" ,
+                                initials "G." } } } } ,
+                    title "MitoZ: a toolkit for animal mitochondrial genome
+ assembly,annotation and visualization; doi:
+ https://doi.org/10.1093/nar/gkz173" } } } ,
+              user {
+                type
+                  str "NcbiCleanup" ,
+                data {
+                  {
+                    label
+                      str "method" ,
+                    data
+                      str "SeriousSeqEntryCleanup" } ,
+                  {
+                    label
+                      str "version" ,
+                    data
+                      int 8 } ,
+                  {
+                    label
+                      str "month" ,
+                    data
+                      int 4 } ,
+                  {
+                    label
+                      str "day" ,
+                    data
+                      int 8 } ,
+                  {
+                    label
+                      str "year" ,
+                    data
+                      int 2020 } } } ,
+              create-date
+                std {
+                  year 2020 ,
+                  month 4 ,
+                  day 8 } } ,
+            seq-set {
+              seq {
+                id {
+                  local
+                    str "BOR042" } ,
+                descr {
+                  title "[organism=Test sp.] [topology=circular]
+ [location=mitochondrion]" ,
+                  molinfo {
+                    biomol genomic } } ,
+                inst {
+                  repr raw ,
+                  mol dna ,
+                  length 16293 ,
+                  topology circular ,
+                  seq-data
+                    iupacna "GTTAATGTAGCTTATCATAAAGCAAAGCACTGAAAATGCTTAGATGGAT
+TGTTCAAATCCCATAAACACAAAGGTTTGGTCCTGGCCTTATAATTAGTTGAAGGTAAGATTACACATGCAAACATCC
+ATAAGCCGGTGTAAAATCCCTCAAACATTTATCCAAAATTTGAGGAGAGGGTATCAAGCACATAATATAGCTCAAGAC
+ACCTTGCCTAGCCACACCCCTACGGGACCCAGCAGTGATAAATATTAAGCAATGAATGAAAATTTGACTAAGCTATAC
+CTCTTAGGGTTGGTAAATTTCGTGCCAGCCACCGCGGTCATACGATTAACCCTAACTAATTACTCTCGGCGTAAAACG
+TGTTAACTAAAAACAAACTAATAGAATTAAAATCCAACTTATATGTGAAAATTCATTGTTAGGACTTAAATTCAACAA
+CGAAAGTAATTCTACAACCAATATAACACACGATAGCTAAGATCCAAACTGGGATTAGATACCCCACTATGCTTAGCC
+CTAAACCTAAATAATTAGCATACAACAAAATTATTTGCCAGAGAACTACTAGCCACAGCTTAAAACTCAAAGGACTTG
+GCGGTACTTTATATCCGTCTAGAGGAGCCTGTTCTATAATCGATAAACCCCGTTTTACCTCACCACCCCTTGCTAATT
+CAGCCTATATACCGCCATCTTCAGCGAACTCTAAAAAGAAAGCAAAGTAAGCACAAGAACAAACATAAAAACGTTAGG
+TCAAGGTGTAGCCAATGAGGTGGAAAGTAATGGGCTACATTTTCTTTCTAAAGAACATTACGATACCCTTTATGAAAC
+TAAAGGACAAAGGAGGATTTAGTAGTAAATTAAGAATAGAGAGCTTAATTGAATAGAGCAATGAAGTACGCACACACC
+GCCCGTCACCCTCCTCAAACTAAATTAATGTACCCATAAATAATATCACCAACAAATTTACGAGAGGAGATAAGTCGT
+AACAAGGTAAGCATACTGGAAAGTGTGCTTGGAATAATCACAGTGTAGCTTATTCCAAAGCATCTGGTCTACACCCAG
+AAGAATCCATAAAAATGGACACTTTGAACCAATCCTAGCCCTGACATCTACAAACATAATTATATATTTACTCTTAAA
+CCAAAACATTTATTTTCCCCTTAAAAGTATTGGAGAAAGAAATTATTCCATCAGGAGCTATAGAGTTAGTACCGTAAG
+GGAAAGATGAAAGATTATTTTAAAGTAACAATAAGCAAAGATTAAACCTTGTACCTTTTGCATAATGAGTTAACTAGA
+AAAACCCTAGCCAAAAGAACTTTAGCTAGAAACCCCGAAACCAAACGAGCTACCTAAAAACAATTTAACGAATCAACC
+CGTCTATGTAGCAAAATAGTGGGAGGATTTTTAGGTAGAGGTGAAAAGCCTAACGAGCTTGGTGATAGCTGGTTACCC
+AAAAAAGAACTTCAGTTCAACTTTAAATTTACTATAAGAACTACAAATCAAAACGTAAATTTAAAACATAGCCAAAAG
+AGGGACAGCTCTTTAGGCAAAGGAAAAAACCTTAGATAGTGAATAAACAATATTAAACCATTTAACCATTGTAGGCTT
+AAAAGCAGCCATCAATAAAGAAAGCGTTCAAGCTCAACATTAAAAACTCTTCAATTCCATAAATCTCCATAAATTCCT
+ATTACAATAATTGGGTTAATCTATAATCTCATAGATGAGACACTGTTAATATGAGTAACAAGAATTATATTCTCCCTG
+CACAAGTGTATGACAACCCGGATAACCATTGTCAATTATCAGATCACAGGCATTAATCCCTCAATAAAACTGCCTAAA
+ACCAACCTGTTAATCCAACACTGGTGTGCCCAAAGGAAAGATTAAAAAAAATAAAAGGAACTCGGCAAACACGAACCC
+CGCCTGTTTACCAAAAACATCACCTCTAGCATAACAAGTATTAGAGGCATTGCCTGCCCAGTGACTAAAGTTAAACGG
+CCGCGGTATCCTGACCGTGCAAAGGTAGCATAATCACTTGTTCCTTAATTAGGGACTAGAATGAATGGCTAAACGAGG
+GTTCAACTGTCTCTTATCTTTAATCAGTGAAATTGACCTTCCAGTGAAGAGGCTGGAATACCATAATAAGACGAGAAG
+ACCCTATGGAGCTTAAATTAATTAGTTTAATTATCACTAAAATAACCCTAATGGATTAAAAACCATAATATAAACTAT
+AAATTTCGGTTGGGGTGACCTCGGAGAATAAAAAAACCTCCGAATGATTTTAACCTAGACTAACAAGTCAAAGTAATA
+CTAAATATCTTATTGACCCAATTACTTGATCAACGGACCAAGTTACCCTAGGGATAACAGCGCAATCCTATTTAAGAG
+TTCATATCGACAATTAGGGTTTACGACCTCGATGTTGGATCAGGACATCCCAATGGTGCAGAAGCTATTAATGGTTCG
+TTTGTTCAACGATTAAAGTCCTACGTGATCTGAGTTCAGACCGGAGCAATCCAGGTCGGTTTCTATCTATTTACAATT
+TCTCCCAGTACGAAAGGACAAGAGAAATAGAGCCACCTTAACAAAAGCGCTCTTAACATAACTTATGAACAAAATCTC
+AATAAAATACATATGTACAATAAACCAAACCTAGACCAGGTTATTAGGGTGGCAGAGCCAGGAAATTGCGTAAGACTT
+AAAACCTTGTTCCCAGAGGTTCAAATCCTCTCCCTAATAATGCATTTTATTAATATCCTAACACTCCTAATCCCTATC
+CTAATTGCCATAGCCTTCTTAACACTAGTAGAACGAAAAATCCTAGGTTATATACAATTACGAAAAGGTCCAAATATT
+GTAGGCCCCTACGGAATTCTCCAACCATTCGCAGATGCTATAAAATTATTCATTAAAGAACCCATGCGCCCCCTAACC
+ACCTCAATATCATTATTCATCATTGCTCCAACCCTATCACTCACACTAGCCCTAAGCCTATGAATCCCCCTACCCATA
+CCTCACCCACTCATTAACCTAAACCTAGGAGTCCTGTTCATTCTAGCTACATCAAGCCTTTCAGTATATTCTATTCTA
+TGATCAGGATGAGCATCCAACTCAAAATATTCCTTATTTGGAGCCCTACGAGCAGTTGCCCAAACAATTTCCTATGAA
+GTAACAATAGCCATTATTCTACTATCAGTCCTTCTAATAAGCGGCTCATTCTCTCTACAAATACTTATTACCACCCAA
+GAACATATATGACTCCTAATCCCAGCTTGACCTTTAGCTATAATATGATACATCTCAACCTTAGCAGAAACAAACCGA
+GCCCCATTCGACCTAACAGAAGGAGAATCAGAACTAGTATCAGGATTTAACGTTGAATACGCTGCAGGCCCATTCGCA
+TTATTTTTCATAGCTGAATACACCAACATCATTCTAATAAACGCCCTAACAACCATTGTATTCCTAGGCCCACTACAC
+AACATTAGTTTTCCAGAACTTTACTCAACCAACTTCATAACAGAAACCCTAATTCTATCAACTGCATTCCTATGAATC
+CGAGCATCCTACCCACGTTTTCGCTATGATCAACTTATACACCTACTATGAAAAAACTTCCTCCCACTAACACTGGCA
+TTCTGCATATGACACATCTCCCTACCAATCTTTATAGCGAGCATTCCACCCTTCATGTAGAAATATGTCTGACAAAAG
+AGTTACTTTGATAGAGTAAATCATAGAGGTTTAAACCCTCTTATTTCTAGGATAATAGGAATTGAACCTATACCTAAG
+AATTCAAAATTCTCCGTGCTACCTATACACTTCATCCTATTCAGTAAGGTCAGCTAATTAAGCTATCGGGCCCATACC
+CCGAAAATGTTGGTTTAAACCCTTCCCGTACTAATAAACCCAATTACCCTAACTGTCATCTACTTCACCATCTTCATA
+GGACCTATAATTACAATATCAAGCTCCAACCTTCTATTAATATGAGTAGGCCTAGAAATAAGCCTCCTAGCTATTATT
+CCTCTTCTAATTAATAAAAAAAATCCTCGATCAACCGAAGCCGCAACAAAATACTTCATTACACAAGCGACAGCTTCA
+ATAATTATTCTAATAGCTATCATTCTAAACTATAAACAACTAGGAACCTGAACTTTCCAACAACAAACAAACAACATT
+CTACTTAACATAACACTAATTTCATTATCAATCAAACTCGGGCTAGCCCCATTCCACCATTGACTTCCCGAAGTTACC
+CAAGGTATCCCAATACATATTGGACTTATCCTCCTTACCTGACAAAAAATCGCTCCCCTTTCAATTCTATTCCAAATA
+TACCAACTCATAAACCCCATTATCACGTCAATCCTAGCAATCTTGTCAATTTTTACAGGAGCATGAGGGGGACTAAAC
+CAAACACAAACACGAAAAATCATAGCATACTCATCAATCGCCCACATAGGATGGATACTAGCGATCCTCCCATACAAC
+CCAAACCTAACATTATTAAACTTAATAATCTACATCATCCTAACAATCCCCATATTTATAGCACTCACATTAAACTCT
+TCAACAACAATCAACACCATCTCCCTCCTATGGAACAAAACACCAATAGTCCTAACAATAACCTCTTTAATTCTTCTA
+TCCCTCGGAGGCCTCCCACCACTCACAGGATTTTTACCAAAATGAGCCATCATCTCAGAGCTATTAAAAAATAACTGC
+TCAACTATATCAACATTAATAGCTATTATGGCCCTCCTTAACCTATTCTTCTATACACGCTTAATCTACTCAACCTCA
+CTTACCATATTCCCAACCAACAACAACTCCAAAATAATATCCCACCACATAAACCATAAACACAACTTCATCCTACCA
+CTATTAACAATTATTAGTACATTTACCTTACCACTCTCACCACAACTAATAATATAGAAGTTTAGGATATCTATAGTC
+CAAGAGCCTTCAAAGCTCTAAGAAAACAAGCAAGTTTAACTTCTGATAAGGACTGTAAGACTATATTCCTACATCTAT
+TGAATGCAAATCAATCGCTTTAATTAAGCTAAGACCTTAACTAGATTGGAAGGATTTAAACCTACGAAAACTTAGTTA
+ACAGCTAAACACCCTATTTCTGGCTTCAATCTACTTCTCCCGCCTATCAGAAAAGGGGCGGGAGAAGCCTTAGTAGAG
+GGGATCTCTACACCTTCGAATTTGCAATTCGACATGATTATCACCTTAAGGCTTGGTAAAAAGGGGGCTCAACCCCTG
+TATTTAGATTTACAGTCTAATGCTTACTCAGCCATTTTACCTATGTTCGTAAACCGTTGACTATTTTCAACCAACCAT
+AAAGATATCGGAACTCTTTATCTACTATTCGGAGCCTGAGCAGGAATAGTAGGTACAGCCCTTAGTATTCTAATTCGA
+GCTGAACTAGGACAGCCAGGCGCTCTCCTAGGTGATGACCAAATTTACAACGTAATTGTTACAGCCCATGCATTCGTA
+ATAATCTTCTTTATAGTTATACCAATAATAATTGGAGGTTTCGGAAACTGACTTGTCCCACTAATAATCGGAGCCCCC
+GATATAGCATTCCCACGAATAAACAATATAAGCTTTTGACTCCTTCCCCCATCCTTCCTCCTTCTCTTAGCATCATCC
+ATAGTTGAAGCAGGAGCTGGAACAGGATGAACTGTTTACCCTCCCCTAGCCGGCAACTTAGCCCATGCAGGAGCATCA
+GTAGACTTGACTATTTTCTCCCTACACCTAGCTGGTGTATCTTCTATCCTAGGAGCTATTAACTTTATTACCACTATT
+ATCAACATAAAACCCCCAGCCATAACCCAATACCAAACACCCTTATTTGTATGATCAGTACTTATTACAGCAGTACTC
+CTACTTCTTTCACTCCCAGTTCTAGCCGCAGGAATCACAATACTATTAACAGACCGAAATCTAAACACAACCTTTTTT
+GACCCAGCAGGAGGAGGAGACCCCATCCTCTACCAACATTTATTCTGATTTTTTGGACACCCAGAAGTATATATCCTT
+ATCCTTCCAGGATTTGGTATCATCTCTCATGTAGTGACCTACTACTCCGGTAAAAAAGAACCGTTTGGATATATGGGA
+ATAGTTTGAGCTATAATATCCATTGGATTCCTAGGGTTCATTGTATGAGCTCATCACATATTCACAGTAGGATTAGAC
+GTAGACACACGAGCCTACTTTACATCTGCCACAATAATCATCGCAATCCCAACTGGCGTAAAAGTATTCAGTTGACTT
+GCAACATTACACGGAGGTAATATTAAATGATCTCCAGCTATACTATGAGCCCTAGGTTTTATTTTCCTATTTACAGTA
+GGAGGACTAACCGGAATCGTACTATCAAATTCCTCACTTGATATTGTACTTCACGACACATACTACGTAGTAGCTCAT
+TTCCACTATGTTTTATCTATAGGAGCTGTATTTGCTATTATAGCTGGCTTCGTTCATTGATTCCCACTATTTTCAGGC
+TATACTCTAGACGATACATGAGCAAAAGCTCATTTCGCTATCATATTCGTAGGAGTTAACATGACATTCTTCCCCCAA
+CACTTCCTAGGACTATCAGGAATACCTCGACGATACTCCGATTACCCTGATGCTTACACTACATGAAACACAGTCTCA
+TCTATAGGATCATTTATTTCACTAACAGCTGTTCTCGTAATAATCTTTATAATCTGAGAAGCCTTTGCATCCAAACGA
+GAAGTACTTTCAGTCTCTTATTCCTCAACTAACCTAGAATGACTCCACGGATGTCCCCCACCTTACCATACATTTGAA
+GAACCTTCCTACGTAAAAGTAAAATAAGAAAGGAAGGATTCGAACCCCCTAAAATTGGTTTCAAGCCAATCCCATAAC
+CACTATGTCTTTCTCAATGAGATATTAGTAAAATAATTACATAACTTTGTCAAAGTTAAATTATAGACTTAAATCTAT
+ATATCTTATATGGCTTACCCATTCCAACTAGGCTTACAAGACGCTACCTCACCTATCATAGAAGAACTAATAAACTTC
+CATGACCATACATTAATAATTGTTTTTCTCATCAGTACTCTAGTACTTTATATCATCTCACTCATGCTAACAACAAAA
+CTCACACATACAAGCACGATAGACGCACAAGAAGTAGAAACCATTTGAACCATCCTCCCCGCCGTCATCCTCATTTTA
+ATTGCCCTTCCCTCCCTTCGAATTTTATACATAATAGATGAAATCAATAACCCTGTCTTAACAGTAAAAACCATGGGA
+CATCAATGATACTGAAGTTATGAATACACTGACTACGAAGACTTATGCTTTGACTCCTACATGATCCCAACAAACGAC
+CTAAAACCAGGAGAGCTACGCCTCCTAGAAGTTGACAACCGAGTAGTTCTACCAATAGAACTCCCAATTCGCATACTA
+ATTTCATCCGAAGACGTTCTCCACTCATGAGCTGTCCCCTCACTAGGACTTAAAACCGATGCAATCCCAGGTCGCCTA
+AATCAAGCTACAGTTACATCAAACCGCCCAGGCCTATTCTATGGCCAATGCTCCGAAATCTGCGGATCAAATCACAGT
+TTTATACCTATCGTACTTGAAATAGTTCCACTAAAACATTTTGAAAATTGATCAACCTCAATAATTTAAAATCACTGC
+GAAGCTAAGAGCGTTAACCTTTTAAGTTAAAGTTAGAGACCCCAAAAATCTCCACAGTGATATGCCACAACTAGACAC
+ATCCACATGATTCATTACCATCATTTCTTCAACAATCACACTATTCATCTTATTCCAATTAAAACTCTCCTCACAAAC
+CTTCCCAGCATCACCTTCACCTAAAACCATTACCACAGAAAAAACAAAAAACCCTTGAGAATCAAAATGAACGAAAAT
+CTATTTGCCTCATTCATCACACCAACAATAATAGGATTACCAATTGTCGTAACTATTATCATGTTCCCATCAATCTTA
+TTTCCATCATCAGAACGTCTCATCAGCAACCGCCTACACTCATTTCAACATTGACTAATCAAACTTATTATCAAACAA
+ATAATACTAATTCATACACCAAAAGGACGAACCTGAACCCTAATGATCGTCTCACTAATTATATTCATTGGCTCCACA
+AACCTTTTAGGTCTCCTTCCACATACATTTACACCCACAACCCAACTATCAATAAACTTAAGCATAGCCATCCCACTA
+TGAGCGGGAGCCGTAATTCTAGGTTTCCGACACAAACTAAAAAGCTCCCTAGCCCATTTCCTACCCCAAGGTACCCCT
+ATCTCACTAATTCCAATACTAATTATTATTGAAACCATCAGCTTATTCATTCAACCCATAGCACTTGCAGTTCGATTA
+ACAGCTAACATCACTGCAGGACACCTATTAATGCACCTAATTGGAGGAGCCACCCTAGTACTAATAGACATCAGCCCA
+CCAACCGCTACCATCACATTCATCATTCTTCTACTTCTCACAATACTTGAATTCGCCGTAGCTTTAATTCAAGCTTAT
+GTATTCACTCTCCTAGTAAGTCTATATCTACATGATAATACATAATGACCCACCAAACCCACGCATATCACATAGTTA
+ATCCAAGCCCATGACCATTAACAGGAGCTTTCTCAGCTCTCCTAATAACATCCGGGCTAGTCATATGATTTCACTATA
+ACTCTTCCACTCTTCTATCCTTAGGCTTACTAACAAACATCTTAACCATATACCAATGATGACGAGACATTATCCGTG
+AAGGAACATACCAAGGCCACCACACCCCCATTGTCCAAAAAGGACTTCGATATGGCATAATTCTATTTATCGTTTCCG
+AAGTATTCTTCTTTGCCGGCTTCTTTTGAGCATTCTATCATTCCAGCCTAGTCCCAACACACGACCTAGGCGGTTGCT
+GACCCCCTACAGGAATTACACCTCTCAATCCACTTGAAGTACCTCTTCTAAACACATCCGTACTTTTAGCATCAGGAG
+TCTCAATTACATGAGCCCACCACAGCCTAATAGAAGGAAAACGCAACCACATAAATCAAGCCTTACTAATTACCATTA
+CCCTAGGACTCTACTTCACTATTCTTCAAGCTTCAGAGTATTTTGAAACCTCATTCTCCATCTCAGATGGAATTTATG
+GTTCAACATTCTTTATAGCAACAGGATTTCACGGCCTACATGTAATTATTGGCTCAACATTCCTCATTGTTTGCCTCC
+TACGACAACTAAAATTCCACTTTACATCTAAACACCACTTTGGATTTGAAGCAGCAGCATGATACTGACACTTCGTAG
+ATGTAGTATGACTCTTCCTATATGTTTCTATCTATTGATGAGGATCTTATTCTCTTAGTATAACAAATACCACTGACT
+TCCAATTAGTAAATTCTGATAAACCTCAGAAGAGAATAATAAATCTATTAATCATTATTACAATCAACACCTTTCTAT
+CACTCACCCTTGTTCTAATCGCATTCTGACTCCCCCAAATAAACTTATACTCAGAAAAGGCAAACCCTTACGAATGCG
+GATTCGACCCAACAAGCTCTGCCCGCCTCCCCTTCTCAATAAAGTTTTTTCTAGTAGCCATTACATTCCTACTATTCG
+ACCTAGAAATTGCCCTCCTACTACCCCTCCCATGAGCAATTCAATCCACTAACACCACTACAATAATAGCCTCAGCCT
+TCATTCTAGTTACTATTCTATCTCTTGGCCTAACCTACGAATGACTGCAAAAAGGACTAGAATGAACAGAATAACTGG
+TAATTAGTTTAAATAAAATTAATGATTTCGACTCATTAGATTATGATCACAATCATAATTACCAACAATGACATCTAC
+TTTTCTTAACCTAACATTAGCATTTACCCTTTCACTCCTTGGCACTCTCATATTTCGCTCCCACTTAATATCCACACT
+CCTTTGCCTAGAAGGAATAATACTCTCCCTATTTATCATAACTTCACTATCCACATTAAACTCCAACTCCATAGCCTC
+AATGCCCATTCCCATCACCATTCTAGTTTTCGCAGCATGCGAAGCAGCAGTAGGCCTAGCTCTCCTAGTAAAAGTCTC
+CAATACATACGGAACTGACTACGTACAAAACCTAAACCTCCTACAATGCTAAAAATTATTATTCCATCAATCATACTT
+CTCCCACTTACCTGATTATCTAAATACAAAAAAATCTGAATCAACATTACTTCCTACAGCTTCCTAGTAAGCCTAACC
+AGCCTATCCCTCTTATGACAAAACGACGAAAATAACCTAAACTTTTCAATTACATTCTCCTCAGACCCTTTATCTACC
+CCACTAATTATTCTAACAACCTGACTACTCCCATTAATGCTTCTAGCCAGCCAAAATCACATAAAAAAAGAAACTCTC
+TACAACCAAAAACTTTACATTTCCATACTCATCAGCCTCCAAATTCTCCTTATCATAACATTCTCCGCAACAGAACTC
+ATCCTATTCTATATTCTATTTGAAGCTACTCTAATCCCAACACTCATTATTATTACCCGATGAGGAAACCAAACAGAA
+CGCCTAAACGCAGGAATCTACTTCCTATTCTATACATTAATTGGCTCCATCCCCCTCCTCATCGCTCTAATCTCAATT
+CAAAACTCAATAGGAACACTCAATTTCCTAATTTTATCTCTCACCGCTCATCCTCTAGAGTCAACATGATCTAACAAT
+ATCCTATGACTAGCATGCATAATAGCATTTCTCATTAAGATACCATTATATGGAGTCCATCTATGACTACCAAAAGCC
+CACGTAGAAGCCCCAATCGCAGGTTCCATAATCCTAGCAGCCATCCTTCTTAAACTTGGAGGCTACGGAATAATACGA
+ATTTCCATTATTCTAGATCCCCTCACCAAACATATAGCTTACCCATTCATTCTACTTTCCCTCTGAGGCATAATTATA
+ACCAGCTCGATCTGTCTCCGCCAAACAGATCTTAAATCACTAATCGCTTACTCATCAGTAAGCCATATAGCCTTAGTC
+ATTGCATCCATTATAATTCAAACCCCATGAAGTTTCATAGGAGCCACCATACTAATAATTGCTCACGGTTTAACCTCA
+TCACTCCTATTCTGCCTAGCCAATACTAACTATGAACGCATTCACAGTCGAACTATAATTATAGCCCGAGGCTTACAA
+ATAATCTTCCCACTAATAGCTACATGATGACTCACAGCAAGCCTAGCCAACTTAGCCCTCCCACCACTAATTAATCTC
+ATAGGTGAATTATTCATCATTATATCAATATTCTCTTGATCTAACCCTTCCATTATCCTAACAGGCCTAAACATTATC
+ATTACAGCCATATATTCAATGTATATAATTATCACAACCCAACGAGGTAAACTTACTAGTCACATAATCAATCTACAG
+CCCTCTCACACGCGAGAATTATCCCTCATAGCCCTACACATTATTCCACTTATCCTCTTAACTACAAACCCAAAATTA
+ATTACAGGATTAACAATATGCGAGTATAGTTTACAAAAAACATTAGACTGTGAATCTAACAACAGGAATTAACCCTCC
+TTACTCACCAAGAAAGTATGCAAGAACTGCTAACTCATGCTCCCATGTCTAAACACATGGCTTTCTTACTTTTATAGG
+ATAGAAGTAATCCATTGGTCTTAGGAACCAAAAACCTTGGTGCAACTCCAAATAAAAGTAATTAACATTATTACATCT
+TCAATCCTCATAATCTTCATCCTACTCATAACACCGATCCTCATCTCCATAACTAACCTAATCCAACTAATCAATTTT
+CCCTCATATGCCACCTCATCAATTAAATTCTCATTCTTCCTAAGCCTACTACCCCTACTCTTATTCTTCTACTCCAAT
+ACAGAATATATAATTACCAGCTGACATTGAATTACTGTAAGCTCTATCAAACTCTCAATAAGCTTCAAAATTGACTAC
+TTCTCAATTCTATTCTTATCTGTAGCTCTATTTGTAACCTGATCCATCATACAATTCTCCTCATGATACATACACTCA
+GATCCGCACATCAACCGATTTATCAAATATCTAATACTATTCTTAATCACTATACTAATCCTAACCTCAGCTAACAAC
+CTATTTCAACTCTTCATCGGATGAGAAGGAGTTGGAATTATATCTTTTCTCTTAATCGGATGATGATACGGCCGCGCA
+GACGCTAATACAGCGGCCCTCCAAGCTATTCTATACAACCGAATTGGAGACATCGGCTTCATTTTAGCCATAACATGA
+TTCTGCCTAAACACAAACTCCTGAGAACTTCAACAAATTCTCCTAAGCAACAATAACAACCTAATCCCACTCCTAGGC
+CTTCTCATCGCAGCCACAGGAAAATCAGCCCAGTTCAGCCTTCACCCATGACTTCCCTCAGCTATAGAAGGCCCAACT
+CCTGTCTCAGCCCTACTTCACTCAAGCACTATAGTTGTAGCAGGGATTTTCCTAATAATCCGATTTCATCCACTAACC
+TCAAACAATAGCACTATTCTAACAATAATACTATGCCTTGGAGCTCTCACCACACTATTCACAGCAATCTGCGCATTA
+ACCCAAAATGACATCAAAAAAATTGTAGCATTCTCCACATCCAGCCAACTAGGATTAATAATAGTAACCTTAGGAATT
+AATCAACCTTACCTAGCCTTTTTACATATCTGCACCCATGCATTCTTCAAAGCCATACTATTCATATGCTCCGGATCA
+ATTATCCACAGCTTAAATGACGAACAAGACATCCGCAAAATAGGCAACATAACAAAAACCCTACCATTCACATCATCC
+TGCCTGACCATTGGCAGCTTAGCCCTGACCGGAATACCATTCCTCACTGGTTTCTACTCAAAAGACCTAATCATCGAA
+GCCATTAATACCTGCAATACCAACGCCTGAGCCCTTCTAATCACACTAATCGCCACGTCCATAACTGCTATCTACAGT
+ATGCGAATTATTTACTTTGTCACAATAACAAAACCACGCTATTCTCCCCTTATTATTATAAACGAAAATAACCCCGAC
+CTAATTAATCCTATTAAACGCCTAGCATTAGGAAGCATTATAGCCGGATTCTTTATCTCATACAACATTCCCCCAACT
+AACATCCAAATTCTCACCATACCCTGATATCTAAAAACCACAGCCCTATTTATCTCAATCCTAGGATTCATTCTAGCC
+CTAGAACTCAACAACCTAACCCTAAACTTCTCTATGAACAAACCCACACAAACCTCATTATTCTCAACATCACTTGGC
+TATTACCCTCCAATTATTCACCGAATTATCCCCCAAAAAACCCTAAACCCAAGCTTCAAATTATCCTTAAACCTCCTA
+GACTTAATCTGACTAGAGAAACTTATTCCAAAATCGACCTCAACCATTCATATGCAGATATCCAAAACATTTACTAAC
+CAAAAAGGGCTAGTGAAACTTTACTTCTTATCTTTCTTAATTACACTAATACTGACACTCACCCTATTCATCCTTAAT
+CCCGAGTGATCTCAATAATAATAAAAATACCAGCAAACAATGACCACCCCGCCACCACCATTATTCAAGTTGCACAAC
+TATACATCGTCGCAACCCCCATCCCACCCTCCAACATTACCCCAATATCATCAACCTCATACATTAATCAATCACTTA
+AACCACTAAGATCAACCAACTCAACCTCATTATAATGATCAAAAAAACAAACCACAACCAACTCCATTAAAAGCCCTA
+AAACCAAAACACTAAAAACTAACCAATTAGAACCCCAAGTCTCCGGGTACTCCTCAGTAGCTATAGCAGTTGTATAAC
+CAAATACAACCAATATCCCACCCAAATAAATTAAAAACACTATCAAACCTAGAAAAGACCCCCCAAACCCCAGAACCA
+TTAAGCACCCAATACAACCACTAATAATTAAACCCAATCCCCCATAAATTGGCGAAGGCTTTAATGCCAACCCTAAAC
+AACCAATCAAAAACAATAAACTTAAAATAAACATATAATTTGTCATTATTTCCACACAGAATTAAACTGTGACTAATG
+ACATGAAAAATCATCGTTGTAATTCAACTATAGAAACAGCTAATGACAAACATTCGAAAAACTCACCCCCTACTTAAA
+ATTATCAACCACTCCTTCATTGACCTCCCTACCCCATCTAACATCTCATCATGATGAAACTTTGGCTCCCTTTTAGGA
+GTATGCCTAATCATCCAAATCATCACAGGACTATTTCTAGCAATACATTACACATCCGACACCATAACAGCATTCTCA
+TCAGTCACCCACATCTGCCGAGACGTAAACTACGGTTGACTAATTCGATACTTACACGCAAACGGAGCTTCCATATTC
+TTCATCTGCCTATTCCTTCACGTAGGACGAGGCATTTACTACGGCTCTTACGCCTACATAGAAACATGAAACATCGGA
+GTCATTCTATTATTTGCAGTTATAGCAACCGCATTCATAGGCTACGTACTCCCATGAGGACAAATATCCTTCTGAGGT
+GCAACAGTAATTACAAACCTTCTATCGGCTATTCCATACATCGGAACCACTCTAGTCGAATGAATCTGAGGCGGCTTC
+TCAGTAGACAAGGCTACCCTGACACGTTTTTTCGCATTCCACTTCATCCTCCCATTTATCATTGCAGCCCTAGCAATT
+GTTCATCTTTTATTTCTCCACGAAACAGGTTCAAACAACCCCACAGGCTTAAATTCAGACGCAGACAAAATCCCATTC
+CATCCCTACTATACAATCAAAGACCTCCTAGGAATTTTCATCCTCCTCCTCTCCCTAATAATCTTAGTCCTATTCTTC
+CCAGACCTCCTAGGAGACCCAGACAATTATACACCAGCAAACCCCCTAAACACACCACCCCATATTAAACCAGAATGA
+TACTTCTTATTTGCCTACGCCATCCTACGATCTATTCCCAACAAATTAGGAGGAGTAGTAGCCTTAGTCCTATCCATT
+CTCATCCTAGCTTTCCTACCCTTTCTCCATACCTCAAAACAACGAAGCCTTACCTTCCGTCCAATCACCCAAACCCTA
+TACTGAATCCTAGTAGCTAACCTTCTTATTCTAACATGAATCGGAGGTCAACCAGTAGAACACCCATTCATTATCATC
+GGACAACTAGCATCCATCAGCTACTTTTCAATCATTCTAATCCTCATACCCATCTCAGGAATGATCGAAGACAAAATA
+CTAAAATGAAATCCATGTCCCGATAGTATAAAAATTACTCTGGTCTTGTAAACCAGAAATGAAGAACTAATCTTCTCA
+GGACATCAAGAAGAAGGAACTAATCCCCACCATCAACACCCAAAGCTGATATTCTAATTAAACTACTTCTTGAACAGT
+ACATAAAATTATCTAGTACATAAAACATTAATGTATATCGTACATTAAATTATTTTCCCCTAGCATATAAGCAAGTAA
+ATTAAATCAATTAATTACGACATAACCATATAATCAACAATTAAATTAAATACAACATGTCTATTATCTAATACATAT
+AAATAATGCTTATTAGACATATCTGTGTTATTAGACATACACCATTAAGTCATTTAACTTCCTTGTCCATATGACTAT
+CCCCTACCACATTTAGTCTCAATTTCTACCATCCTCCGTGAAATCAGCAACCCGCCCACCAGTACCCCTCTTCTCGCT
+CCGGGCCCATTAAACTTGGGGGTGACTAATGTGAAACTTTACCAGGCATCTGGTTCTTACCTCAGGGCCATATAATGT
+ATTATCGTCCATACGTTCCCCTTAAATAAGACATCTCGATGATATGGGTCTAATCAGCCCATGACCAACATAACTGAA
+ATCCCGTTCATTTGGTATTTTTTTATTTTCGGATGCTATCACTCAACATAGCCGTCAAGGCATGAAGGTCAGCTTATC
+ATGTAGCCGAACTCTCGTTCAAGTGTCATTTATCCCCATAGACAAAGCCCGGAAGGTTATCTGTTAATGCTTGTGGAC
+ATACAACTTCTTCAAAACCAATATTTCACTTACCAAACCCCCCCTTCCCCCACCTCTAAAAAGCCTTTAATGCCAAAC
+CCCAAAAACATTAAAGGAAAACACATACTCCATTATTAGAGGCTCTAATTCATTCTAGTAGTCCCCAAAAATAAAACT
+TAAATTCCAGCATTGATAGAATTTCATAAATCAAAACCTCATCTAACTAAAACCTCCCCAATCACTAATTTCCTAACA
+AACCCTTTTACCTTAATACA" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            gene {
+                              locus "ND1" } ,
+                          location
+                            int {
+                              from 2740 ,
+                              to 3696 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "BOR042" } } ,
+                        {
+                          data
+                            gene {
+                              locus "ND2" } ,
+                          location
+                            int {
+                              from 3904 ,
+                              to 4941 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "BOR042" } } ,
+                        {
+                          data
+                            gene {
+                              locus "COX1" } ,
+                          location
+                            int {
+                              from 5317 ,
+                              to 6861 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "BOR042" } } ,
+                        {
+                          data
+                            gene {
+                              locus "COX2" } ,
+                          location
+                            int {
+                              from 7000 ,
+                              to 7683 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "BOR042" } } ,
+                        {
+                          data
+                            gene {
+                              locus "ATP8" } ,
+                          location
+                            int {
+                              from 7754 ,
+                              to 7957 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "BOR042" } } ,
+                        {
+                          data
+                            gene {
+                              locus "ATP6" } ,
+                          location
+                            int {
+                              from 7915 ,
+                              to 8595 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "BOR042" } } ,
+                        {
+                          data
+                            gene {
+                              locus "COX3" } ,
+                          location
+                            int {
+                              from 8595 ,
+                              to 9379 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "BOR042" } } ,
+                        {
+                          data
+                            gene {
+                              locus "ND3" } ,
+                          location
+                            int {
+                              from 9447 ,
+                              to 9794 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "BOR042" } } ,
+                        {
+                          data
+                            gene {
+                              locus "ND4L" } ,
+                          location
+                            int {
+                              from 9866 ,
+                              to 10162 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "BOR042" } } ,
+                        {
+                          data
+                            gene {
+                              locus "ND4" } ,
+                          location
+                            int {
+                              from 10156 ,
+                              to 11533 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "BOR042" } } ,
+                        {
+                          data
+                            gene {
+                              locus "ND5" } ,
+                          location
+                            int {
+                              from 11731 ,
+                              to 13560 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "BOR042" } } ,
+                        {
+                          data
+                            gene {
+                              locus "ND6" } ,
+                          location
+                            int {
+                              from 13538 ,
+                              to 14056 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "BOR042" } } ,
+                        {
+                          data
+                            gene {
+                              locus "CYTB" } ,
+                          location
+                            int {
+                              from 14131 ,
+                              to 15274 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "BOR042" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnF(gaa)" } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 67 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "BOR042" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 70 } } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 67 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "BOR042" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnV(uac)" } ,
+                          location
+                            int {
+                              from 1023 ,
+                              to 1089 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "BOR042" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 86 } } ,
+                          location
+                            int {
+                              from 1023 ,
+                              to 1089 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "BOR042" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnL(uaa)" } ,
+                          location
+                            int {
+                              from 2665 ,
+                              to 2739 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "BOR042" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 76 } } ,
+                          location
+                            int {
+                              from 2665 ,
+                              to 2739 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "BOR042" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnI(gau)" } ,
+                          location
+                            int {
+                              from 3695 ,
+                              to 3763 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "BOR042" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 73 } } ,
+                          location
+                            int {
+                              from 3695 ,
+                              to 3763 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "BOR042" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnQ(uug)" } ,
+                          location
+                            int {
+                              from 3761 ,
+                              to 3831 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "BOR042" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 81 } } ,
+                          location
+                            int {
+                              from 3761 ,
+                              to 3831 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "BOR042" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnM(cau)" } ,
+                          location
+                            int {
+                              from 3835 ,
+                              to 3903 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "BOR042" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 77 } } ,
+                          location
+                            int {
+                              from 3835 ,
+                              to 3903 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "BOR042" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnW(uca)" } ,
+                          location
+                            int {
+                              from 4940 ,
+                              to 5007 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "BOR042" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 87 } } ,
+                          location
+                            int {
+                              from 4940 ,
+                              to 5007 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "BOR042" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnA(ugc)" } ,
+                          location
+                            int {
+                              from 5009 ,
+                              to 5078 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "BOR042" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 65 } } ,
+                          location
+                            int {
+                              from 5009 ,
+                              to 5078 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "BOR042" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnN(guu)" } ,
+                          location
+                            int {
+                              from 5081 ,
+                              to 5151 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "BOR042" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 78 } } ,
+                          location
+                            int {
+                              from 5081 ,
+                              to 5151 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "BOR042" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnC(gca)" } ,
+                          location
+                            int {
+                              from 5183 ,
+                              to 5249 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "BOR042" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 67 } } ,
+                          location
+                            int {
+                              from 5183 ,
+                              to 5249 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "BOR042" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnY(gua)" } ,
+                          location
+                            int {
+                              from 5250 ,
+                              to 5315 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "BOR042" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 89 } } ,
+                          location
+                            int {
+                              from 5250 ,
+                              to 5315 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "BOR042" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnS(uga)" } ,
+                          location
+                            int {
+                              from 6859 ,
+                              to 6927 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "BOR042" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 83 } } ,
+                          location
+                            int {
+                              from 6859 ,
+                              to 6927 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "BOR042" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnD(guc)" } ,
+                          location
+                            int {
+                              from 6931 ,
+                              to 6998 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "BOR042" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 68 } } ,
+                          location
+                            int {
+                              from 6931 ,
+                              to 6998 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "BOR042" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnK(uuu)" } ,
+                          location
+                            int {
+                              from 7687 ,
+                              to 7752 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "BOR042" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 75 } } ,
+                          location
+                            int {
+                              from 7687 ,
+                              to 7752 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "BOR042" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnG(ucc)" } ,
+                          location
+                            int {
+                              from 9379 ,
+                              to 9446 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "BOR042" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 71 } } ,
+                          location
+                            int {
+                              from 9379 ,
+                              to 9446 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "BOR042" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnR(ucg)" } ,
+                          location
+                            int {
+                              from 9796 ,
+                              to 9863 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "BOR042" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 82 } } ,
+                          location
+                            int {
+                              from 9796 ,
+                              to 9863 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "BOR042" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnH(gug)" } ,
+                          location
+                            int {
+                              from 11534 ,
+                              to 11601 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "BOR042" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 72 } } ,
+                          location
+                            int {
+                              from 11534 ,
+                              to 11601 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "BOR042" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnS(gcu)" } ,
+                          location
+                            int {
+                              from 11602 ,
+                              to 11660 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "BOR042" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 83 } } ,
+                          location
+                            int {
+                              from 11602 ,
+                              to 11660 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "BOR042" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnL(uag)" } ,
+                          location
+                            int {
+                              from 11660 ,
+                              to 11730 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "BOR042" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 76 } } ,
+                          location
+                            int {
+                              from 11660 ,
+                              to 11730 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "BOR042" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnE(uuc)" } ,
+                          location
+                            int {
+                              from 14057 ,
+                              to 14125 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "BOR042" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 69 } } ,
+                          location
+                            int {
+                              from 14057 ,
+                              to 14125 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "BOR042" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnT(ugu)" } ,
+                          location
+                            int {
+                              from 15275 ,
+                              to 15341 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "BOR042" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 84 } } ,
+                          location
+                            int {
+                              from 15275 ,
+                              to 15341 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "BOR042" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnP(ugg)" } ,
+                          location
+                            int {
+                              from 15342 ,
+                              to 15408 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "BOR042" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 80 } } ,
+                          location
+                            int {
+                              from 15342 ,
+                              to 15408 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "BOR042" } } ,
+                        {
+                          data
+                            gene {
+                              locus "s-rRNA" } ,
+                          location
+                            int {
+                              from 68 ,
+                              to 1022 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "BOR042" } } ,
+                        {
+                          data
+                            rna {
+                              type rRNA ,
+                              ext
+                                name "12S ribosomal RNA" } ,
+                          location
+                            int {
+                              from 68 ,
+                              to 1022 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "BOR042" } } ,
+                        {
+                          data
+                            gene {
+                              locus "l-rRNA" } ,
+                          location
+                            int {
+                              from 1088 ,
+                              to 2666 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "BOR042" } } ,
+                        {
+                          data
+                            rna {
+                              type rRNA ,
+                              ext
+                                name "16S ribosomal RNA" } ,
+                          location
+                            int {
+                              from 1088 ,
+                              to 2666 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "BOR042" } } ,
+                        {
+                          data
+                            imp {
+                              key "misc_feature" } ,
+                          comment "putative control region" ,
+                          location
+                            mix {
+                              int {
+                                from 3832 ,
+                                to 3834 ,
+                                strand plus ,
+                                id
+                                  local
+                                    str "BOR042" } ,
+                              int {
+                                from 15409 ,
+                                to 16292 ,
+                                strand plus ,
+                                id
+                                  local
+                                    str "BOR042" } } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "BOR042_1" } ,
+                descr {
+                  title "NADH dehydrogenase subunit 1 (mitochondrion) [Maxomys
+ ochraceiventer]" ,
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 318 ,
+                  seq-data
+                    ncbieaa "MHFINILTLLIPILIAMAFLTLVERKILGYMQLRKGPNIVGPYGILQPF
+ADAMKLFIKEPMRPLTTSMSLFIIAPTLSLTLALSLWIPLPMPHPLINLNLGVLFILATSSLSVYSILWSGWASNSKY
+SLFGALRAVAQTISYEVTMAIILLSVLLMSGSFSLQMLITTQEHMWLLIPAWPLAMMWYISTLAETNRAPFDLTEGES
+ELVSGFNVEYAAGPFALFFMAEYTNIILMNALTTIVFLGPLHNISFPELYSTNFMTETLILSTAFLWIRASYPRFRYD
+QLMHLLWKNFLPLTLAFCMWHISLPIFMASIPPFM" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "NADH dehydrogenase subunit 1" } } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 317 ,
+                              id
+                                local
+                                  str "BOR042_1" } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "BOR042_2" } ,
+                descr {
+                  title "NADH dehydrogenase subunit 2 (mitochondrion) [Maxomys
+ ochraceiventer]" ,
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 345 ,
+                  seq-data
+                    ncbieaa "MNPITLTVIYFTIFMGPMITMSSSNLLLMWVGLEMSLLAIIPLLINKKN
+PRSTEAATKYFITQATASMIILMAIILNYKQLGTWTFQQQTNNILLNMTLISLSIKLGLAPFHHWLPEVTQGIPMHIG
+LILLTWQKIAPLSILFQMYQLMNPIITSILAILSIFTGAWGGLNQTQTRKIMAYSSIAHMGWMLAILPYNPNLTLLNL
+MIYIILTIPMFMALTLNSSTTINTISLLWNKTPMVLTMTSLILLSLGGLPPLTGFLPKWAIISELLKNNCSTMSTLMA
+IMALLNLFFYTRLIYSTSLTMFPTNNNSKMMSHHMNHKHNFILPLLTIISTFTLPLSPQLMM" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "NADH dehydrogenase subunit 2" } } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 344 ,
+                              id
+                                local
+                                  str "BOR042_2" } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "BOR042_3" } ,
+                descr {
+                  title "cytochrome c oxidase subunit I (mitochondrion)
+ [Maxomys ochraceiventer]" ,
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 514 ,
+                  seq-data
+                    ncbieaa "MFVNRWLFSTNHKDIGTLYLLFGAWAGMVGTALSILIRAELGQPGALLG
+DDQIYNVIVTAHAFVMIFFMVMPMMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLASSMVEAGAGTGWT
+VYPPLAGNLAHAGASVDLTIFSLHLAGVSSILGAINFITTIINMKPPAMTQYQTPLFVWSVLITAVLLLLSLPVLAAG
+ITMLLTDRNLNTTFFDPAGGGDPILYQHLFWFFGHPEVYILILPGFGIISHVVTYYSGKKEPFGYMGMVWAMMSIGFL
+GFIVWAHHMFTVGLDVDTRAYFTSATMIIAIPTGVKVFSWLATLHGGNIKWSPAMLWALGFIFLFTVGGLTGIVLSNS
+SLDIVLHDTYYVVAHFHYVLSMGAVFAIMAGFVHWFPLFSGYTLDDTWAKAHFAIMFVGVNMTFFPQHFLGLSGMPRR
+YSDYPDAYTTWNTVSSMGSFISLTAVLVMIFMIWEAFASKREVLSVSYSSTNLEWLHGCPPPYHTFEEPSYVKVK" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "cytochrome c oxidase subunit I" } } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 513 ,
+                              id
+                                local
+                                  str "BOR042_3" } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "BOR042_4" } ,
+                descr {
+                  title "cytochrome c oxidase subunit II (mitochondrion)
+ [Maxomys ochraceiventer]" ,
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 227 ,
+                  seq-data
+                    ncbieaa "MAYPFQLGLQDATSPIMEELMNFHDHTLMIVFLISTLVLYIISLMLTTK
+LTHTSTMDAQEVETIWTILPAVILILIALPSLRILYMMDEINNPVLTVKTMGHQWYWSYEYTDYEDLCFDSYMIPTND
+LKPGELRLLEVDNRVVLPMELPIRMLISSEDVLHSWAVPSLGLKTDAIPGRLNQATVTSNRPGLFYGQCSEICGSNHS
+FMPIVLEMVPLKHFENWSTSMI" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "cytochrome c oxidase subunit II" } } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 226 ,
+                              id
+                                local
+                                  str "BOR042_4" } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "BOR042_5" } ,
+                descr {
+                  title "ATP synthase F0 subunit 8 (mitochondrion) [Maxomys
+ ochraceiventer]" ,
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 67 ,
+                  seq-data
+                    ncbieaa "MPQLDTSTWFITIISSTITLFILFQLKLSSQTFPASPSPKTITTEKTKN
+PWESKWTKIYLPHSSHQQ" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "ATP synthase F0 subunit 8" } } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 66 ,
+                              id
+                                local
+                                  str "BOR042_5" } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "BOR042_6" } ,
+                descr {
+                  title "ATP synthase F0 subunit 6 (mitochondrion) [Maxomys
+ ochraceiventer]" ,
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 226 ,
+                  seq-data
+                    ncbieaa "MNENLFASFITPTMMGLPIVVTIIMFPSILFPSSERLISNRLHSFQHWL
+IKLIIKQMMLIHTPKGRTWTLMIVSLIMFIGSTNLLGLLPHTFTPTTQLSMNLSMAIPLWAGAVILGFRHKLKSSLAH
+FLPQGTPISLIPMLIIIETISLFIQPMALAVRLTANITAGHLLMHLIGGATLVLMDISPPTATITFIILLLLTMLEFA
+VALIQAYVFTLLVSLYLHDNT" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "ATP synthase F0 subunit 6" } } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 225 ,
+                              id
+                                local
+                                  str "BOR042_6" } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "BOR042_7" } ,
+                descr {
+                  title "cytochrome c oxidase subunit III (mitochondrion)
+ [Maxomys ochraceiventer]" ,
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 261 ,
+                  seq-data
+                    ncbieaa "MTHQTHAYHMVNPSPWPLTGAFSALLMTSGLVMWFHYNSSTLLSLGLLT
+NILTMYQWWRDIIREGTYQGHHTPIVQKGLRYGMILFIVSEVFFFAGFFWAFYHSSLVPTHDLGGCWPPTGITPLNPL
+EVPLLNTSVLLASGVSITWAHHSLMEGKRNHMNQALLITITLGLYFTILQASEYFETSFSISDGIYGSTFFMATGFHG
+LHVIIGSTFLIVCLLRQLKFHFTSKHHFGFEAAAWYWHFVDVVWLFLYVSIYWWGS" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "cytochrome c oxidase subunit III" } } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 260 ,
+                              id
+                                local
+                                  str "BOR042_7" } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "BOR042_8" } ,
+                descr {
+                  title "NADH dehydrogenase subunit 3 (mitochondrion) [Maxomys
+ ochraceiventer]" ,
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 115 ,
+                  seq-data
+                    ncbieaa "MNLLIIITINTFLSLTLVLIAFWLPQMNLYSEKANPYECGFDPTSSARL
+PFSMKFFLVAITFLLFDLEIALLLPLPWAIQSTNTTTMMASAFILVTILSLGLTYEWLQKGLEWTE" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "NADH dehydrogenase subunit 3" } } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 114 ,
+                              id
+                                local
+                                  str "BOR042_8" } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "BOR042_9" } ,
+                descr {
+                  title "NADH dehydrogenase subunit 4L (mitochondrion)
+ [Maxomys ochraceiventer]" ,
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 98 ,
+                  seq-data
+                    ncbieaa "MTSTFLNLTLAFTLSLLGTLMFRSHLMSTLLCLEGMMLSLFIMTSLSTL
+NSNSMASMPIPITILVFAACEAAVGLALLVKVSNTYGTDYVQNLNLLQC" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "NADH dehydrogenase subunit 4L" } } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 97 ,
+                              id
+                                local
+                                  str "BOR042_9" } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "BOR042_10" } ,
+                descr {
+                  title "NADH dehydrogenase subunit 4 (mitochondrion) [Maxomys
+ ochraceiventer]" ,
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 459 ,
+                  seq-data
+                    ncbieaa "MLKIIIPSIMLLPLTWLSKYKKIWINITSYSFLVSLTSLSLLWQNDENN
+LNFSITFSSDPLSTPLIILTTWLLPLMLLASQNHMKKETLYNQKLYISMLISLQILLIMTFSATELILFYILFEATLI
+PTLIIITRWGNQTERLNAGIYFLFYTLIGSIPLLIALISIQNSMGTLNFLILSLTAHPLESTWSNNILWLACMMAFLI
+KMPLYGVHLWLPKAHVEAPIAGSMILAAILLKLGGYGMMRISIILDPLTKHMAYPFILLSLWGMIMTSSICLRQTDLK
+SLIAYSSVSHMALVIASIMIQTPWSFMGATMLMIAHGLTSSLLFCLANTNYERIHSRTMIMARGLQMIFPLMATWWLT
+ASLANLALPPLINLMGELFIIMSMFSWSNPSIILTGLNIIITAMYSMYMIITTQRGKLTSHMINLQPSHTRELSLMAL
+HIIPLILLTTNPKLITGLTM" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "NADH dehydrogenase subunit 4" } } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 458 ,
+                              id
+                                local
+                                  str "BOR042_10" } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "BOR042_11" } ,
+                descr {
+                  title "NADH dehydrogenase subunit 5 (mitochondrion) [Maxomys
+ ochraceiventer]" ,
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 609 ,
+                  seq-data
+                    ncbieaa "MNIITSSILMIFILLMTPILISMTNLIQLINFPSYATSSIKFSFFLSLL
+PLLLFFYSNTEYMITSWHWITVSSIKLSMSFKIDYFSILFLSVALFVTWSIMQFSSWYMHSDPHINRFIKYLMLFLIT
+MLILTSANNLFQLFIGWEGVGIMSFLLIGWWYGRADANTAALQAILYNRIGDIGFILAMTWFCLNTNSWELQQILLSN
+NNNLIPLLGLLIAATGKSAQFSLHPWLPSAMEGPTPVSALLHSSTMVVAGIFLMIRFHPLTSNNSTILTMMLCLGALT
+TLFTAICALTQNDIKKIVAFSTSSQLGLMMVTLGINQPYLAFLHICTHAFFKAMLFMCSGSIIHSLNDEQDIRKMGNM
+TKTLPFTSSCLTIGSLALTGMPFLTGFYSKDLIIEAINTCNTNAWALLITLIATSMTAIYSMRIIYFVTMTKPRYSPL
+IIMNENNPDLINPIKRLALGSIMAGFFISYNIPPTNIQILTMPWYLKTTALFISILGFILALELNNLTLNFSMNKPTQ
+TSLFSTSLGYYPPIIHRIIPQKTLNPSFKLSLNLLDLIWLEKLIPKSTSTIHMQMSKTFTNQKGLVKLYFLSFLITLM
+LTLTLFILNPEWSQ" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "NADH dehydrogenase subunit 5" } } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 608 ,
+                              id
+                                local
+                                  str "BOR042_11" } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "BOR042_12" } ,
+                descr {
+                  title "NADH dehydrogenase subunit 6 (mitochondrion) [Maxomys
+ ochraceiventer]" ,
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 172 ,
+                  seq-data
+                    ncbieaa "MTNYMFILSLLFLIGCLGLALKPSPIYGGLGLIISGCIGCLMVLGFGGS
+FLGLMVFLIYLGGMLVVFGYTTAMATEEYPETWGSNWLVFSVLVLGLLMELVVVCFFDHYNEVELVDLSGLSDWLMYE
+VDDIGVMLEGGMGVATMYSCATWMMVVAGWSLFAGIFIIIEITRD" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "NADH dehydrogenase subunit 6" } } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 171 ,
+                              id
+                                local
+                                  str "BOR042_12" } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "BOR042_13" } ,
+                descr {
+                  title "cytochrome b (mitochondrion) [Maxomys
+ ochraceiventer]" ,
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 381 ,
+                  seq-data
+                    ncbieaa "MTNIRKTHPLLKIINHSFIDLPTPSNISSWWNFGSLLGVCLIIQIITGL
+FLAMHYTSDTMTAFSSVTHICRDVNYGWLIRYLHANGASMFFICLFLHVGRGIYYGSYAYMETWNIGVILLFAVMATA
+FMGYVLPWGQMSFWGATVITNLLSAIPYIGTTLVEWIWGGFSVDKATLTRFFAFHFILPFIIAALAIVHLLFLHETGS
+NNPTGLNSDADKIPFHPYYTIKDLLGIFILLLSLMILVLFFPDLLGDPDNYTPANPLNTPPHIKPEWYFLFAYAILRS
+IPNKLGGVVALVLSILILAFLPFLHTSKQRSLTFRPITQTLYWILVANLLILTWIGGQPVEHPFIIIGQLASISYFSI
+ILILMPISGMIEDKMLKWNP" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "cytochrome b" } } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 380 ,
+                              id
+                                local
+                                  str "BOR042_13" } } } } } } } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 2 } } ,
+                      product
+                        whole
+                          local
+                            str "BOR042_1" ,
+                      location
+                        int {
+                          from 2740 ,
+                          to 3696 ,
+                          strand plus ,
+                          id
+                            local
+                              str "BOR042" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 2 } } ,
+                      product
+                        whole
+                          local
+                            str "BOR042_2" ,
+                      location
+                        int {
+                          from 3904 ,
+                          to 4941 ,
+                          strand plus ,
+                          id
+                            local
+                              str "BOR042" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 2 } } ,
+                      product
+                        whole
+                          local
+                            str "BOR042_3" ,
+                      location
+                        int {
+                          from 5317 ,
+                          to 6861 ,
+                          strand plus ,
+                          id
+                            local
+                              str "BOR042" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 2 } } ,
+                      product
+                        whole
+                          local
+                            str "BOR042_4" ,
+                      location
+                        int {
+                          from 7000 ,
+                          to 7683 ,
+                          strand plus ,
+                          id
+                            local
+                              str "BOR042" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 2 } } ,
+                      product
+                        whole
+                          local
+                            str "BOR042_5" ,
+                      location
+                        int {
+                          from 7754 ,
+                          to 7957 ,
+                          strand plus ,
+                          id
+                            local
+                              str "BOR042" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 2 } } ,
+                      product
+                        whole
+                          local
+                            str "BOR042_6" ,
+                      location
+                        int {
+                          from 7915 ,
+                          to 8595 ,
+                          strand plus ,
+                          id
+                            local
+                              str "BOR042" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 2 } } ,
+                      comment "TAA stop codon is completed by the addition of
+ 3' Aresidues to the mRNA" ,
+                      product
+                        whole
+                          local
+                            str "BOR042_7" ,
+                      location
+                        int {
+                          from 8595 ,
+                          to 9379 ,
+                          strand plus ,
+                          id
+                            local
+                              str "BOR042" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 2 } } ,
+                      product
+                        whole
+                          local
+                            str "BOR042_8" ,
+                      location
+                        int {
+                          from 9447 ,
+                          to 9794 ,
+                          strand plus ,
+                          id
+                            local
+                              str "BOR042" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 2 } } ,
+                      product
+                        whole
+                          local
+                            str "BOR042_9" ,
+                      location
+                        int {
+                          from 9866 ,
+                          to 10162 ,
+                          strand plus ,
+                          id
+                            local
+                              str "BOR042" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 2 } } ,
+                      comment "TAA stop codon is completed by the addition of
+ 3' Aresidues to the mRNA" ,
+                      product
+                        whole
+                          local
+                            str "BOR042_10" ,
+                      location
+                        int {
+                          from 10156 ,
+                          to 11533 ,
+                          strand plus ,
+                          id
+                            local
+                              str "BOR042" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 2 } } ,
+                      product
+                        whole
+                          local
+                            str "BOR042_11" ,
+                      location
+                        int {
+                          from 11731 ,
+                          to 13560 ,
+                          strand plus ,
+                          id
+                            local
+                              str "BOR042" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 2 } } ,
+                      product
+                        whole
+                          local
+                            str "BOR042_12" ,
+                      location
+                        int {
+                          from 13538 ,
+                          to 14056 ,
+                          strand minus ,
+                          id
+                            local
+                              str "BOR042" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 2 } } ,
+                      comment "TAA stop codon is completed by the addition of
+ 3' Aresidues to the mRNA" ,
+                      product
+                        whole
+                          local
+                            str "BOR042_13" ,
+                      location
+                        int {
+                          from 14131 ,
+                          to 15274 ,
+                          strand plus ,
+                          id
+                            local
+                              str "BOR042" } } } } } } } } } }

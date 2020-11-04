@@ -1,0 +1,8 @@
+Model selection results for subset: f4e56db7151321ee210e9247b2b3dc1c
+Subset alignment stored here: ./analysis/phylofiles/f4e56db7151321ee210e9247b2b3dc1c.phy
+This subset contains the following data_blocks: p48_guu, p52_uac, p59_ugg, p57_uga, p61_uuc, p58_ugc, p38_ND6_pos2, p62_uug
+Number of columns in subset: 650
+Models are organised according to their AICc scores
+
+Model           | Parameters      | lnL             | AICc             | AIC             | BIC            
+GTR+G           | 9               | -1572.511       | 3163.3032        | 3163.022        | 3203.3147      

@@ -1,0 +1,8 @@
+Model selection results for subset: 384f369d70db5d1efd5b9efe939b82cf
+Subset alignment stored here: ./analysis/phylofiles/384f369d70db5d1efd5b9efe939b82cf.phy
+This subset contains the following data_blocks: p39_ND6_pos3
+Number of columns in subset: 173
+Models are organised according to their AICc scores
+
+Model           | Parameters      | lnL             | AICc             | AIC             | BIC            
+GTR+G           | 9               | -1216.6671      | 2452.4385        | 2451.3342       | 2479.7139      

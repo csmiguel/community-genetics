@@ -1,0 +1,8 @@
+Model selection results for subset: 9659262f81446d5b9c518fda92800312
+Subset alignment stored here: ./analysis/phylofiles/9659262f81446d5b9c518fda92800312.phy
+This subset contains the following data_blocks: p13_COX3_pos1, p1_ATP6_pos1, p16_CYTB_pos1, p19_ND1_pos1
+Number of columns in subset: 1186
+Models are organised according to their AICc scores
+
+Model           | Parameters      | lnL             | AICc             | AIC             | BIC            
+GTR+G           | 9               | -3672.0435      | 7362.2397        | 7362.087        | 7407.792       

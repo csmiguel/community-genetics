@@ -1,0 +1,50 @@
+>BOR002;ATP8;len=204;[7757:7960](+)
+atgccacaac tagacacatc cacatgattt atcaccatca tctctacaat aattacatta
+tttattttat ttcaacttaa attatcctca caaactttcc cagcatctcc ctcacctaaa
+attgtagcca cagaaaaaac aaaaaaccct tgagaattaa aatgaacgaa aatctatttg
+cctcttttat ca
+>BOR003;ATP8;len=192;[7763:7954](+)
+atgccacaat tagatacatc tacttgattt atcacaattg tatcctcaat aatcacatta
+tttattctat ttcaattaaa aatttcctca caaactttcc ctgcagcccc ttcacaaaaa
+gttataacca cagaaaaaac aaaaaaccct tgagaatcaa aatgaacgaa aatctatttg
+cctcttttat aa
+>BOR036;ATP8;len=204;[7743:7946](+)
+atgccccaac tagatacatc cacatgattt atcacaattg tgtcctctat acttacatta
+ttcatcctat ttcaattaaa aatctcttca caaactttcc ctacagctcc ctcacaaaaa
+acagtaatta cagaaaaaac aaaaacccct tgagaatcaa aatgaacgaa aatctattct
+cctctttcat ta
+>BOR042;ATP8;len=204;[7755:7958](+)
+atgccacaac tagacacatc cacatgattc attaccatca tttcttcaac aatcacacta
+ttcatcttat tccaattaaa actctcctca caaaccttcc cagcatcacc ttcacctaaa
+accattacca cagaaaaaac aaaaaaccct tgagaatcaa aatgaacgaa aatctatttg
+cctcattcat ca
+>BOR352;ATP8;len=204;[7750:7953](+)
+atgccacaac tagatacatc cacatgattt attacaatta tatcatcaat agccacttta
+ttcattttat ttcaattaaa aatctcttcg caaatcttcc cggcagctcc ctcaccaaaa
+gttatatcca cagaaaaaac aaaaaaccct tgagaatcaa aatgaacgaa aatctatttg
+cctcttttat ta
+>BOR531;ATP8;len=204;[7757:7960](+)
+atgccacaac tagatacatc cacatgattt attacaattg tttcctcaat aattacatta
+tttatcctgt ttcaattaaa aatctcttcc caaaccttct ctgcagcgcc ttcacccaaa
+attgtagcca cagaaaaaac aaacaaccct tgagaatcaa aatgaacgaa aatctatttg
+cctctttcat ca
+>BOR567;ATP8;len=204;[7749:7952](+)
+atgccacaac tagacacatc tacatgattc attacaatta tctcctcaat aattacatta
+tttatcctat ttcaattaaa aatttcttcc caaaccttcc ctgcagcccc atcacctaaa
+actatagcca cagaaaaaac aaacaaccct tgagagttaa aatgaacgaa aatttatttg
+cctcttttat ca
+>EBD2012-064-084;ATP8;len=204;[7764:7967](+)
+atgccacaac tagatacatc aacatgattt atcacaatta tttcatcaat aattacccta
+tttattttgt ttcaactaaa agtctcatca caaacattcc cactggcacc ttcaccaaag
+ttactaacaa ccataaaagt aaaaacccct tgagaatcaa aatgaacgaa aatctatttg
+cctcattcat ta
+>EBD2012-064-125;ATP8;len=204;[7762:7965](+)
+atgccacaac tagacacatc cacatgattt attacaatca tttcctcaat aattacatta
+tttatcctat ttcaattaaa aatctcttcc caaaccttcc ctacagcccc ctcacccaaa
+attatagcca cagaaaaaac aagcaaccct tgagaatcaa aatgaacgaa aatctatttg
+cctctttcat ta
+>EBD2012064590;ATP8;len=204;[7760:7963](+)
+atgccacaac tagacacatc cacatgattt attacaatca tctcctcaat agccacacta
+tttattttat ttcaattaaa aatttcttcc caaacctttc ctgcacctcc ctcccccaaa
+actatagcca cagaaaaaac gaataaccct tgagaatcaa aatgaacgaa aatctatttg
+cctctttcat ta

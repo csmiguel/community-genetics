@@ -1,0 +1,8 @@
+Model selection results for subset: 851dace7fd33f73b76968e1f5c3c9a54
+Subset alignment stored here: ./analysis/phylofiles/851dace7fd33f73b76968e1f5c3c9a54.phy
+This subset contains the following data_blocks: p22_ND2_pos1, p34_ND5_pos1, p31_ND4_pos1
+Number of columns in subset: 1410
+Models are organised according to their AICc scores
+
+Model           | Parameters      | lnL             | AICc             | AIC             | BIC            
+GTR+G           | 9               | -5569.823       | 11157.775        | 11157.646       | 11204.908      

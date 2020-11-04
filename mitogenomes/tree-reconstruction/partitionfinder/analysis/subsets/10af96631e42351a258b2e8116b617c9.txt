@@ -1,0 +1,8 @@
+Model selection results for subset: 10af96631e42351a258b2e8116b617c9
+Subset alignment stored here: ./analysis/phylofiles/10af96631e42351a258b2e8116b617c9.phy
+This subset contains the following data_blocks: p49_l-rRNA
+Number of columns in subset: 1533
+Models are organised according to their AICc scores
+
+Model           | Parameters      | lnL             | AICc             | AIC             | BIC            
+GTR+G           | 9               | -5311.2524      | 10640.623        | 10640.505       | 10688.52       

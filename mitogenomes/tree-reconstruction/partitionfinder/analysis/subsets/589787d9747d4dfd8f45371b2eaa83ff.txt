@@ -1,0 +1,8 @@
+Model selection results for subset: 589787d9747d4dfd8f45371b2eaa83ff
+Subset alignment stored here: ./analysis/phylofiles/589787d9747d4dfd8f45371b2eaa83ff.phy
+This subset contains the following data_blocks: p17_CYTB_pos2, p51_uaa, p14_COX3_pos2
+Number of columns in subset: 715
+Models are organised according to their AICc scores
+
+Model           | Parameters      | lnL             | AICc             | AIC             | BIC            
+GTR+G           | 9               | -1243.0645      | 2504.3843        | 2504.129        | 2545.2795      

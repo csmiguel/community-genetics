@@ -1,0 +1,8 @@
+Model selection results for subset: 96a9b2640b18eae95a5cb044f4a04a6b
+Subset alignment stored here: ./analysis/phylofiles/96a9b2640b18eae95a5cb044f4a04a6b.phy
+This subset contains the following data_blocks: p10_COX2_pos1, p7_COX1_pos1
+Number of columns in subset: 743
+Models are organised according to their AICc scores
+
+Model           | Parameters      | lnL             | AICc             | AIC             | BIC            
+GTR+G           | 9               | -1713.9442      | 3446.134         | 3445.8884       | 3487.3848      

@@ -1,0 +1,1904 @@
+Seq-submit ::= {
+  sub {
+    contact {
+      contact {
+        name
+          name {
+            last "MENG" ,
+            first "Guanliang" ,
+            middle "" ,
+            initials "" ,
+            suffix "" ,
+            title "" } ,
+        affil
+          std {
+            affil "BGI-Shenzhen" ,
+            div "China National GeneBank" ,
+            city "Shenzhen" ,
+            sub "Guangdong" ,
+            country "China" ,
+            street "Beishan Industrial Zone, Beishan Road, Yantian District" ,
+            email "mengguanliang@genomics.cn" ,
+            postal-code "518083" } } } ,
+    cit {
+      authors {
+        names
+          std {
+            {
+              name
+                name {
+                  last "MENG" ,
+                  first "Guanliang" ,
+                  middle "" ,
+                  initials "" ,
+                  suffix "" ,
+                  title "" } } } ,
+        affil
+          std {
+            affil "BGI-Shenzhen" ,
+            div "China National GeneBank" ,
+            city "Shenzhen" ,
+            sub "Guangdong" ,
+            country "China" ,
+            street "Beishan Industrial Zone, Beishan Road, Yantian District" ,
+            postal-code "518083" } } ,
+      date
+        std {
+          year 2020 ,
+          month 4 ,
+          day 8 } } ,
+    subtype new ,
+    tool "tbl2asn 25.6 - LINUX UNIX" } ,
+  data
+    entrys {
+      set {
+        class genbank ,
+        seq-set {
+          set {
+            class nuc-prot ,
+            descr {
+              source {
+                genome mitochondrion ,
+                org {
+                  taxname "Mus spretus" ,
+                  orgname {
+                    mod {
+                      {
+                        subtype specimen-voucher ,
+                        subname "EBD2012-064-084" } } ,
+                    mgcode 2 } } ,
+                subtype {
+                  {
+                    subtype country ,
+                    name "Spain" } } } ,
+              pub {
+                pub {
+                  gen {
+                    cit "Unpublished" ,
+                    authors {
+                      names
+                        std {
+                          {
+                            name
+                              name {
+                                last "MENG" ,
+                                first "Guanliang" ,
+                                initials "G." } } } } ,
+                    title "MitoZ: a toolkit for animal mitochondrial genome
+ assembly,annotation and visualization; doi:
+ https://doi.org/10.1093/nar/gkz173" } } } ,
+              user {
+                type
+                  str "NcbiCleanup" ,
+                data {
+                  {
+                    label
+                      str "method" ,
+                    data
+                      str "SeriousSeqEntryCleanup" } ,
+                  {
+                    label
+                      str "version" ,
+                    data
+                      int 8 } ,
+                  {
+                    label
+                      str "month" ,
+                    data
+                      int 4 } ,
+                  {
+                    label
+                      str "day" ,
+                    data
+                      int 8 } ,
+                  {
+                    label
+                      str "year" ,
+                    data
+                      int 2020 } } } ,
+              create-date
+                std {
+                  year 2020 ,
+                  month 4 ,
+                  day 8 } } ,
+            seq-set {
+              seq {
+                id {
+                  local
+                    str "EBD2012-064-084" } ,
+                descr {
+                  title "[organism=Test sp.] [topology=circular]
+ [location=mitochondrion]" ,
+                  molinfo {
+                    biomol genomic } } ,
+                inst {
+                  repr raw ,
+                  mol dna ,
+                  length 16302 ,
+                  topology circular ,
+                  seq-data
+                    iupacna "GTTAATGTAGCTTAATAACAAAGCAAAGCACTGAAAATGCTTAGATGGA
+TAACTTATCCCATAAACACAAAGGTTTGGTCCTGGCCTTATAATTAGTTAGAGGTAAAATTACACATGCAAACCTCCA
+TAAACCGGTGTAAAATCCCTTAAACATTTATATAAACTTTAAGGAGAGGGTATCAAGCACATTAAAATAGCTTAAGAC
+ACCTTGCCTAGCCACACCCCCACGGGACTCAGCAGTGATAAATATTAAGCAATAAACGAAAGTTTGACTAAGTTATAC
+CTCTTAGGGTTGGTAAATTTCGTGCCAGCCACCGCGGTCATACGATTAACCCAAACTAATTATTTTCGGCGTAAAATG
+TGTCAACTATAAATAAATAAATAGAATTAAAATCCAACTTATATGTGAAAATTCATTGTTAGGACCTAAACTCAATAA
+CGAAAGTAATTCTAATCATTTATAATACACGACAGCTAAGACCCAAACTGGGATTAGATACCCCACTATGCTTAGCCA
+TAAACCTAAATAATTAAATTTAACAAAACTATTTGCCAGAGAACTACTAGCCATAGCTTAAAACTCAAAGGACTTGGC
+GGTACTTTATATCCGTCTAGAGGAGCCTGTTCTATAATCGATAAACCCCGCTCTACCTCACCATCTCTTGCTAATTCA
+GCCTATATACCGCCATCTTCAGCAAACCCTAAAAAGGTATTAAAGTAAGCAAAAGAATCAAACATAAAAACGTTAGGT
+CAAGGTGTAGCCAATGAAATGGGAAGAAATGGGCTACATTTTCTTTTAAAAGAACATTACCATGCCCTTTATGAAACT
+AAAGGATTAAGGAGGATTTAGTAGTAAATTAAGAATAGAGAGCTTAATTGAATTGAGCAATGAAGTACGCACACACCG
+CCCGTCACCCTCCTCAAATTAAATCAAACTTAACATAATTAATTCCTAGACAACCCATTTATGAGAGGAGATAAGTCG
+TAACAAGGTAAGCATACTGGAAAGTGTGCTTGGAATAATCATAGTGTAGCTTAATATTAAAGCATCTGGCCTACACCC
+AGAAGAATTCATGACTAATGGACACTCTGAACTAATCCTAGCCCTAGCCTTCACAAATATAATTACATCATTTCATAA
+ATCAAAACATTTAACCCACTAAAAGTATTGGAGAAAGAAATTCGTACATCTAGGAGCTATAGAACTAGTACCGTAAGG
+GAAAGATGAAAGATCAATTAAAAGTAAAAATAAGCAAAGATTAAACCTTGTACCTTTTGCATAATGAATTAACTAGAA
+AACTTCTAACTAAAAGAATTACAGCTAGAAACCCCGAAACCAAACGAGCTACCTAAAAACAATTTAATGAATCAACTC
+GTCTATGTGGCAAAATAGTGAGAAGATTTTTAGGTAGAGGTGAAAAGCCTAACGAGCTTGGTGATAGCTGGTTACCCA
+AAAAATGAATTTAAGTTCAACTTTAAACTTGCTAAAAAACAATAAAATCAAAAAGTAAGTTTAAATTATAGCCAAAAG
+AGGGACAGCTCTTTTGGAACGGAAAAAACCTTTAATAGTGAATAATTAATAAATCAACCTTTAACCATTGTAGGCCTA
+AAAGCAGCCACCAACAAAGAAAGCGTTCAAGCTCAACATAAAATTTTAACTAATCTCACAATTTACATCAACTTCCTA
+AACTTAAAATTGGGTTAATCTATAGTTTTATAGATGCAACACTGTTAGTATGAGTAACAAGAATTCTAATTCTCCAGG
+CATACGCATATAACAACTCGGATAACCATTGTTAGTTAATCAAACTATAGGCTATACTTATAATATAAACAATTTACC
+TATAACTACTCTGTTAACCCAACACCGGAATGCCTTAAGGAAAGATCTAAAAAGATAAAAGGAACTCGGCAAACAAGA
+ACCCCGCCTGTTTACCAAAAACATCACCTCTAGCATAACAAGTATTAGAGGCACTGCCTGCCCAGTGACTAAAGTTTA
+ACGGCCGCGGTATCCTGACCGTGCAAAGGTAGCATAATCACTTGTTCCTTAATTAGGGACTAGCATGAATGGCTAAAC
+GAGGGTTCAACTGTCTCTTATCTTTAATCAGTGAAATTGACCTTTCAGTGAAGAGGCTGAAATACAATAATAAGACGA
+GAAGACCCTATGGAGCTTAAATTACACGACTTATCTATTCATTTTATAAACCTAATGGCCCAAAAACTATAGTGTAAG
+TCTGAAATTTCGGTTGGGGTGACCTCGGAGAATAAAAAATCCTCCGAATGATTATAACCTAGACCTACAAGTCAAAGT
+AAAATCAACATATCTTATTGACCCAATACATTTTGATCAACGGACCAAGTTACCCTAGGGATAACAGCGCAATCCTAT
+TTAAGAGTTCATATCGACAATCAGGGTTTACGACCTCGATGTTGGATCAGGACATCCCAATGGTGTAGAAGCTATTAA
+TGGTTCGTTTGTTCAACGATTAAAGTCCTACGTGATCTGAGTTCAGACCGGAGCAATCCAGGTCGGTTTCTATCTATT
+TACAATTTCTCCCAGTACGAAAGGACAAGAGAAATAGAGCCACCTTACAAATAAGCGCTCTCAACTTAATTTATGAAT
+AAATCTTAATAAAATATGTATGTACATCCTCTAACCTAGAGAAGGTTATTAGGGTGGCAGAGCCAGGAAATTGCGTAA
+GACTTAAAACCTTGTTCCCAGAGGTTCAAATCCTCTCCCTAATAGTGTTCTTTATCAACATTTTAACACTCCTCCTAC
+CTATCCTAATCGCTATGGCTTACCTAACACTAGTAGAACGCAAAATCTTAGGGTACATACAACTACGAAAAGGCCCTA
+ACGTCGTAGGCCCATACGGTATTCTACAACCATTTGCAGACGCCATAAAACTATTTATTAAAGAACCAATACGCCCCT
+TAACAACCTCTATATCTTTGTTTATCATCGCACCAACTCTATCACTCACACTAGCATTAAGCCTATGAGTTCCTCTAC
+CAATACCTTACCCATTAATTAATTTAAACCTAGGGATTTTATTTATTCTAGCAACATCCAGCCTATCAGTTTACTCCA
+TTCTATGATCCGGATGAGCCTCAAACTCCAAATACTCACTATTCGGAGCTCTACGAGCTGTAGCCCAAACAATTTCAT
+ACGAAGTAACCATAGCCATTATCCTCTTATCAGTGCTGTTAATAAGTGGGTCCTACTCCTTACAAACACTTATTACAA
+CCCAAGAGCACATATGACTAGTACTGCCGGCCTGACCCATAGCCATAATATGATTTATCTCCACTCTAGCAGAAACAA
+ACCGAGCACCCTTCGACCTAACAGAAGGGGAATCTGAATTAGTATCAGGATTTAATGTAGAGTACGCAGCCGGTCCAT
+TTGCATTGTTCTTCATAGCAGAATATACTAACATTATTCTAATAAATGCCCTAACAACCATTATCTTCCTAGGACCCC
+TATATTATATTAACCTACCAGAACTATACTCAACTAACTTCATAACAGAAGCCTTACTACTATCATCAACATTCCTAT
+GAATTCGAGCATCCTACCCCCGTTTTCGCTACGACCAACTAATACATCTCCTATGAAAAAACTTTTTACCCCTAACAC
+TAGCATTATGTATATGACACATTTCCTTACCAATTTTTACAGCGGGGACGCCTCCATACATATAGAAATATGTCTGAC
+AAAAGAGTTACTTTGATAGAGTAAATAATAGAGGTTTAAACCCTCTTATTTCTAGGACAATAGGAATTGAACCTACAC
+TTAAGAATTCAAAATTCTTCGTGCTACCTAAACACCTCATCCTATAGTAAGGTCAGCTAATTAAGCTATCGGGCCCAT
+ACCCCGAAAACGTTGGTTTAAATCCTTCCCGTACTAATAAATCCTATAACCCTTGCTATCATCTACTTAACAATTTTC
+CTAGGCCCTGTAATTACAATATCTAGCACTAACCTCATGCTAATATGAGTAGGCCTAGAATTTAGCCTATTAGCAATT
+ATCCCTATACTAATTAATAAAAAAAACCCACGATCAACTGAAGCAGCAACAAAATATTTTGTCACCCAAGCAACAGCC
+TCAATAATTATTCTCCTGGCCATTGTACTCAATTATAAACAATTAGGAACATGGGTATTTCAACAACAAACAAACGGC
+CTTATCCTCAACATAACATTAATGGCCCTATCCATGAAATTAGGCCTCGCCCCCTTCCACTTCTGACTACCAGAAGTA
+ACTCAAGGAATCCCGCTACATATAGGACTTATCCTTCTCACATGACAAAAAATTGCCCCCCTATCAATCTTAATCCAA
+ATTTATCCACTACTTAATCCCACTATCATTTTAATACTAGCAATTACTTCAATCTTCATAGGAGCATGAGGAGGACTT
+AATCAAACACAAATACGAAAAATTATAGCCTACTCATCAATTGCCCATATAGGATGAATACTAGCAATTCTTCCTTAT
+AACCCATCTCTTACACTACTCAACCTTATAATCTATATTATTCTCACAATTCCTATATTTATAGCACTTATACTAAAC
+AACTCTATAACCATTAACTCGATCTCACTTCTATGAAATAAAACCCCAGCAATACTAACCATAATTTCACTAATACTA
+TTATCCCTAGGAGGCCTCCCGCCACTGACAGGATTTTTACCTAAATGAATTATCATTACGGAGCTTATAAAAAATAAT
+TGCCTAATTATAGCAACACTCATAGCAATGATAGCCCTACTAAACCTATTCTTCTATACTCGCCTAATTTATTCTACT
+TCACTAACAATATTTCCAACCAACAATAACTCAAAAATGATAACTCACCAAACAAAAACTAAACCTAACCTAATATTT
+TCTACCCTGGCTGTTATAAGTACAATAACCCTACCCCTGGCCCCCCAACTAATTACCTAGAAGTTTAGGATATTATAG
+TCCACGGGCCTTCAAAGCCCTAAGAAAACACGCAAGTTTAACTTCTGATAAGGACTGTAAGACTCTATCCTACATCTA
+TTGAATGCAAATCAATTGCTTTAATTAAGCTAAGACCTCAACTAGATTGGCAGGAATTAAACCTACGAAATTTTAGTT
+AACAGCTAAATACCCTATTACTGGCTTCAATCTACTTCTACCGCCATAAAAAAAAAGAAAATGGCGGTAGAAGTCTTA
+GTAGAGGATTTCTCTACACCTTCGAATTTGCAATTCGACATGAATATCACCTTAAGACCTCTGGTAAAAAGAGGATTT
+AAACCCCTGTGTTTAGATTTACAGTCTAATGCTTACTCAGCCATTTTACCTATGTTCATTAATCGCTGATTATTCTCA
+ACCAATCATAAAGATATCGGAACCCTGTATTTACTATTCGGAGCCTGAGCAGGAATAGTAGGTACTGCCCTAAGTATT
+TTAATTCGAGCAGAATTAGGTCAACCAGGTGCACTCTTAGGAGATGACCAAATTTATAATGTTATCGTAACTGCCCAT
+GCATTTGTTATAATTTTCTTTATAGTTATACCAATAATAATTGGAGGCTTTGGAAACTGACTTGTCCCACTAATAATT
+GGAGCCCCAGACATGGCATTCCCACGAATAAATAATATAAGTTTCTGACTTCTACCCCCATCATTCCTTCTTCTCCTA
+GCATCATCAATAGTTGAAGCAGGAGCAGGAACAGGATGAACAGTCTACCCTCCTCTAGCCGGAAATCTAGCCCATGCA
+GGAGCATCAGTAGACCTAACAATTTTCTCCCTTCATCTAGCTGGAGTTTCGTCTATTTTAGGTGCTATTAATTTTATT
+ACCACCATTATCAATATAAAACCCCCAGCCATAACACAGTATCAAACCCCACTCTTTGTATGATCCGTACTTATTACA
+GCTGTACTACTCCTACTATCACTACCAGTACTAGCCGCAGGCATTACTATACTGTTAACAGACCGCAACCTTAACACA
+ACTTTCTTTGATCCCGCTGGAGGAGGGGACCCAATTCTCTACCAACATCTATTCTGATTTTTCGGCCACCCAGAAGTT
+TATATTCTTATTCTTCCAGGATTCGGAATTATTTCACACGTAGTTACCTACTACTCTGGAAAAAAAGAACCCTTCGGC
+TACATAGGAATAGTATGGGCAATAATGTCCATTGGCTTCCTAGGCTTTATTGTATGAGCCCATCACATATTCACAGTA
+GGACTGGACGTAGACACACGAGCTTACTTTACATCAGCCACTATAATTATCGCAATTCCTACCGGTGTTAAAGTATTT
+AGCTGACTTGCAACCCTGCACGGAGGCAATATTAAATGATCCCCAGCTATGCTATGAGCCTTAGGCTTTATTTTCTTA
+TTTACAGTCGGTGGTCTTACCGGAATTGTCCTATCTAACTCTTCCCTTGACATTGTGCTCCACGACACATACTATGTA
+GTAGCCCATTTCCATTATGTTTTATCTATAGGAGCAGTATTTGCTATCATAGCAGGATTTGTTCACTGATTCCCACTA
+TTTTCAGGCTACACCCTAGATGATACATGAGCAAAAGCCCACTTCGCCATCATATTCGTAGGAGTAAACATAACATTC
+TTCCCTCAACATTTCCTAGGTCTTTCAGGTATACCACGACGCTACTCAGACTACCCAGACGCTTACACCACATGAAAC
+ACTGTCTCTTCGATAGGGTCATTCATTTCACTAACAGCTGTACTCATTATAATCTTTATAATCTGAGAAGCCTTTGCT
+TCAAAACGAGAAGTAATATCAGTATCATATGCCTCAACAAATTTAGAATGACTTCATGGCTGCCCTCCACCCTACCAC
+ACATTCGAAGAGCCAACCTATGTGAAAGTAAAATAAGAAAGGAAGGAATCGAACCCCCTTAAATTGGTTTCAAGCCAA
+CCTCATATCCTATATGTCTTTCTCAATAAGATATTAGTAAAACAATTACATAACTTTGTCGAAGTTAAATTATAGACT
+AAAGATCTATATATCTTACATGGCCTACCCATTCCAACTAGGTTTACAAGACGCCACATCCCCCATTATAGAAGAACT
+AACAAATTTCCACGACCACACATTAATAATTGTCTTCCTAATTAGCTCCTTAGTCCTCTACATTATTTCACTAATATT
+AACAACAAAACTAACACATACAAGCACAATAGATGCACAAGAAGTTGAAACCATTTGAACCATTCTGCCAGCCGTAAT
+CCTTATTATAATTGCTCTCCCTTCTCTACGCATTTTATATATGATAGACGAAATTAATAACCCCGTCTTAACCGTGAA
+GACCATAGGACATCAGTGATACTGAAGCTACGAGTATACTGACTATGAGGACCTATGCTTTGACTCATACATAATTCC
+AACAAATGACTTGAAACCTGGCGAACTACGACTACTAGAAGTTGACAACCGAGTCGTCCTACCAATAGAACTTCCAAT
+CCGTATGCTAATCTCATCCGAAGATGTCCTCCATTCATGAGCTGTGCCCTCACTAGGACTAAAAACCGACGCCATCCC
+AGGCCGACTGAATCAAGCAACAGTAACATCAAACCGACCAGGATTATTCTACGGCCAATGCTCTGAAATTTGCGGATC
+TAACCATAGCTTTATACCCATTGTCCTTGAAATGGTTCCACTAAAATATTTTGAAAACTGATCTGCTTCAATAATTTA
+AACTCACTATGAAGCTAAGAGCGTTAACCTTTTAAGTTAAAGATAGAGACCTTAAAATCTCCATAGTGATATGCCACA
+ACTAGATACATCAACATGATTTATCACAATTATTTCATCAATAATTACCCTATTTATTTTGTTTCAACTAAAAGTCTC
+ATCACAAACATTCCCACTGGCACCTTCACCAAAGTTACTAACAACCATAAAAGTAAAAACCCCTTGAGAATCAAAATG
+AACGAAAATCTATTTGCCTCATTCATTACCCCAACAATAATAGGATTTCCAATCGTCGTAGCCATCATTATATTTCCT
+TCTATCCTATTTCCATCCTCAAAACGCCTAATTAACAACCGACTCCATTCTTTCCAACACTGACTAATTAAACTTATT
+ATTAAACAAATAATACTAATTCACACACCAAAAGGACGGACATGAACTTTAATGATCGTATCCCTAATTATATTTATT
+GGATCAACAAATCTCCTAGGCCTTTTACCACATACATTTACACCTACTACCCAACTATCCATAAACCTAAGTATGGCC
+ATCCCACTATGAGCTGGGGCCGTAATTACAGGATTTCGACATAAACTAAAAAGCTCCCTTGCCCACTTCCTTCCACAA
+GGAACCCCAATTTCACTAATCCCAATACTTATTATTATCGAAACAATTAGCCTATTTATTCAACCCATGGCATTAGCA
+GTCCGACTAACAGCTAACATCACCGCAGGACACTTATTAATACACCTAATCGGAGGGGCTACTCTAGTACTAATAAAC
+ATTAGCCCGCCAACAGCTACCATTACATTTATTATTTTACTTCTTCTTACAGTCCTAGAATTTGCAGTAGCATTAATT
+CAAGCCTACGTATTTACCCTCTTAGTAAGCCTATACTTACATGACAATACATAATGACCCACCAAACTCATGCATATC
+ACATAGTTAACCCAAGTCCATGACCATTAACCGGAGCATTTTCAGCCCTCCTTCTAACATCAGGTCTGGTAATATGAT
+TTCACTATAGTTCAATCACACTGTTGACCCTTGGCCTACTCACCAATATCCTCACAATATATCAATGATGACGAGACG
+TTATCCGTGAAGGAACCTACCAAGGCCATCACACTCCTATCGTACAAAAAGGACTTCGATATGGTATGATCCTGTTTA
+TTGTCTCAGAAGTATTCTTTTTTGCAGGATTTTTCTGAGCTTTCTATCATTCTAGCCTCGTACCAACACATGATCTTG
+GAGGTTGCTGACCTCCAACAGGAATTTCACCACTTAACCCCCTAGAGGTTCCACTACTCAATACATCAGTACTTCTAG
+CATCAGGAGTTTCAATCACATGAGCTCACCATAGTCTAATAGAAGGTAAGCGAAACCATATAAATCAAGCCCTACTAA
+TTACCATTATTCTAGGACTTTACTTCACCATCCTACAAGCTTCAGAATACTTTGAAACATCATTCTCCATTTCAGACG
+GTATTTATGGATCAACATTCTTCATAGCCACTGGATTCCATGGACTACATGTAATTATCGGATCAACATTCCTTATTG
+TTTGCCTACTACGACAACTAAAATTTCACTTTACATCAAAACATCACTTTGGATTTGAAGCCGCAGCATGATACTGAC
+ATTTTGTAGACGTAGTCTGACTTTTCCTATATGTCTCCATTTATTGATGAGGATCATACTCCCTTAGTATAACTAATA
+TAACTGACTTCCAATTAGTAGATTCTGGAGAAATCCAGAAGAGAGTAATCAACCTGTACATTATCATCTTCATTAATA
+TTTTATTATCCCTAACACTAATTTTGGTTGCATTCTGGCTTCCCCAAATAAATTTATATTCAGAAAAAGCAAACCCAT
+ATGAATGCGGTTTTGACCCTACAAGCTCCGCACGACTACCATTCTCAATAAAATTTTTCTTAGTAGCTATTACATTCC
+TTCTATTTGACCTAGAAATTGCACTTCTCCTTCCACTGCCCTGAGCAATCCAAACAATTAAAACCTCTACTATAATAA
+CCATAGCCTTTATTCTAGTCACAATCCTATCCCTAGGCCTAGCATACGAATGAACACAAAAGGGATTAGAGTGGACAG
+AATAAATGGTAATTAGTTTAAATAAAAATTAATGATTTCGACTCATTAGATTATGATGATACTCATAATTACCAATAT
+GCCATCTGCCTTCTTCAACCTGACCATAGCCTTCTCACTATCACTTCTAGGGACACTTATATTTCGCTCTCACCTAAT
+ATCCACATTACTATGTCTAGAAGGCATAATATTATCCTTATTTATTATAACTTCAGTAGCCTGCCTAAATTCCAACTC
+CATAAGCTCTATACCAATCCCTATTACCATCCTAGTCTTTGCAGCCTGTGAAGCAGCTGTAGGACTAGCCTTACTAGT
+AAAAATTTCAAATACGTACGGAACAGACTACGTCCAAAACCTCAACCTCCTACAATGCTAAAAATTATTTTCCCCTCA
+CTGATACTACTTCCACTAACCTGATTATCTAACCCCAAAAAAACCTGAACAAACGTAACCTCATACAGTTTTTTAATT
+AGCCTAGTCAGCCTCTCACTCCTATGACAAACCGACGAAAATTATAAAAACTTCTCAAACATATTTTCCTCAGATCCT
+CTATCCACACCATTAATTATCTTAACAGCCTGATTACTGCCACTAATATTAATAGCTAGTCAAAACCACCTAAAAAAA
+GATAATAACGTCCTACAAAAGCTCTACATCTCAATGCTAGTCAGTTTACAAGCTCTCCTAATCATAACTTTCTCAGCA
+ACTGAACTAATTATATTCTATATTTTATTTGAAGCAACCTTAATCCCAACACTTATTATCATTACCCGATGAGGGAAT
+CAAACTGAACGCTTAAATGCAGGAATTTACTTCCTATTTTACACCCTAATCGGCTCTATTCCACTACTAATTGCCCTC
+ATCCTTATCCAAAACCACATCGGAACTCTAAACCTCATAATTCTATCATTCACAACACACGCCCTAAACACCTCATGA
+TCTAATAACTTACTATGGCTAGCATGTATAATAGCATTTCTCATTAAAATACCACTATATGGAGTCCACTTGTGACTC
+CCTAAGGCCCATGTTGAGGCTCCTATTGCCGGATCAATAATTCTAGCCGCGATTCTTCTAAAATTAGGTAGCTACGGA
+ATAATTCGCATCTCCATTATTCTAGACCCACTAACAAAATATATAGCGTACCCCTTCATCCTTCTATCCTTATGAGGA
+ATAATTATAACTAGCTCGATCTGCTTACGCCAAACAGATTTAAAATCACTAATTGCCTACTCCTCAGTCAGCCATATA
+GCACTTGTTATTGCATCAATCATGATTCAAACCCCATGAAGCTTTATAGGAGCAACAATACTAATAATTGCTCATGGT
+CTCACATCATCGCTCCTATTCTGCCTAGCTAATTCCAACTACGAACGAATTCACAGTCGTACTATGATTATGGCCCGT
+GGACTTCAAATGGTCTTCCCACTCATAGCCACATGATGACTAATAGCAAGTTTAGCTAATCTAGCCCTACCCCCCTCA
+ATCAACCTAATAGGCGAACTGTACATTACTATATCATTATTCTCTTGATCTAACTTTACCATCATCCTCATAGGAATT
+AATATTATTATTACAGGTATGTACTCAATATACATAATTATCACCACCCAACGTGGCAAACTAACCAACCATATAATT
+AACCTCCAACCCTCACACACACGAGAACTAACACTAATGGCCCTGCACATAATCCCACTTATTCTTCTAACCATTAGT
+CCTAAACTCATTACAGGCCTGACAATTTGTGAATATAGTTTACAAAAAACATTAGACTGTGAATCTAACAACAGGAAA
+TAAACCTCCTTATTCACCAAGGAAGCTTGCAAGAACTGCTAATTCATGCTTCCATGTTTAAAGACATGGCTTTCTTAC
+TTTTATAGGATAATAGTAATCCATTGGTCTTAGGAACCAAAAACCTTGGTGCAAATCCAAATAAAAGTAATCAACATT
+TTCACATCCTCAATCTTATTAATTTTCATTCTGCTACTGTCCCCAATCCTAATCTCAATATCAAACCTAATTAAGCAT
+ATCAACTTCCCACTGTATACCACCACATCAATCAAGTTCTCGTTCCTTATTAGCCTCTTACCCCTATTAATATTCTTC
+CACAATAATATAGAATATATAATTACAACCTGACACTGAATCACTATAAACTCGATAGAATTAAAAATGAGCTTCAAA
+ATTGACTTTTTCTCGATCCTATTTATATCCGTAGCCCTTTTCGTCACATGATCAATCATACAGTTTTCTTCATGATAC
+ATGCACTCAGACCCAAACATCAACCGATTCATTAAATACCTTACACTATTCCTGATTACTATACTCATCCTCACCTCA
+GCCAACAACATATTCCAACTTTTCATCGGCTGAGAAGGAGTGGGGATTATATCTTTCCTACTGATTGGATGATGGTAC
+GGACGAACAGACGCAAACACTGCAGCCCTTCAAGCAATCCTCTACAACCGCATCGGAGATATCGGATTCATTTTAGCT
+ATAGTTTGATTTTCCCTAAACATAAACTCATGAGAACTTCAACAAATTATATTCTCCAACAATAACGACAATCTGCTC
+CCACTTCTAGGACTACTAATCGCAGCTACAGGAAAATCAGCACAATTTGGTCTCCACCCATGACTACCATCAGCAATA
+GAAGGCCCTACACCAGTTTCAGCTCTACTCCACTCAAGTACAATAGTAGTTGCAGGAATCTTCCTTCTAGTCCGATTT
+CACCCACTCACAACTAATAACAACTATATTTTAACAACTATACTTTGCCTTGGAGCCCTAACCACATTATTTACAGCT
+ATTTGTGCCCTCACACAAAACGATATCAAAAAAATTGTCGCTTTCTCCACATCAAGTCAACTAGGCTTAATAATAGTG
+ACACTAGGGATAAACCAACCATACCTAGCATTTCTACATATCTGCACCCACGCATTCTTCAAAGCCATACTCTTTATA
+TGCTCTGGCTCAATTATCCATAGCCTAGCAGACGAACAAGACATCCGAAAAATAGGAAATATCACAAAAACCATGCCA
+TTCACCTCATCATGCTTAGTAATCGGAAGCTTAGCCCTCACAGGAATACCATTCCTAACAGGATTCTACTCAAAAGAC
+TTAATCATTGAAGCAATTAATACCTGCAACACCAACGCCTGAGCCCTACTAATTACACTAATCGCCACTTCTATAACA
+GCTATATACAGCATACGAATCATTTATTTCGTAACAATAACAAAACCACGTTTTCCTCCCCTAATCTCCATTAACGAG
+AATGATCCAGACCTCATAAACCCAATCAAACGCCTAGCATTCGGAAGCATCTTTGCAGGATTTGTCATCTCATACAAC
+ATCCCACCGACCAACATCCCAATCCTTACAATACCATGACTTTTAAAAACCACAGCCCTAATTATTTCAGTATTAGGA
+TTCCTTATTGCACTAGAACTAAACAACCTTACCATAAAACTATCAATAAGTAAAGCAAACCCATACTCATCTTTCTCA
+ACTTTACTAGGTTTTTTCCCATCTATTATTCACCGCATTACACCCATAAAATCTCTCAACCTAAGCCTAAAGACATCC
+CTGACCCTCCTAGACTTGATCTGACTAGAAAAAACCATTCCAAAATCTACCTCAACTCTCCACACAAACATAACCACT
+CTAACAACCAACCAAAAAGGCTTGATTAAATTATACTTTTTAACATTCCTAATTAACATCACCTTAATTATTATCCTG
+TACTCTATTAATCCCGAGTAATCTCAATAATAATAAAGATACCCGCAAACAAAGATCACCCAGCTACCACCATCATTC
+AAGTAGCACAGCTATATATCGCCGCTACCCCAATCCCCCCTTCCAGCATAACCCCAACATCGTCAACCTCATATATCA
+ATCAATCCCCCAAAGCATCAAGATTAACTACTCCGATTTCATCGTAGTAATTAAGCACATACACTACAACTACCTCTA
+TAATTACTCCTAACACCAGAAAACCCAAAATTAACCAATTAGATCCCCAAGTCTCTGGGTACTCCTCAGTAGCCATAG
+CAGTCGTGTACCCAAACACAACCAACATCCCCCCTAAATAAATTAAAAAGACCATTAGACCTAAAAACGACCCACCAA
+ACCCTAAAACCATTAAACAACCAACAAACCCGCTAACGATTAAACCCAAACCTCCATAAATAGGTGAAGGCTTTAATG
+CCAACCCAAGGCAACCAACCAAAAATAATGAACTCAAAATAAAAATATAATTATTCATTATTTCCACACAGCATTTAA
+CTGCGACCAATGACATGAAAAATCATCGTTGTAATTCAACTACAGAAACATCTAATGACAAACATGCGGAAAACACAC
+CCATTATTTAAAATTATTAATCATTCATTCATTGACTTACCCGCCCCATCCAATATCTCATCATGATGAAACTTCGGA
+TCTCTCCTAGGAATCTGTCTAATAGTCCAAATCATTACAGGCCTATTCTTAGCTATACACTATACATCAGACACAATG
+ACAGCCTTCTCATCAGTAACTCATATCTGCCGAGACGTGAATTACGGGTGATTAATCCGATATATACACGCAAATGGA
+GCCTCAATATTTTTCATTTGCTTATTCCTTCATGTCGGACGAGGAATGTACTACGGATCCTACACATTCATAGAAACA
+TGAAATATTGGAGTACTTCTACTATTCGCAGTAATAGCCACAGCATTTATAGGCTATGTACTCCCATGAGGACAAATA
+TCATTCTGAGGAGCCACAGTTATTACAAACCTCCTATCAGCTATCCCATATATTGGAACAACCCTAGTCGAATGGATT
+TGAGGGGGCTTCTCAGTAGACAAAGCTACCCTAACCCGATTCTTCGCCTTCCACTTCATCTTGCCATTCATCATCGCA
+GCCCTAGCAATCGTACACCTCCTCTTTCTCCATGAAACAGGATCAAACAACCCAACAGGACTAAACTCAGACGCAGAT
+AAAATTCCATTCCACCCCTACTACACAATCAAAGATATCCTAGGTATCCTAATTATATTTCTACTTCTAATAACCCTA
+GTATTGTTCTTCCCAGACATACTAGGAGACCCAGACAATTACATACCAGCCAACCCACTAAACACCCCACCACATATT
+AAACCCGAATGATATTTCCTATTCGCCTACGCCATTTTACGCTCAATCCCCAACAAACTAGGAGGAGTCCTAGCCTTA
+ATCTTATCTATTCTAATTTTAGCCCTAATACCTTTTCTCCACACTTCAAAACAACGAAGCCTAATATTCCGCCCAATC
+ACACAAATCTTGTATTGAATCCTAGTAGCAAACCTACTGATCTTAACTTGAATTGGAGGCCAACCAGTAGAACATCCA
+TTCATTATTATTGGCCAATTAGCTTCCATCTCATACTTCTCGATCATCTTAATCCTCATACCAATCTCAGGAATTATT
+GAAGACAAAATACTAAAATTATATCCATGTCTTGATAGTATAAACATTACCCTGGTCTTGTAAACCTGAAATGAAGAT
+CTTCTCTTCTCAAGACATCAAGAAGAAGGAATTAACTCCCCACCACCAGCACCCAAAGCTGGTATTCTAATTAAACTA
+CTTCTTGAGTACATAAATTTACATAGTACAATAGTACATTTATGTATATCGTACATTAAATTATATTCCCCAAGCATA
+TAAGCAAGTAAATTATATCAATGATCTAGCACATAAAACCATACTCAACATAACATACACCCATACATGAATATTATC
+ATAATACATTAAATCAATGTTTTTAAGACATATCTGTGTTATCTGACATACACCATACAGTCATAAACCCTTCTCTTC
+CATATGACTATCCCCTTCCCCATTTGGTCTATTAATCTACCATCCTCCGTGAAACCAACAACCCGCCCACCAATGCCC
+CTCTTCTCGCTCCGGGCCCATTAAACTTGGGGGTAGCTAAACTGAAACTTTATCAGACATCTGGTTCTTACTTCAGGG
+CCATCAAATGCGTTATCGCCCATACGTTCCCCTTAAATAAGACATCTCGATGGTAACGGGTCTAATCAGCCCATGACC
+AACATAACTGTGGTGTCATGCATTTGGTATCTTTTATTTTTAGCCTACTTTCATCAACATAGCCGTCAAGGCATGAAA
+GGACAGCACATAGTCTAGACGCACCTACGGTGAAGAATCATTAGTCCGCAAGACCCAATCACCCAAGGCTAATTATTC
+ATGCTTGTTAGACATAACTTTTTTTTAATACTAGATTTTAACTCTCCAAACCCCCCCAACCCCCACCTCTTAATGCCA
+AACCCCAAAAACACTAAGAACTTGAAAAAAAGACATAAATTATTAACTGCCAAACCCTATGTCCTGATCAATTCTAGT
+AGTTCTCAAAATATGACTTATATTTTAGTACTTGTAAAATTTTTACAAAATCATGCCCCGTTAGTCAAAACTCTAAAT
+ACATCCTACTACGCAATAAACATAAATGA" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            gene {
+                              locus "ND1" } ,
+                          location
+                            int {
+                              from 2745 ,
+                              to 3701 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "EBD2012-064-084" } } ,
+                        {
+                          data
+                            gene {
+                              locus "ND2" } ,
+                          location
+                            int {
+                              from 3907 ,
+                              to 4944 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "EBD2012-064-084" } } ,
+                        {
+                          data
+                            gene {
+                              locus "COX1" } ,
+                          location
+                            int {
+                              from 5326 ,
+                              to 6870 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "EBD2012-064-084" } } ,
+                        {
+                          data
+                            gene {
+                              locus "COX2" } ,
+                          location
+                            int {
+                              from 7010 ,
+                              to 7693 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "EBD2012-064-084" } } ,
+                        {
+                          data
+                            gene {
+                              locus "ATP8" } ,
+                          location
+                            int {
+                              from 7763 ,
+                              to 7966 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "EBD2012-064-084" } } ,
+                        {
+                          data
+                            gene {
+                              locus "ATP6" } ,
+                          location
+                            int {
+                              from 7924 ,
+                              to 8604 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "EBD2012-064-084" } } ,
+                        {
+                          data
+                            gene {
+                              locus "COX3" } ,
+                          location
+                            int {
+                              from 8604 ,
+                              to 9388 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "EBD2012-064-084" } } ,
+                        {
+                          data
+                            gene {
+                              locus "ND3" } ,
+                          location
+                            int {
+                              from 9456 ,
+                              to 9803 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "EBD2012-064-084" } } ,
+                        {
+                          data
+                            gene {
+                              locus "ND4L" } ,
+                          location
+                            int {
+                              from 9875 ,
+                              to 10171 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "EBD2012-064-084" } } ,
+                        {
+                          data
+                            gene {
+                              locus "ND4" } ,
+                          location
+                            int {
+                              from 10165 ,
+                              to 11542 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "EBD2012-064-084" } } ,
+                        {
+                          data
+                            gene {
+                              locus "ND5" } ,
+                          location
+                            int {
+                              from 11740 ,
+                              to 13563 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "EBD2012-064-084" } } ,
+                        {
+                          data
+                            gene {
+                              locus "ND6" } ,
+                          location
+                            int {
+                              from 13550 ,
+                              to 14068 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "EBD2012-064-084" } } ,
+                        {
+                          data
+                            gene {
+                              locus "CYTB" } ,
+                          location
+                            int {
+                              from 14143 ,
+                              to 15286 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "EBD2012-064-084" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnF(gaa)" } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 66 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "EBD2012-064-084" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 70 } } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 66 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "EBD2012-064-084" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnV(uac)" } ,
+                          location
+                            int {
+                              from 1024 ,
+                              to 1092 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "EBD2012-064-084" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 86 } } ,
+                          location
+                            int {
+                              from 1024 ,
+                              to 1092 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "EBD2012-064-084" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnL(uaa)" } ,
+                          location
+                            int {
+                              from 2670 ,
+                              to 2744 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "EBD2012-064-084" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 76 } } ,
+                          location
+                            int {
+                              from 2670 ,
+                              to 2744 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "EBD2012-064-084" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnI(gau)" } ,
+                          location
+                            int {
+                              from 3700 ,
+                              to 3768 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "EBD2012-064-084" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 73 } } ,
+                          location
+                            int {
+                              from 3700 ,
+                              to 3768 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "EBD2012-064-084" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnQ(uug)" } ,
+                          location
+                            int {
+                              from 3766 ,
+                              to 3836 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "EBD2012-064-084" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 81 } } ,
+                          location
+                            int {
+                              from 3766 ,
+                              to 3836 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "EBD2012-064-084" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnM(cau)" } ,
+                          location
+                            int {
+                              from 3838 ,
+                              to 3906 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "EBD2012-064-084" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 77 } } ,
+                          location
+                            int {
+                              from 3838 ,
+                              to 3906 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "EBD2012-064-084" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnW(uca)" } ,
+                          location
+                            int {
+                              from 4943 ,
+                              to 5009 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "EBD2012-064-084" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 87 } } ,
+                          location
+                            int {
+                              from 4943 ,
+                              to 5009 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "EBD2012-064-084" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnA(ugc)" } ,
+                          location
+                            int {
+                              from 5011 ,
+                              to 5079 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "EBD2012-064-084" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 65 } } ,
+                          location
+                            int {
+                              from 5011 ,
+                              to 5079 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "EBD2012-064-084" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnN(guu)" } ,
+                          location
+                            int {
+                              from 5082 ,
+                              to 5152 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "EBD2012-064-084" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 78 } } ,
+                          location
+                            int {
+                              from 5082 ,
+                              to 5152 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "EBD2012-064-084" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnC(gca)" } ,
+                          location
+                            int {
+                              from 5189 ,
+                              to 5255 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "EBD2012-064-084" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 67 } } ,
+                          location
+                            int {
+                              from 5189 ,
+                              to 5255 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "EBD2012-064-084" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnY(gua)" } ,
+                          location
+                            int {
+                              from 5258 ,
+                              to 5324 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "EBD2012-064-084" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 89 } } ,
+                          location
+                            int {
+                              from 5258 ,
+                              to 5324 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "EBD2012-064-084" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnS(uga)" } ,
+                          location
+                            int {
+                              from 6868 ,
+                              to 6936 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "EBD2012-064-084" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 83 } } ,
+                          location
+                            int {
+                              from 6868 ,
+                              to 6936 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "EBD2012-064-084" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnD(guc)" } ,
+                          location
+                            int {
+                              from 6940 ,
+                              to 7008 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "EBD2012-064-084" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 68 } } ,
+                          location
+                            int {
+                              from 6940 ,
+                              to 7008 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "EBD2012-064-084" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnK(uuu)" } ,
+                          location
+                            int {
+                              from 7697 ,
+                              to 7761 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "EBD2012-064-084" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 75 } } ,
+                          location
+                            int {
+                              from 7697 ,
+                              to 7761 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "EBD2012-064-084" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnG(ucc)" } ,
+                          location
+                            int {
+                              from 9388 ,
+                              to 9455 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "EBD2012-064-084" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 71 } } ,
+                          location
+                            int {
+                              from 9388 ,
+                              to 9455 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "EBD2012-064-084" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnR(ucg)" } ,
+                          location
+                            int {
+                              from 9805 ,
+                              to 9873 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "EBD2012-064-084" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 82 } } ,
+                          location
+                            int {
+                              from 9805 ,
+                              to 9873 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "EBD2012-064-084" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnH(gug)" } ,
+                          location
+                            int {
+                              from 11543 ,
+                              to 11610 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "EBD2012-064-084" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 72 } } ,
+                          location
+                            int {
+                              from 11543 ,
+                              to 11610 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "EBD2012-064-084" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnS(gcu)" } ,
+                          location
+                            int {
+                              from 11611 ,
+                              to 11669 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "EBD2012-064-084" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 83 } } ,
+                          location
+                            int {
+                              from 11611 ,
+                              to 11669 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "EBD2012-064-084" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnL(uag)" } ,
+                          location
+                            int {
+                              from 11669 ,
+                              to 11739 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "EBD2012-064-084" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 76 } } ,
+                          location
+                            int {
+                              from 11669 ,
+                              to 11739 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "EBD2012-064-084" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnE(uuc)" } ,
+                          location
+                            int {
+                              from 14069 ,
+                              to 14137 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "EBD2012-064-084" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 69 } } ,
+                          location
+                            int {
+                              from 14069 ,
+                              to 14137 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "EBD2012-064-084" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnT(ugu)" } ,
+                          location
+                            int {
+                              from 15287 ,
+                              to 15353 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "EBD2012-064-084" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 84 } } ,
+                          location
+                            int {
+                              from 15287 ,
+                              to 15353 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "EBD2012-064-084" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnP(ugg)" } ,
+                          location
+                            int {
+                              from 15354 ,
+                              to 15421 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "EBD2012-064-084" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 80 } } ,
+                          location
+                            int {
+                              from 15354 ,
+                              to 15421 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "EBD2012-064-084" } } ,
+                        {
+                          data
+                            gene {
+                              locus "s-rRNA" } ,
+                          location
+                            int {
+                              from 67 ,
+                              to 1023 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "EBD2012-064-084" } } ,
+                        {
+                          data
+                            rna {
+                              type rRNA ,
+                              ext
+                                name "12S ribosomal RNA" } ,
+                          location
+                            int {
+                              from 67 ,
+                              to 1023 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "EBD2012-064-084" } } ,
+                        {
+                          data
+                            gene {
+                              locus "l-rRNA" } ,
+                          location
+                            int {
+                              from 1091 ,
+                              to 2671 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "EBD2012-064-084" } } ,
+                        {
+                          data
+                            rna {
+                              type rRNA ,
+                              ext
+                                name "16S ribosomal RNA" } ,
+                          location
+                            int {
+                              from 1091 ,
+                              to 2671 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "EBD2012-064-084" } } ,
+                        {
+                          data
+                            imp {
+                              key "misc_feature" } ,
+                          comment "putative control region" ,
+                          location
+                            mix {
+                              int {
+                                from 3837 ,
+                                to 3837 ,
+                                strand plus ,
+                                id
+                                  local
+                                    str "EBD2012-064-084" } ,
+                              int {
+                                from 15422 ,
+                                to 16301 ,
+                                strand plus ,
+                                id
+                                  local
+                                    str "EBD2012-064-084" } } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "EBD2012-064-084_1" } ,
+                descr {
+                  title "NADH dehydrogenase subunit 1 (mitochondrion) [Mus
+ spretus]" ,
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 318 ,
+                  seq-data
+                    ncbieaa "MFFINILTLLLPILIAMAYLTLVERKILGYMQLRKGPNVVGPYGILQPF
+ADAMKLFIKEPMRPLTTSMSLFIIAPTLSLTLALSLWVPLPMPYPLINLNLGILFILATSSLSVYSILWSGWASNSKY
+SLFGALRAVAQTISYEVTMAIILLSVLLMSGSYSLQTLITTQEHMWLVLPAWPMAMMWFISTLAETNRAPFDLTEGES
+ELVSGFNVEYAAGPFALFFMAEYTNIILMNALTTIIFLGPLYYINLPELYSTNFMTEALLLSSTFLWIRASYPRFRYD
+QLMHLLWKNFLPLTLALCMWHISLPIFTAGTPPYM" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "NADH dehydrogenase subunit 1" } } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 317 ,
+                              id
+                                local
+                                  str "EBD2012-064-084_1" } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "EBD2012-064-084_2" } ,
+                descr {
+                  title "NADH dehydrogenase subunit 2 (mitochondrion) [Mus
+ spretus]" ,
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 345 ,
+                  seq-data
+                    ncbieaa "MNPMTLAIIYLTIFLGPVITMSSTNLMLMWVGLEFSLLAIIPMLINKKN
+PRSTEAATKYFVTQATASMIILLAIVLNYKQLGTWVFQQQTNGLILNMTLMALSMKLGLAPFHFWLPEVTQGIPLHMG
+LILLTWQKIAPLSILIQIYPLLNPTIILMLAITSIFMGAWGGLNQTQMRKIMAYSSIAHMGWMLAILPYNPSLTLLNL
+MIYIILTIPMFMALMLNNSMTINSISLLWNKTPAMLTMISLMLLSLGGLPPLTGFLPKWIIITELMKNNCLIMATLMA
+MMALLNLFFYTRLIYSTSLTMFPTNNNSKMMTHQTKTKPNLMFSTLAVMSTMTLPLAPQLIT" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "NADH dehydrogenase subunit 2" } } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 344 ,
+                              id
+                                local
+                                  str "EBD2012-064-084_2" } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "EBD2012-064-084_3" } ,
+                descr {
+                  title "cytochrome c oxidase subunit I (mitochondrion) [Mus
+ spretus]" ,
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 514 ,
+                  seq-data
+                    ncbieaa "MFINRWLFSTNHKDIGTLYLLFGAWAGMVGTALSILIRAELGQPGALLG
+DDQIYNVIVTAHAFVMIFFMVMPMMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLASSMVEAGAGTGWT
+VYPPLAGNLAHAGASVDLTIFSLHLAGVSSILGAINFITTIINMKPPAMTQYQTPLFVWSVLITAVLLLLSLPVLAAG
+ITMLLTDRNLNTTFFDPAGGGDPILYQHLFWFFGHPEVYILILPGFGIISHVVTYYSGKKEPFGYMGMVWAMMSIGFL
+GFIVWAHHMFTVGLDVDTRAYFTSATMIIAIPTGVKVFSWLATLHGGNIKWSPAMLWALGFIFLFTVGGLTGIVLSNS
+SLDIVLHDTYYVVAHFHYVLSMGAVFAIMAGFVHWFPLFSGYTLDDTWAKAHFAIMFVGVNMTFFPQHFLGLSGMPRR
+YSDYPDAYTTWNTVSSMGSFISLTAVLIMIFMIWEAFASKREVMSVSYASTNLEWLHGCPPPYHTFEEPTYVKVK" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "cytochrome c oxidase subunit I" } } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 513 ,
+                              id
+                                local
+                                  str "EBD2012-064-084_3" } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "EBD2012-064-084_4" } ,
+                descr {
+                  title "cytochrome c oxidase subunit II (mitochondrion) [Mus
+ spretus]" ,
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 227 ,
+                  seq-data
+                    ncbieaa "MAYPFQLGLQDATSPIMEELTNFHDHTLMIVFLISSLVLYIISLMLTTK
+LTHTSTMDAQEVETIWTILPAVILIMIALPSLRILYMMDEINNPVLTVKTMGHQWYWSYEYTDYEDLCFDSYMIPTND
+LKPGELRLLEVDNRVVLPMELPIRMLISSEDVLHSWAVPSLGLKTDAIPGRLNQATVTSNRPGLFYGQCSEICGSNHS
+FMPIVLEMVPLKYFENWSASMI" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "cytochrome c oxidase subunit II" } } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 226 ,
+                              id
+                                local
+                                  str "EBD2012-064-084_4" } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "EBD2012-064-084_5" } ,
+                descr {
+                  title "ATP synthase F0 subunit 8 (mitochondrion) [Mus
+ spretus]" ,
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 67 ,
+                  seq-data
+                    ncbieaa "MPQLDTSTWFITIISSMITLFILFQLKVSSQTFPLAPSPKLLTTMKVKT
+PWESKWTKIYLPHSLPQQ" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "ATP synthase F0 subunit 8" } } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 66 ,
+                              id
+                                local
+                                  str "EBD2012-064-084_5" } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "EBD2012-064-084_6" } ,
+                descr {
+                  title "ATP synthase F0 subunit 6 (mitochondrion) [Mus
+ spretus]" ,
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 226 ,
+                  seq-data
+                    ncbieaa "MNENLFASFITPTMMGFPIVVAIIMFPSILFPSSKRLINNRLHSFQHWL
+IKLIIKQMMLIHTPKGRTWTLMIVSLIMFIGSTNLLGLLPHTFTPTTQLSMNLSMAIPLWAGAVITGFRHKLKSSLAH
+FLPQGTPISLIPMLIIIETISLFIQPMALAVRLTANITAGHLLMHLIGGATLVLMNISPPTATITFIILLLLTVLEFA
+VALIQAYVFTLLVSLYLHDNT" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "ATP synthase F0 subunit 6" } } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 225 ,
+                              id
+                                local
+                                  str "EBD2012-064-084_6" } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "EBD2012-064-084_7" } ,
+                descr {
+                  title "cytochrome c oxidase subunit III (mitochondrion) [Mus
+ spretus]" ,
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 261 ,
+                  seq-data
+                    ncbieaa "MTHQTHAYHMVNPSPWPLTGAFSALLLTSGLVMWFHYSSITLLTLGLLT
+NILTMYQWWRDVIREGTYQGHHTPIVQKGLRYGMILFIVSEVFFFAGFFWAFYHSSLVPTHDLGGCWPPTGISPLNPL
+EVPLLNTSVLLASGVSITWAHHSLMEGKRNHMNQALLITIILGLYFTILQASEYFETSFSISDGIYGSTFFMATGFHG
+LHVIIGSTFLIVCLLRQLKFHFTSKHHFGFEAAAWYWHFVDVVWLFLYVSIYWWGS" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "cytochrome c oxidase subunit III" } } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 260 ,
+                              id
+                                local
+                                  str "EBD2012-064-084_7" } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "EBD2012-064-084_8" } ,
+                descr {
+                  title "NADH dehydrogenase subunit 3 (mitochondrion) [Mus
+ spretus]" ,
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 115 ,
+                  seq-data
+                    ncbieaa "MNLYIIIFINILLSLTLILVAFWLPQMNLYSEKANPYECGFDPTSSARL
+PFSMKFFLVAITFLLFDLEIALLLPLPWAIQTIKTSTMMTMAFILVTILSLGLAYEWTQKGLEWTE" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "NADH dehydrogenase subunit 3" } } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 114 ,
+                              id
+                                local
+                                  str "EBD2012-064-084_8" } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "EBD2012-064-084_9" } ,
+                descr {
+                  title "NADH dehydrogenase subunit 4L (mitochondrion) [Mus
+ spretus]" ,
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 98 ,
+                  seq-data
+                    ncbieaa "MPSAFFNLTMAFSLSLLGTLMFRSHLMSTLLCLEGMMLSLFIMTSVACL
+NSNSMSSMPIPITILVFAACEAAVGLALLVKISNTYGTDYVQNLNLLQC" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "NADH dehydrogenase subunit 4L" } } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 97 ,
+                              id
+                                local
+                                  str "EBD2012-064-084_9" } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "EBD2012-064-084_10" } ,
+                descr {
+                  title "NADH dehydrogenase subunit 4 (mitochondrion) [Mus
+ spretus]" ,
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 459 ,
+                  seq-data
+                    ncbieaa "MLKIIFPSLMLLPLTWLSNPKKTWTNVTSYSFLISLVSLSLLWQTDENY
+KNFSNMFSSDPLSTPLIILTAWLLPLMLMASQNHLKKDNNVLQKLYISMLVSLQALLIMTFSATELIMFYILFEATLI
+PTLIIITRWGNQTERLNAGIYFLFYTLIGSIPLLIALILIQNHIGTLNLMILSFTTHALNTSWSNNLLWLACMMAFLI
+KMPLYGVHLWLPKAHVEAPIAGSMILAAILLKLGSYGMIRISIILDPLTKYMAYPFILLSLWGMIMTSSICLRQTDLK
+SLIAYSSVSHMALVIASIMIQTPWSFMGATMLMIAHGLTSSLLFCLANSNYERIHSRTMIMARGLQMVFPLMATWWLM
+ASLANLALPPSINLMGELYITMSLFSWSNFTIILMGINIIITGMYSMYMIITTQRGKLTNHMINLQPSHTRELTLMAL
+HMIPLILLTISPKLITGLTI" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "NADH dehydrogenase subunit 4" } } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 458 ,
+                              id
+                                local
+                                  str "EBD2012-064-084_10" } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "EBD2012-064-084_11" } ,
+                descr {
+                  title "NADH dehydrogenase subunit 5 (mitochondrion) [Mus
+ spretus]" ,
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 607 ,
+                  seq-data
+                    ncbieaa "MNIFTSSILLIFILLLSPILISMSNLIKHINFPLYTTTSIKFSFLISLL
+PLLMFFHNNMEYMITTWHWITMNSMELKMSFKIDFFSILFMSVALFVTWSIMQFSSWYMHSDPNINRFIKYLTLFLIT
+MLILTSANNMFQLFIGWEGVGIMSFLLIGWWYGRTDANTAALQAILYNRIGDIGFILAMVWFSLNMNSWELQQIMFSN
+NNDNLLPLLGLLIAATGKSAQFGLHPWLPSAMEGPTPVSALLHSSTMVVAGIFLLVRFHPLTTNNNYILTTMLCLGAL
+TTLFTAICALTQNDIKKIVAFSTSSQLGLMMVTLGMNQPYLAFLHICTHAFFKAMLFMCSGSIIHSLADEQDIRKMGN
+ITKTMPFTSSCLVIGSLALTGMPFLTGFYSKDLIIEAINTCNTNAWALLITLIATSMTAMYSMRIIYFVTMTKPRFPP
+LISINENDPDLMNPIKRLAFGSIFAGFVISYNIPPTNIPILTMPWLLKTTALIISVLGFLIALELNNLTMKLSMSKAN
+PYSSFSTLLGFFPSIIHRITPMKSLNLSLKTSLTLLDLIWLEKTIPKSTSTLHTNMTTLTTNQKGLIKLYFLTFLINI
+TLIIILYSINPE" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "NADH dehydrogenase subunit 5" } } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 606 ,
+                              id
+                                local
+                                  str "EBD2012-064-084_11" } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "EBD2012-064-084_12" } ,
+                descr {
+                  title "NADH dehydrogenase subunit 6 (mitochondrion) [Mus
+ spretus]" ,
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 172 ,
+                  seq-data
+                    ncbieaa "MNNYIFILSSLFLVGCLGLALKPSPIYGGLGLIVSGFVGCLMVLGFGGS
+FLGLMVFLIYLGGMLVVFGYTTAMATEEYPETWGSNWLILGFLVLGVIMEVVVVYVLNYYDEIGVVNLDALGDWLMYE
+VDDVGVMLEGGIGVAAMYSCATWMMVVAGWSLFAGIFIIIEITRD" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "NADH dehydrogenase subunit 6" } } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 171 ,
+                              id
+                                local
+                                  str "EBD2012-064-084_12" } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "EBD2012-064-084_13" } ,
+                descr {
+                  title "cytochrome b (mitochondrion) [Mus spretus]" ,
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 381 ,
+                  seq-data
+                    ncbieaa "MTNMRKTHPLFKIINHSFIDLPAPSNISSWWNFGSLLGICLMVQIITGL
+FLAMHYTSDTMTAFSSVTHICRDVNYGWLIRYMHANGASMFFICLFLHVGRGMYYGSYTFMETWNIGVLLLFAVMATA
+FMGYVLPWGQMSFWGATVITNLLSAIPYIGTTLVEWIWGGFSVDKATLTRFFAFHFILPFIIAALAIVHLLFLHETGS
+NNPTGLNSDADKIPFHPYYTIKDILGILIMFLLLMTLVLFFPDMLGDPDNYMPANPLNTPPHIKPEWYFLFAYAILRS
+IPNKLGGVLALILSILILALMPFLHTSKQRSLMFRPITQILYWILVANLLILTWIGGQPVEHPFIIIGQLASISYFSI
+ILILMPISGIIEDKMLKLYP" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "cytochrome b" } } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 380 ,
+                              id
+                                local
+                                  str "EBD2012-064-084_13" } } } } } } } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 2 } } ,
+                      product
+                        whole
+                          local
+                            str "EBD2012-064-084_1" ,
+                      location
+                        int {
+                          from 2745 ,
+                          to 3701 ,
+                          strand plus ,
+                          id
+                            local
+                              str "EBD2012-064-084" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 2 } } ,
+                      product
+                        whole
+                          local
+                            str "EBD2012-064-084_2" ,
+                      location
+                        int {
+                          from 3907 ,
+                          to 4944 ,
+                          strand plus ,
+                          id
+                            local
+                              str "EBD2012-064-084" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 2 } } ,
+                      product
+                        whole
+                          local
+                            str "EBD2012-064-084_3" ,
+                      location
+                        int {
+                          from 5326 ,
+                          to 6870 ,
+                          strand plus ,
+                          id
+                            local
+                              str "EBD2012-064-084" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 2 } } ,
+                      product
+                        whole
+                          local
+                            str "EBD2012-064-084_4" ,
+                      location
+                        int {
+                          from 7010 ,
+                          to 7693 ,
+                          strand plus ,
+                          id
+                            local
+                              str "EBD2012-064-084" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 2 } } ,
+                      product
+                        whole
+                          local
+                            str "EBD2012-064-084_5" ,
+                      location
+                        int {
+                          from 7763 ,
+                          to 7966 ,
+                          strand plus ,
+                          id
+                            local
+                              str "EBD2012-064-084" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 2 } } ,
+                      product
+                        whole
+                          local
+                            str "EBD2012-064-084_6" ,
+                      location
+                        int {
+                          from 7924 ,
+                          to 8604 ,
+                          strand plus ,
+                          id
+                            local
+                              str "EBD2012-064-084" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 2 } } ,
+                      comment "TAA stop codon is completed by the addition of
+ 3' Aresidues to the mRNA" ,
+                      product
+                        whole
+                          local
+                            str "EBD2012-064-084_7" ,
+                      location
+                        int {
+                          from 8604 ,
+                          to 9388 ,
+                          strand plus ,
+                          id
+                            local
+                              str "EBD2012-064-084" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 2 } } ,
+                      product
+                        whole
+                          local
+                            str "EBD2012-064-084_8" ,
+                      location
+                        int {
+                          from 9456 ,
+                          to 9803 ,
+                          strand plus ,
+                          id
+                            local
+                              str "EBD2012-064-084" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 2 } } ,
+                      product
+                        whole
+                          local
+                            str "EBD2012-064-084_9" ,
+                      location
+                        int {
+                          from 9875 ,
+                          to 10171 ,
+                          strand plus ,
+                          id
+                            local
+                              str "EBD2012-064-084" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 2 } } ,
+                      comment "TAA stop codon is completed by the addition of
+ 3' Aresidues to the mRNA" ,
+                      product
+                        whole
+                          local
+                            str "EBD2012-064-084_10" ,
+                      location
+                        int {
+                          from 10165 ,
+                          to 11542 ,
+                          strand plus ,
+                          id
+                            local
+                              str "EBD2012-064-084" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 2 } } ,
+                      product
+                        whole
+                          local
+                            str "EBD2012-064-084_11" ,
+                      location
+                        int {
+                          from 11740 ,
+                          to 13563 ,
+                          strand plus ,
+                          id
+                            local
+                              str "EBD2012-064-084" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 2 } } ,
+                      product
+                        whole
+                          local
+                            str "EBD2012-064-084_12" ,
+                      location
+                        int {
+                          from 13550 ,
+                          to 14068 ,
+                          strand minus ,
+                          id
+                            local
+                              str "EBD2012-064-084" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 2 } } ,
+                      comment "TAA stop codon is completed by the addition of
+ 3' Aresidues to the mRNA" ,
+                      product
+                        whole
+                          local
+                            str "EBD2012-064-084_13" ,
+                      location
+                        int {
+                          from 14143 ,
+                          to 15286 ,
+                          strand plus ,
+                          id
+                            local
+                              str "EBD2012-064-084" } } } } } } } } } }

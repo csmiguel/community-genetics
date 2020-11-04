@@ -1,0 +1,5 @@
+ERROR: valid [SEQ_FEAT.NoStop] Missing stop codon FEATURE: CDS: cytochrome c oxidase subunit III [lcl|EBD2012-064-084:8605-9389] [lcl|EBD2012-064-084: raw, dna len= 16302] -> [lcl|EBD2012-064-084_7]
+ERROR: valid [SEQ_FEAT.NoStop] Missing stop codon FEATURE: CDS: NADH dehydrogenase subunit 4 [lcl|EBD2012-064-084:10166-11543] [lcl|EBD2012-064-084: raw, dna len= 16302] -> [lcl|EBD2012-064-084_10]
+ERROR: valid [SEQ_FEAT.NoStop] Missing stop codon FEATURE: CDS: cytochrome b [lcl|EBD2012-064-084:14144-15287] [lcl|EBD2012-064-084: raw, dna len= 16302] -> [lcl|EBD2012-064-084_13]
+WARNING: valid [SEQ_DESCR.FastaBracketTitle] Title may have unparsed [...=...] construct BIOSEQ: lcl|EBD2012-064-084: raw, dna len= 16302
+WARNING: valid [SEQ_INST.CompleteCircleProblem] Circular topology without complete flag set BIOSEQ: lcl|EBD2012-064-084: raw, dna len= 16302

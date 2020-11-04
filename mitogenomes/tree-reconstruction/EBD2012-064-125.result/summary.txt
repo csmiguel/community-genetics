@@ -1,0 +1,50 @@
+#Seq_id        Length(bp)     Circularity    Closely_related_species
+EBD2012-064-12516304          yes            Rattus rattus       
+
+
+#Seq_id        Start  End    Length(bp) Direction  Type   Gene_name  Gene_prodcut                      Total_freq_occurred
+--------------------------------------------------------------------------------------------------------------------------
+EBD2012-064-12513     82     70         +          tRNA   trnF(gaa)  tRNA-Phe                          1              
+EBD2012-064-12582     1038   957        +          rRNA   s-rRNA     12S ribosomal RNA                 1              
+EBD2012-064-1251038   1106   69         +          tRNA   trnV(uac)  tRNA-Val                          1              
+EBD2012-064-1251104   2676   1573       +          rRNA   l-rRNA     16S ribosomal RNA                 1              
+EBD2012-064-1252674   2749   76         +          tRNA   trnL(uaa)  tRNA-Leu                          2              
+EBD2012-064-1252749   3706   958        +          CDS    ND1        NADH dehydrogenase subunit 1      1              
+EBD2012-064-1253704   3773   70         +          tRNA   trnI(gau)  tRNA-Ile                          1              
+EBD2012-064-1253770   3841   72         -          tRNA   trnQ(uug)  tRNA-Gln                          1              
+EBD2012-064-1253844   3913   70         +          tRNA   trnM(cau)  tRNA-Met                          1              
+EBD2012-064-1253913   4951   1039       +          CDS    ND2        NADH dehydrogenase subunit 2      1              
+EBD2012-064-1254949   5015   67         +          tRNA   trnW(uca)  tRNA-Trp                          1              
+EBD2012-064-1255016   5085   70         -          tRNA   trnA(ugc)  tRNA-Ala                          1              
+EBD2012-064-1255087   5159   73         -          tRNA   trnN(guu)  tRNA-Asn                          1              
+EBD2012-064-1255190   5258   69         -          tRNA   trnC(gca)  tRNA-Cys                          1              
+EBD2012-064-1255260   5326   67         -          tRNA   trnY(gua)  tRNA-Tyr                          1              
+EBD2012-064-1255327   6872   1546       +          CDS    COX1       cytochrome c oxidase subunit I    1              
+EBD2012-064-1256869   6938   70         -          tRNA   trnS(uga)  tRNA-Ser                          2              
+EBD2012-064-1256941   7009   69         +          tRNA   trnD(guc)  tRNA-Asp                          1              
+EBD2012-064-1257010   7694   685        +          CDS    COX2       cytochrome c oxidase subunit II   1              
+EBD2012-064-1257697   7761   65         +          tRNA   trnK(uuu)  tRNA-Lys                          1              
+EBD2012-064-1257762   7966   205        +          CDS    ATP8       ATP synthase F0 subunit 8         1              
+EBD2012-064-1257923   8604   682        +          CDS    ATP6       ATP synthase F0 subunit 6         1              
+EBD2012-064-1258603   9388   786        +          CDS    COX3       cytochrome c oxidase subunit III  1              
+EBD2012-064-1259387   9454   68         +          tRNA   trnG(ucc)  tRNA-Gly                          1              
+EBD2012-064-1259454   9802   349        +          CDS    ND3        NADH dehydrogenase subunit 3      1              
+EBD2012-064-1259803   9871   69         +          tRNA   trnR(ucg)  tRNA-Arg                          1              
+EBD2012-064-1259873   10170  298        +          CDS    ND4L       NADH dehydrogenase subunit 4L     1              
+EBD2012-064-12510163  11546  1384       +          CDS    ND4        NADH dehydrogenase subunit 4      1              
+EBD2012-064-12511541  11609  69         +          tRNA   trnH(gug)  tRNA-His                          1              
+EBD2012-064-12511609  11668  60         +          tRNA   trnS(gcu)  tRNA-Ser                          2              
+EBD2012-064-12511667  11738  72         +          tRNA   trnL(uag)  tRNA-Leu                          2              
+EBD2012-064-12511738  13568  1831       +          CDS    ND5        NADH dehydrogenase subunit 5      1              
+EBD2012-064-12513545  14064  520        -          CDS    ND6        NADH dehydrogenase subunit 6      1              
+EBD2012-064-12514064  14133  70         -          tRNA   trnE(uuc)  tRNA-Glu                          1              
+EBD2012-064-12514138  15281  1144       +          CDS    CYTB       cytochrome b                      1              
+EBD2012-064-12515282  15349  68         +          tRNA   trnT(ugu)  tRNA-Thr                          1              
+EBD2012-064-12515351  15419  69         -          tRNA   trnP(ugg)  tRNA-Pro                          1              
+
+
+Protein coding genes totally found: 13
+tRNA genes totally found:           22
+rRNA genes totally found:            2
+--------------------------------------
+Genes totally found:                37

@@ -1,0 +1,539 @@
+
+
+This is RAxML version 8.0.0 released by Alexandros Stamatakis on Dec 13 2013.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+David Dao         (KIT)
+Charlie Taylor    (UF)
+
+
+Alignment has 3593 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 0.00%
+
+RAxML rapid bootstrapping and subsequent ML search
+
+Using 17 distinct models/data partitions with joint branch length optimization
+
+
+
+Executing 1000 rapid bootstrap inferences and thereafter a thorough ML search 
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heteorgeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 180
+Name: Subset1
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1
+Alignment Patterns: 15
+Name: Subset2
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 2
+Alignment Patterns: 710
+Name: Subset3
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 3
+Alignment Patterns: 75
+Name: Subset4
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 4
+Alignment Patterns: 47
+Name: Subset5
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 5
+Alignment Patterns: 74
+Name: Subset6
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 6
+Alignment Patterns: 31
+Name: Subset7
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 7
+Alignment Patterns: 1213
+Name: Subset8
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 8
+Alignment Patterns: 144
+Name: Subset9
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 9
+Alignment Patterns: 328
+Name: Subset10
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 10
+Alignment Patterns: 53
+Name: Subset11
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 11
+Alignment Patterns: 77
+Name: Subset12
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 12
+Alignment Patterns: 115
+Name: Subset13
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 13
+Alignment Patterns: 41
+Name: Subset14
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 14
+Alignment Patterns: 68
+Name: Subset15
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 15
+Alignment Patterns: 152
+Name: Subset16
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 16
+Alignment Patterns: 270
+Name: Subset17
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+
+RAxML was called as follows:
+
+raxml -f a -m GTRGAMMA -p 12345 -x 12345 -# autoMRE -s partitionfinder/concatenated.out -n mitogenomes -T2 -w /Users/miguelcamacho/Dropbox/Research/Tesis/Projects/ongoing_projects/DonanaIntrons/mitogenomes/giovanni-mitogenomes/raxml -q raxml/partitions_raxml 
+
+
+
+Time for BS model parameter optimization 3.930568
+Bootstrap[0]: Time 4.281618 seconds, bootstrap likelihood -60290.409466, best rearrangement setting 13
+Bootstrap[1]: Time 0.295174 seconds, bootstrap likelihood -60755.777213, best rearrangement setting 13
+Bootstrap[2]: Time 0.276000 seconds, bootstrap likelihood -59924.303938, best rearrangement setting 12
+Bootstrap[3]: Time 0.373761 seconds, bootstrap likelihood -60769.017661, best rearrangement setting 15
+Bootstrap[4]: Time 0.312960 seconds, bootstrap likelihood -60441.446666, best rearrangement setting 10
+Bootstrap[5]: Time 0.281096 seconds, bootstrap likelihood -60593.882898, best rearrangement setting 10
+Bootstrap[6]: Time 0.280512 seconds, bootstrap likelihood -60693.330064, best rearrangement setting 6
+Bootstrap[7]: Time 0.307157 seconds, bootstrap likelihood -60936.836080, best rearrangement setting 14
+Bootstrap[8]: Time 0.274037 seconds, bootstrap likelihood -60807.257969, best rearrangement setting 5
+Bootstrap[9]: Time 0.265725 seconds, bootstrap likelihood -60504.572055, best rearrangement setting 7
+Bootstrap[10]: Time 0.286392 seconds, bootstrap likelihood -60442.208185, best rearrangement setting 7
+Bootstrap[11]: Time 0.290285 seconds, bootstrap likelihood -60679.109870, best rearrangement setting 5
+Bootstrap[12]: Time 0.280225 seconds, bootstrap likelihood -60534.211341, best rearrangement setting 8
+Bootstrap[13]: Time 0.282113 seconds, bootstrap likelihood -60054.632663, best rearrangement setting 7
+Bootstrap[14]: Time 0.281862 seconds, bootstrap likelihood -60334.680465, best rearrangement setting 12
+Bootstrap[15]: Time 0.334338 seconds, bootstrap likelihood -60454.305017, best rearrangement setting 15
+Bootstrap[16]: Time 0.307980 seconds, bootstrap likelihood -59887.732383, best rearrangement setting 12
+Bootstrap[17]: Time 0.289363 seconds, bootstrap likelihood -60565.249027, best rearrangement setting 12
+Bootstrap[18]: Time 0.581896 seconds, bootstrap likelihood -60646.204267, best rearrangement setting 5
+Bootstrap[19]: Time 0.570016 seconds, bootstrap likelihood -60545.159619, best rearrangement setting 8
+Bootstrap[20]: Time 0.289108 seconds, bootstrap likelihood -60406.370995, best rearrangement setting 10
+Bootstrap[21]: Time 0.699820 seconds, bootstrap likelihood -60793.967202, best rearrangement setting 6
+Bootstrap[22]: Time 0.588147 seconds, bootstrap likelihood -60537.877572, best rearrangement setting 5
+Bootstrap[23]: Time 0.301360 seconds, bootstrap likelihood -61237.294747, best rearrangement setting 7
+Bootstrap[24]: Time 0.276523 seconds, bootstrap likelihood -60562.165731, best rearrangement setting 8
+Bootstrap[25]: Time 0.291378 seconds, bootstrap likelihood -60302.273535, best rearrangement setting 6
+Bootstrap[26]: Time 0.267266 seconds, bootstrap likelihood -60198.418429, best rearrangement setting 12
+Bootstrap[27]: Time 0.266173 seconds, bootstrap likelihood -60458.179619, best rearrangement setting 10
+Bootstrap[28]: Time 0.281885 seconds, bootstrap likelihood -60932.571807, best rearrangement setting 11
+Bootstrap[29]: Time 0.260698 seconds, bootstrap likelihood -60282.155529, best rearrangement setting 12
+Bootstrap[30]: Time 1.080052 seconds, bootstrap likelihood -59819.687487, best rearrangement setting 15
+Bootstrap[31]: Time 0.934916 seconds, bootstrap likelihood -60112.815917, best rearrangement setting 15
+Bootstrap[32]: Time 0.352219 seconds, bootstrap likelihood -60016.473446, best rearrangement setting 6
+Bootstrap[33]: Time 0.273375 seconds, bootstrap likelihood -60108.413303, best rearrangement setting 15
+Bootstrap[34]: Time 0.315163 seconds, bootstrap likelihood -60477.537861, best rearrangement setting 11
+Bootstrap[35]: Time 0.659527 seconds, bootstrap likelihood -60427.094982, best rearrangement setting 8
+Bootstrap[36]: Time 0.349405 seconds, bootstrap likelihood -60458.790145, best rearrangement setting 9
+Bootstrap[37]: Time 0.782245 seconds, bootstrap likelihood -60447.173706, best rearrangement setting 11
+Bootstrap[38]: Time 0.432758 seconds, bootstrap likelihood -60653.036702, best rearrangement setting 8
+Bootstrap[39]: Time 0.383715 seconds, bootstrap likelihood -60403.574424, best rearrangement setting 13
+Bootstrap[40]: Time 0.316508 seconds, bootstrap likelihood -59930.498612, best rearrangement setting 13
+Bootstrap[41]: Time 0.384535 seconds, bootstrap likelihood -60509.812114, best rearrangement setting 10
+Bootstrap[42]: Time 0.400977 seconds, bootstrap likelihood -60500.841227, best rearrangement setting 5
+Bootstrap[43]: Time 0.855515 seconds, bootstrap likelihood -59960.143851, best rearrangement setting 14
+Bootstrap[44]: Time 0.304206 seconds, bootstrap likelihood -60689.527348, best rearrangement setting 10
+Bootstrap[45]: Time 0.268022 seconds, bootstrap likelihood -60430.855536, best rearrangement setting 15
+Bootstrap[46]: Time 0.278285 seconds, bootstrap likelihood -59966.501646, best rearrangement setting 14
+Bootstrap[47]: Time 0.332564 seconds, bootstrap likelihood -60338.956304, best rearrangement setting 8
+Bootstrap[48]: Time 1.002909 seconds, bootstrap likelihood -60614.566495, best rearrangement setting 6
+Bootstrap[49]: Time 0.670410 seconds, bootstrap likelihood -60315.147094, best rearrangement setting 7
+
+
+Stopped Rapid BS search after 50 replicates with MRE-based Bootstopping criterion
+WRF Average of 100 random splits: 0.422857
+Overall Time for 50 Rapid Bootstraps 24.422117 seconds
+Average Time per Rapid Bootstrap 0.488442 seconds
+
+Starting ML Search ...
+
+Fast ML optimization finished
+
+Fast ML search Time: 40.184451 seconds
+
+Slow ML Search 0 Likelihood: -60481.504107
+Slow ML Search 1 Likelihood: -60481.504107
+Slow ML Search 2 Likelihood: -60481.504107
+Slow ML Search 3 Likelihood: -60481.504107
+Slow ML Search 4 Likelihood: -60481.504108
+Slow ML Search 5 Likelihood: -60481.504108
+Slow ML Search 6 Likelihood: -60481.504114
+Slow ML Search 7 Likelihood: -60481.504114
+Slow ML Search 8 Likelihood: -60481.504114
+Slow ML Search 9 Likelihood: -60481.504114
+Slow ML optimization finished
+
+Slow ML search Time: 32.120819 seconds
+Thorough ML search Time: 15.157557 seconds
+
+Final ML Optimization Likelihood: -60481.503502
+
+Model Information:
+
+Model Parameters of Partition 0, Name: Subset1, Type of Data: DNA
+alpha: 0.119826
+Tree-Length: 3.323728
+rate A <-> C: 1.609002
+rate A <-> G: 10.378832
+rate A <-> T: 3.403331
+rate C <-> G: 0.000000
+rate C <-> T: 45.733871
+rate G <-> T: 1.000000
+
+freq pi(A): 0.290304
+freq pi(C): 0.264671
+freq pi(G): 0.209781
+freq pi(T): 0.235245
+
+Model Parameters of Partition 1, Name: Subset2, Type of Data: DNA
+alpha: 0.020000
+Tree-Length: 3.323728
+rate A <-> C: 0.000000
+rate A <-> G: 2.083509
+rate A <-> T: 0.000000
+rate C <-> G: 0.000000
+rate C <-> T: 0.583065
+rate G <-> T: 1.000000
+
+freq pi(A): 0.200928
+freq pi(C): 0.258144
+freq pi(G): 0.127938
+freq pi(T): 0.412990
+
+Model Parameters of Partition 2, Name: Subset3, Type of Data: DNA
+alpha: 0.716386
+Tree-Length: 3.323728
+rate A <-> C: 1.934727
+rate A <-> G: 730.674916
+rate A <-> T: 28.011167
+rate C <-> G: 106.837324
+rate C <-> T: 875.667253
+rate G <-> T: 1.000000
+
+freq pi(A): 0.444391
+freq pi(C): 0.262179
+freq pi(G): 0.034696
+freq pi(T): 0.258734
+
+Model Parameters of Partition 3, Name: Subset4, Type of Data: DNA
+alpha: 0.117016
+Tree-Length: 3.323728
+rate A <-> C: 2.316058
+rate A <-> G: 34.047702
+rate A <-> T: 7.339996
+rate C <-> G: 0.560287
+rate C <-> T: 30.333877
+rate G <-> T: 1.000000
+
+freq pi(A): 0.340288
+freq pi(C): 0.220144
+freq pi(G): 0.172302
+freq pi(T): 0.267266
+
+Model Parameters of Partition 4, Name: Subset5, Type of Data: DNA
+alpha: 0.120032
+Tree-Length: 3.323728
+rate A <-> C: 2.066220
+rate A <-> G: 9.466548
+rate A <-> T: 8.864139
+rate C <-> G: 0.967791
+rate C <-> T: 62.444171
+rate G <-> T: 1.000000
+
+freq pi(A): 0.247561
+freq pi(C): 0.281707
+freq pi(G): 0.099187
+freq pi(T): 0.371545
+
+Model Parameters of Partition 5, Name: Subset6, Type of Data: DNA
+alpha: 0.020000
+Tree-Length: 3.323728
+rate A <-> C: 0.000000
+rate A <-> G: 1.729010
+rate A <-> T: 1.282286
+rate C <-> G: 0.000000
+rate C <-> T: 33.813911
+rate G <-> T: 1.000000
+
+freq pi(A): 0.267295
+freq pi(C): 0.218439
+freq pi(G): 0.281696
+freq pi(T): 0.232571
+
+Model Parameters of Partition 6, Name: Subset7, Type of Data: DNA
+alpha: 0.020000
+Tree-Length: 3.323728
+rate A <-> C: 0.000000
+rate A <-> G: 0.491879
+rate A <-> T: 0.604836
+rate C <-> G: 0.459597
+rate C <-> T: 3.949021
+rate G <-> T: 1.000000
+
+freq pi(A): 0.219580
+freq pi(C): 0.242098
+freq pi(G): 0.152308
+freq pi(T): 0.386014
+
+Model Parameters of Partition 7, Name: Subset8, Type of Data: DNA
+alpha: 0.996600
+Tree-Length: 3.323728
+rate A <-> C: 15.817133
+rate A <-> G: 706.353599
+rate A <-> T: 22.087192
+rate C <-> G: 64.989191
+rate C <-> T: 764.780687
+rate G <-> T: 1.000000
+
+freq pi(A): 0.448417
+freq pi(C): 0.321106
+freq pi(G): 0.024652
+freq pi(T): 0.205825
+
+Model Parameters of Partition 8, Name: Subset9, Type of Data: DNA
+alpha: 0.020000
+Tree-Length: 3.323728
+rate A <-> C: 3.166511
+rate A <-> G: 10.227067
+rate A <-> T: 1.434843
+rate C <-> G: 1.334810
+rate C <-> T: 7.365552
+rate G <-> T: 1.000000
+
+freq pi(A): 0.193107
+freq pi(C): 0.273140
+freq pi(G): 0.103993
+freq pi(T): 0.429759
+
+Model Parameters of Partition 9, Name: Subset10, Type of Data: DNA
+alpha: 0.238769
+Tree-Length: 3.323728
+rate A <-> C: 3.669555
+rate A <-> G: 18.934121
+rate A <-> T: 6.673674
+rate C <-> G: 0.485234
+rate C <-> T: 54.724861
+rate G <-> T: 1.000000
+
+freq pi(A): 0.391631
+freq pi(C): 0.245532
+freq pi(G): 0.145177
+freq pi(T): 0.217660
+
+Model Parameters of Partition 10, Name: Subset11, Type of Data: DNA
+alpha: 0.158375
+Tree-Length: 3.323728
+rate A <-> C: 0.000000
+rate A <-> G: 37.274323
+rate A <-> T: 2.630905
+rate C <-> G: 20.752762
+rate C <-> T: 426.986760
+rate G <-> T: 1.000000
+
+freq pi(A): 0.252601
+freq pi(C): 0.045665
+freq pi(G): 0.357520
+freq pi(T): 0.344214
+
+Model Parameters of Partition 11, Name: Subset12, Type of Data: DNA
+alpha: 0.020000
+Tree-Length: 3.323728
+rate A <-> C: 0.014881
+rate A <-> G: 18.292934
+rate A <-> T: 2.107486
+rate C <-> G: 0.480711
+rate C <-> T: 4.969397
+rate G <-> T: 1.000000
+
+freq pi(A): 0.258000
+freq pi(C): 0.137846
+freq pi(G): 0.226462
+freq pi(T): 0.377692
+
+Model Parameters of Partition 12, Name: Subset13, Type of Data: DNA
+alpha: 0.568649
+Tree-Length: 3.323728
+rate A <-> C: 0.000000
+rate A <-> G: 1406.518015
+rate A <-> T: 43.880093
+rate C <-> G: 33.332168
+rate C <-> T: 1543.255166
+rate G <-> T: 1.000000
+
+freq pi(A): 0.206936
+freq pi(C): 0.032370
+freq pi(G): 0.267630
+freq pi(T): 0.493064
+
+Model Parameters of Partition 13, Name: Subset14, Type of Data: DNA
+alpha: 0.103497
+Tree-Length: 3.323728
+rate A <-> C: 3.923244
+rate A <-> G: 7.570789
+rate A <-> T: 1.783952
+rate C <-> G: 0.000000
+rate C <-> T: 21.198088
+rate G <-> T: 1.000000
+
+freq pi(A): 0.342969
+freq pi(C): 0.219531
+freq pi(G): 0.175391
+freq pi(T): 0.262109
+
+Model Parameters of Partition 14, Name: Subset15, Type of Data: DNA
+alpha: 0.020000
+Tree-Length: 3.323728
+rate A <-> C: 2.875075
+rate A <-> G: 12.365803
+rate A <-> T: 1.455448
+rate C <-> G: 0.709830
+rate C <-> T: 27.839659
+rate G <-> T: 1.000000
+
+freq pi(A): 0.376596
+freq pi(C): 0.141702
+freq pi(G): 0.165745
+freq pi(T): 0.315957
+
+Model Parameters of Partition 15, Name: Subset16, Type of Data: DNA
+alpha: 0.088777
+Tree-Length: 3.323728
+rate A <-> C: 4.060451
+rate A <-> G: 8.210991
+rate A <-> T: 2.802955
+rate C <-> G: 0.095574
+rate C <-> T: 38.881976
+rate G <-> T: 1.000000
+
+freq pi(A): 0.378047
+freq pi(C): 0.204093
+freq pi(G): 0.162977
+freq pi(T): 0.254884
+
+Model Parameters of Partition 16, Name: Subset17, Type of Data: DNA
+alpha: 0.148353
+Tree-Length: 3.323728
+rate A <-> C: 7.324826
+rate A <-> G: 9.119866
+rate A <-> T: 6.016783
+rate C <-> G: 0.000000
+rate C <-> T: 57.624575
+rate G <-> T: 1.000000
+
+freq pi(A): 0.389367
+freq pi(C): 0.192005
+freq pi(G): 0.167449
+freq pi(T): 0.251179
+
+
+ML search took 87.493101 secs or 0.024304 hours
+
+Combined Bootstrap and ML search took 111.915604 secs or 0.031088 hours
+
+Drawing Bootstrap Support Values on best-scoring ML tree ...
+
+
+
+Found 1 tree in File /Users/miguelcamacho/Dropbox/Research/Tesis/Projects/ongoing_projects/DonanaIntrons/mitogenomes/giovanni-mitogenomes/raxml/RAxML_bestTree.mitogenomes
+
+
+
+Found 1 tree in File /Users/miguelcamacho/Dropbox/Research/Tesis/Projects/ongoing_projects/DonanaIntrons/mitogenomes/giovanni-mitogenomes/raxml/RAxML_bestTree.mitogenomes
+
+Program execution info written to /Users/miguelcamacho/Dropbox/Research/Tesis/Projects/ongoing_projects/DonanaIntrons/mitogenomes/giovanni-mitogenomes/raxml/RAxML_info.mitogenomes
+All 50 bootstrapped trees written to: /Users/miguelcamacho/Dropbox/Research/Tesis/Projects/ongoing_projects/DonanaIntrons/mitogenomes/giovanni-mitogenomes/raxml/RAxML_bootstrap.mitogenomes
+
+Best-scoring ML tree written to: /Users/miguelcamacho/Dropbox/Research/Tesis/Projects/ongoing_projects/DonanaIntrons/mitogenomes/giovanni-mitogenomes/raxml/RAxML_bestTree.mitogenomes
+
+Best-scoring ML tree with support values written to: /Users/miguelcamacho/Dropbox/Research/Tesis/Projects/ongoing_projects/DonanaIntrons/mitogenomes/giovanni-mitogenomes/raxml/RAxML_bipartitions.mitogenomes
+
+Best-scoring ML tree with support values as branch labels written to: /Users/miguelcamacho/Dropbox/Research/Tesis/Projects/ongoing_projects/DonanaIntrons/mitogenomes/giovanni-mitogenomes/raxml/RAxML_bipartitionsBranchLabels.mitogenomes
+
+Overall execution time for full ML analysis: 111.922258 secs or 0.031090 hours or 0.001295 days
+

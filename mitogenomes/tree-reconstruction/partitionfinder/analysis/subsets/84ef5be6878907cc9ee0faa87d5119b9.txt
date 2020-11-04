@@ -1,0 +1,8 @@
+Model selection results for subset: 84ef5be6878907cc9ee0faa87d5119b9
+Subset alignment stored here: ./analysis/phylofiles/84ef5be6878907cc9ee0faa87d5119b9.phy
+This subset contains the following data_blocks: p18_CYTB_pos3, p15_COX3_pos3, p33_ND4_pos3, p36_ND5_pos3, p21_ND1_pos3, p24_ND2_pos3
+Number of columns in subset: 2369
+Models are organised according to their AICc scores
+
+Model           | Parameters      | lnL             | AICc             | AIC             | BIC            
+GTR+G           | 9               | -17513.137      | 35044.35         | 35044.273       | 35096.207      

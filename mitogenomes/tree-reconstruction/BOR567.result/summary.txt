@@ -1,0 +1,50 @@
+#Seq_id        Length(bp)     Circularity    Closely_related_species
+BOR567         16300          yes            Rattus tiomanicus   
+
+
+#Seq_id        Start  End    Length(bp) Direction  Type   Gene_name  Gene_prodcut                      Total_freq_occurred
+--------------------------------------------------------------------------------------------------------------------------
+BOR567         1      70     70         +          tRNA   trnF(gaa)  tRNA-Phe                          1              
+BOR567         70     1026   957        +          rRNA   s-rRNA     12S ribosomal RNA                 1              
+BOR567         1025   1094   70         +          tRNA   trnV(uac)  tRNA-Val                          1              
+BOR567         1092   2663   1572       +          rRNA   l-rRNA     16S ribosomal RNA                 1              
+BOR567         2661   2736   76         +          tRNA   trnL(uaa)  tRNA-Leu                          2              
+BOR567         2736   3693   958        +          CDS    ND1        NADH dehydrogenase subunit 1      1              
+BOR567         3691   3760   70         +          tRNA   trnI(gau)  tRNA-Ile                          1              
+BOR567         3757   3828   72         -          tRNA   trnQ(uug)  tRNA-Gln                          1              
+BOR567         3831   3900   70         +          tRNA   trnM(cau)  tRNA-Met                          1              
+BOR567         3900   4938   1039       +          CDS    ND2        NADH dehydrogenase subunit 2      1              
+BOR567         4936   5002   67         +          tRNA   trnW(uca)  tRNA-Trp                          1              
+BOR567         5003   5072   70         -          tRNA   trnA(ugc)  tRNA-Ala                          1              
+BOR567         5074   5145   72         -          tRNA   trnN(guu)  tRNA-Asn                          1              
+BOR567         5177   5244   68         -          tRNA   trnC(gca)  tRNA-Cys                          1              
+BOR567         5247   5314   68         -          tRNA   trnY(gua)  tRNA-Tyr                          1              
+BOR567         5315   6860   1546       +          CDS    COX1       cytochrome c oxidase subunit I    1              
+BOR567         6857   6926   70         -          tRNA   trnS(uga)  tRNA-Ser                          2              
+BOR567         6929   6996   68         +          tRNA   trnD(guc)  tRNA-Asp                          1              
+BOR567         6997   7681   685        +          CDS    COX2       cytochrome c oxidase subunit II   1              
+BOR567         7684   7748   65         +          tRNA   trnK(uuu)  tRNA-Lys                          1              
+BOR567         7749   7953   205        +          CDS    ATP8       ATP synthase F0 subunit 8         1              
+BOR567         7910   8591   682        +          CDS    ATP6       ATP synthase F0 subunit 6         1              
+BOR567         8590   9375   786        +          CDS    COX3       cytochrome c oxidase subunit III  1              
+BOR567         9374   9443   70         +          tRNA   trnG(ucc)  tRNA-Gly                          1              
+BOR567         9443   9791   349        +          CDS    ND3        NADH dehydrogenase subunit 3      1              
+BOR567         9792   9860   69         +          tRNA   trnR(ucg)  tRNA-Arg                          1              
+BOR567         9862   10159  298        +          CDS    ND4L       NADH dehydrogenase subunit 4L     1              
+BOR567         10152  11530  1379       +          CDS    ND4        NADH dehydrogenase subunit 4      1              
+BOR567         11530  11598  69         +          tRNA   trnH(gug)  tRNA-His                          1              
+BOR567         11598  11657  60         +          tRNA   trnS(gcu)  tRNA-Ser                          2              
+BOR567         11656  11727  72         +          tRNA   trnL(uag)  tRNA-Leu                          2              
+BOR567         11727  13557  1831       +          CDS    ND5        NADH dehydrogenase subunit 5      1              
+BOR567         13534  14053  520        -          CDS    ND6        NADH dehydrogenase subunit 6      1              
+BOR567         14053  14122  70         -          tRNA   trnE(uuc)  tRNA-Glu                          1              
+BOR567         14127  15288  1162       +          CDS    CYTB       cytochrome b                      1              
+BOR567         15271  15339  69         +          tRNA   trnT(ugu)  tRNA-Thr                          1              
+BOR567         15341  15409  69         -          tRNA   trnP(ugg)  tRNA-Pro                          1              
+
+
+Protein coding genes totally found: 13
+tRNA genes totally found:           22
+rRNA genes totally found:            2
+--------------------------------------
+Genes totally found:                37

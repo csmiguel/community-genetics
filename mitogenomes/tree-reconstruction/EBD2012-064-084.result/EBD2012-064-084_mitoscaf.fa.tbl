@@ -1,0 +1,169 @@
+>Feature EBD2012-064-084
+2746	3702	gene
+			gene	ND1
+2746	3702	CDS
+			product	NADH dehydrogenase subunit 1
+			transl_table	2
+3908	4945	gene
+			gene	ND2
+3908	4945	CDS
+			product	NADH dehydrogenase subunit 2
+			transl_table	2
+5327	6871	gene
+			gene	COX1
+5327	6871	CDS
+			product	cytochrome c oxidase subunit I
+			transl_table	2
+7011	7694	gene
+			gene	COX2
+7011	7694	CDS
+			product	cytochrome c oxidase subunit II
+			transl_table	2
+7764	7967	gene
+			gene	ATP8
+7764	7967	CDS
+			product	ATP synthase F0 subunit 8
+			transl_table	2
+7925	8605	gene
+			gene	ATP6
+7925	8605	CDS
+			product	ATP synthase F0 subunit 6
+			transl_table	2
+8605	9389	gene
+			gene	COX3
+8605	9389	CDS
+			product	cytochrome c oxidase subunit III
+			transl_table	2
+			note	TAA stop codon is completed by the addition of 3' Aresidues to the mRNA
+9457	9804	gene
+			gene	ND3
+9457	9804	CDS
+			product	NADH dehydrogenase subunit 3
+			transl_table	2
+9876	10172	gene
+			gene	ND4L
+9876	10172	CDS
+			product	NADH dehydrogenase subunit 4L
+			transl_table	2
+10166	11543	gene
+			gene	ND4
+10166	11543	CDS
+			product	NADH dehydrogenase subunit 4
+			transl_table	2
+			note	TAA stop codon is completed by the addition of 3' Aresidues to the mRNA
+11741	13564	gene
+			gene	ND5
+11741	13564	CDS
+			product	NADH dehydrogenase subunit 5
+			transl_table	2
+14069	13551	gene
+			gene	ND6
+14069	13551	CDS
+			product	NADH dehydrogenase subunit 6
+			transl_table	2
+14144	15287	gene
+			gene	CYTB
+14144	15287	CDS
+			product	cytochrome b
+			transl_table	2
+			note	TAA stop codon is completed by the addition of 3' Aresidues to the mRNA
+1	67	gene
+			gene	trnF(gaa)
+1	67	tRNA
+			product	tRNA-Phe
+1025	1093	gene
+			gene	trnV(uac)
+1025	1093	tRNA
+			product	tRNA-Val
+2671	2745	gene
+			gene	trnL(uaa)
+2671	2745	tRNA
+			product	tRNA-Leu
+3701	3769	gene
+			gene	trnI(gau)
+3701	3769	tRNA
+			product	tRNA-Ile
+3837	3767	gene
+			gene	trnQ(uug)
+3837	3767	tRNA
+			product	tRNA-Gln
+3839	3907	gene
+			gene	trnM(cau)
+3839	3907	tRNA
+			product	tRNA-Met
+4944	5010	gene
+			gene	trnW(uca)
+4944	5010	tRNA
+			product	tRNA-Trp
+5080	5012	gene
+			gene	trnA(ugc)
+5080	5012	tRNA
+			product	tRNA-Ala
+5153	5083	gene
+			gene	trnN(guu)
+5153	5083	tRNA
+			product	tRNA-Asn
+5256	5190	gene
+			gene	trnC(gca)
+5256	5190	tRNA
+			product	tRNA-Cys
+5325	5259	gene
+			gene	trnY(gua)
+5325	5259	tRNA
+			product	tRNA-Tyr
+6937	6869	gene
+			gene	trnS(uga)
+6937	6869	tRNA
+			product	tRNA-Ser
+6941	7009	gene
+			gene	trnD(guc)
+6941	7009	tRNA
+			product	tRNA-Asp
+7698	7762	gene
+			gene	trnK(uuu)
+7698	7762	tRNA
+			product	tRNA-Lys
+9389	9456	gene
+			gene	trnG(ucc)
+9389	9456	tRNA
+			product	tRNA-Gly
+9806	9874	gene
+			gene	trnR(ucg)
+9806	9874	tRNA
+			product	tRNA-Arg
+11544	11611	gene
+			gene	trnH(gug)
+11544	11611	tRNA
+			product	tRNA-His
+11612	11670	gene
+			gene	trnS(gcu)
+11612	11670	tRNA
+			product	tRNA-Ser
+11670	11740	gene
+			gene	trnL(uag)
+11670	11740	tRNA
+			product	tRNA-Leu
+14138	14070	gene
+			gene	trnE(uuc)
+14138	14070	tRNA
+			product	tRNA-Glu
+15288	15354	gene
+			gene	trnT(ugu)
+15288	15354	tRNA
+			product	tRNA-Thr
+15422	15355	gene
+			gene	trnP(ugg)
+15422	15355	tRNA
+			product	tRNA-Pro
+68	1024	gene
+			gene	s-rRNA
+68	1024	rRNA
+			product	12S ribosomal RNA
+1092	2672	gene
+			gene	l-rRNA
+1092	2672	rRNA
+			product	16S ribosomal RNA
+>Feature EBD2012-064-084
+3838	3838	misc_feature
+15423	16302
+			note	putative control region

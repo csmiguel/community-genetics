@@ -1,0 +1,8 @@
+Model selection results for subset: 9e50c7667dcf5eaf368431880f5742d9
+Subset alignment stored here: ./analysis/phylofiles/9e50c7667dcf5eaf368431880f5742d9.phy
+This subset contains the following data_blocks: p20_ND1_pos2, p29_ND4L_pos2, p35_ND5_pos2, p23_ND2_pos2, p32_ND4_pos2
+Number of columns in subset: 1828
+Models are organised according to their AICc scores
+
+Model           | Parameters      | lnL             | AICc             | AIC             | BIC            
+GTR+G           | 9               | -4223.9263      | 8465.951         | 8465.853        | 8515.451       

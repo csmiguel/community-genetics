@@ -1,0 +1,3 @@
+ERROR: valid [SEQ_FEAT.NoStop] Missing stop codon FEATURE: CDS: cytochrome c oxidase subunit III [lcl|EBD2012-064-125:8603-9387] [lcl|EBD2012-064-125: raw, dna len= 16304] -> [lcl|EBD2012-064-125_7]
+WARNING: valid [SEQ_DESCR.FastaBracketTitle] Title may have unparsed [...=...] construct BIOSEQ: lcl|EBD2012-064-125: raw, dna len= 16304
+WARNING: valid [SEQ_INST.CompleteCircleProblem] Circular topology without complete flag set BIOSEQ: lcl|EBD2012-064-125: raw, dna len= 16304
