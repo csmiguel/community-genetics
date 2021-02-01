@@ -5,7 +5,7 @@
 This repository contains data and code used for phylogenetic analysis in:
 
 Giovanni Forcina, Miguel Camacho-Sanchez, Fred. Y. Y. Tuh, Sacramento Moreno
-& Jennifer. A. Leonard. Markers for Genetic Change. Heliyon. accepted.
+& Jennifer. A. Leonard. Markers for Genetic Change. Heliyon. Volume 7, ISSUE 1, e05583.[https://doi.org/10.1016/j.heliyon.2020.e05583](https://doi.org/10.1016/j.heliyon.2020.e05583)
 
 The goal of the manuscript was to test a panel of genetic markers to evaluate the genetic diversity across the mammal community in two different national parks: Doñana National Park (Spain) and Kinabalu National Park (Malaysia). We further used the genetic data for phylogenetic reconstructions of the Rattini.
 
